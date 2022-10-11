@@ -1,13 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hello World</title>
+    <url>/2022/07/27/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>博客搭建教程</title>
+    <url>/2022/10/11/Hexo-Butterfly/</url>
+    <content><![CDATA[<div class="note orange icon-padding flat"><i class="note-icon fa-solid fa-megaphone"></i><p>本教程针对的是使用Hexo框架&amp;Butterfly主题，使用Github Pages作为服务器以供访问，建立个人博客的过程，此外，还包含图床配置内容。此方案免费简单，很好的满足了大家初次尝试建立一个漂亮的博客，并上传经验分享贴或经验总结贴的需求。</p>
+</div>
+<h2 id="博客搭建"><a href="#博客搭建" class="headerlink" title="博客搭建"></a>博客搭建</h2><h3 id="入门"><a href="#入门" class="headerlink" title="入门"></a>入门</h3><ul>
+<li>Hexo是一个快速、简洁且高效的博客框架，使用Markdown解析文章并生成静态网页</li>
+<li>Butterfly是一个美观简单的Hexo卡片UI设计主题，开发者提供了十分详细的教程并保持了高频率的版本更新，十分适合初学者选择</li>
+<li>Github建站原理：将所有资源建立在特定的github仓库中，使用Github Pages作为服务器以供访问</li>
+</ul>
+<h3 id="工具下载"><a href="#工具下载" class="headerlink" title="工具下载"></a>工具下载</h3><ul>
+<li>下载<a href="https://nodejs.org/en/download/">Node.js</a>（JavaScript运行环境）<ul>
+<li>点击链接<a href="https://nodejs.org/en/download/">Node.js</a>进行下载</li>
+<li><a href="https://baike.baidu.com/item/CMD%E5%91%BD%E4%BB%A4">cmd</a>输入<code>node -v</code>检查是否安装/已安装的Node.js版本号</li>
+<li><a href="https://baike.baidu.com/item/CMD%E5%91%BD%E4%BB%A4">cmd</a>输入<code>npm -v</code>检查是否安装/已安装的Node.js中npm工具的版本号</li>
+</ul>
+</li>
+<li>下载<a href="https://git-scm.com/downloads">Git</a>（开源分布式版本控制系统，项目版本管理）<ul>
+<li>点击链接<a href="https://git-scm.com/downloads">Git</a>进行下载</li>
+<li><a href="https://baike.baidu.com/item/CMD%E5%91%BD%E4%BB%A4">cmd</a>输入<code>git --version</code>检查是否安装/已安装的Git版本号</li>
+</ul>
+</li>
+<li>下载Hexo（博客框架）：<ul>
+<li><a href="https://baike.baidu.com/item/CMD%E5%91%BD%E4%BB%A4">cmd</a>输入<code>npm install hexo-cli --location=global</code>下载/更新Hexo</li>
+<li><a href="https://baike.baidu.com/item/CMD%E5%91%BD%E4%BB%A4">cmd</a>输入<code>hexo -v</code>检查是否安装/已安装的Hexo版本号</li>
+</ul>
+</li>
+</ul>
+<h3 id="建立仓库"><a href="#建立仓库" class="headerlink" title="建立仓库"></a>建立仓库</h3><ul>
+<li>在github建立仓库：由于该仓库启用Github Pages服务，因此该仓库为特殊仓库，命名必须为Username.github.io（在Settings界面中：Public profile-Name为昵称，Account-username为用户名）</li>
+<li>勾选Add a README file</li>
+<li>最后点击建立仓库。</li>
+</ul>
+<h3 id="生成SSH-Keys（github关联本地-上传权限）"><a href="#生成SSH-Keys（github关联本地-上传权限）" class="headerlink" title="生成SSH Keys（github关联本地/上传权限）"></a>生成SSH Keys（github关联本地/上传权限）</h3><ul>
+<li>在本地<mark class="hl-label blue">任意</mark> 文件夹的空白区域右键，并点击Git Bash Here</li>
+<li>在打开的Git界面中（该界面环境为Linux，因此粘贴为右键-Paste/而不是ctrl+v）<ul>
+<li>输入<code>ssh</code>检查是否安装/已安装的ssh（一般在安装Git时已经带有此工具）</li>
+<li>输入<code>ssh-keygen -t rsa -C &quot;邮件地址&quot;</code>（邮件地址为github注册时的邮件地址）后，连续敲四次回车,此时已经在电脑本地建立文件夹，路径为/c/Users(用户)/“用户名”/.ssh/id_rsa</li>
+</ul>
+</li>
+<li>右键该路径下的id_rsa.pub文件，用文本编辑器(如Notepad++)打开，对内容进行全选复制</li>
+<li>在Github-Settings界面中的SSH and GPG keys选项卡中，点击New SSH key新建一个钥匙，你可以任取一个Title，并把id_rsa.pub文件中复制的内容<mark class="hl-label blue">原封不动</mark> 的复制到Key中</li>
+<li>最后，在Git界面中输入ssh -T git@github.com测试ssh是否绑定成功（当显示Hi+github注册名即成功）</li>
+</ul>
+<h3 id="本地生成博客内容"><a href="#本地生成博客内容" class="headerlink" title="本地生成博客内容"></a>本地生成博客内容</h3><p>博客内容需要先在本地建立，并以部署的形式上传到网上，此外，由于部署需要时间，本地生成也是一个十分方便的调试手段</p>
+<ul>
+<li>新建一个文件夹(该文件夹将为你的本地博客根目录)，打开后在空白处右键，点击<code>Git Bash Here</code></li>
+<li>在打开的Git界面中<ul>
+<li>输入<code>hexo init</code>以初始化hexo（由于github是国外网站，若连接失败可以多次尝试或换镜像源）</li>
+<li>当出现INFO  Start blogging with Hexo!时，代表包安装成功</li>
+<li>输入hexo s在本地静态生成hexo页面（打开本地服务器，不需要时按Ctrl+C后可关闭该本地服务器）</li>
+</ul>
+</li>
+</ul>
+<h3 id="发布博客至互联网"><a href="#发布博客至互联网" class="headerlink" title="发布博客至互联网"></a>发布博客至互联网</h3><p>到目前为止，我们的本地博客就成功搭建了，但是现在我们只能通过本地静态生成页面查看博客，我们的目标是让其他人也能够访问我们的博客，这就需要我们将博客<mark class="hl-label blue">部署</mark> 到Github Pages上</p>
+<ul>
+<li>需要了解的github过去进行的两次更新(这使得有些教程已经失效)：<ul>
+<li>将本地文件上传至github不再使用钥匙验证，而使用令牌验证</li>
+<li>默认分支从master改为了main</li>
+</ul>
+</li>
+<li>打开本地博客文件夹中_config.yml文件，将最后的deploy部分修改为<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span>   <span class="string">//冒号后有空格</span></span><br><span class="line">  <span class="attr">repository:</span> <span class="string">【这里填你的SSH】例如：git@github.com:NL-REMOTE/NL-REMOTE.github.io.git，SSH可以在特殊仓库-Code-SSH中找到</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">main</span></span><br></pre></td></tr></table></figure></li>
+<li>在博客文件夹下右键并点击<code>Git Bash Here</code><ul>
+<li>输入<code>npm install hexo-deployer-git --save</code>，安装hexo部署到git page的自动部署发布工具<br>Hexo安装完成后，将会在指定文件夹中新建所需要的文件，其目录如下：<br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Hexo-Butterfly/file_catalog.jpg" alt="" title="本地文件目录"></li>
+<li>本次为初次生成，因此不需输入<code>hexo clean</code></li>
+<li>输入<code>hexo g</code>生成页面</li>
+<li>输入<code>hexo d</code>上传文件至github</li>
+<li>在首先弹出的GITHUB登陆界面中输入用户名和密码，登陆</li>
+<li>在接下来弹出的SSH界面中输入用户名和令牌（此处不是密码）</li>
+<li>在github-Settings-Developer settings-Personal access tokens中新建令牌，命名、设置有效期、赋予权限（可以全部选上）</li>
+<li>新建令牌完成后会生成一段序列号（用以取代前面需要输入的密码），<mark class="hl-label blue">强烈建议妥善保存</mark> （关闭页面后该序列号会被隐藏）<br>若报错Error: Spawn failed，依次执行以下命令（可重复执行）<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+<li>上述命令在之后的博客生涯中将不断使用，人称“hexo三板斧”<ul>
+<li>当出现INFO  Deploy done: git时代表本地网页上传成功</li>
+<li>此时可以通过网址打开已经上传至互联网的网页（网址路径：特殊仓库-settings-Pages）</li>
+</ul>
+</li>
+</ul>
+<div class="note red icon-padding flat"><i class="note-icon fa-solid fa-sun"></i><p>自此，我们已经成功完成了博客的搭建</p>
+</div>
+<h2 id="博客主题配置"><a href="#博客主题配置" class="headerlink" title="博客主题配置"></a>博客主题配置</h2><p>美观的主题对于博客来说当然是重中之重（谁不希望常常光顾漂亮的小站呢），<a href="https://butterfly.js.org/">Butterfly</a>是一个十分推荐的漂亮主题，但最为重要的是：他的开发者提供了十分详细的操作文档，并保持了高频率的版本更新。（有些很漂亮的主题操作文档并不完善，资料零散，甚至更不上hexo版本，因此十分推荐新手使用Butterfly主题）<br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Hexo-Butterfly/butterfly.png" alt="" title="butterfly主题"><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Hexo-Butterfly/butterfly2.png" alt="" title="butterfly主题"><br>点击此处跳转至<a href="https://butterfly.js.org/posts/21cfbf15/">Butterfly官方安装文档</a>，按照教程即可完成所有基本配置</p>
+<h2 id="图床配置"><a href="#图床配置" class="headerlink" title="图床配置"></a>图床配置</h2><p>什么是图床？图床就是一个便于在博文中插入在线图片链接的个人图片仓库，它必须位于网上并可通过链接随时访问。设置图床之后，在自己博客中插入的图片链接就可以随时随地在线预览了，并且不会因为任何意外原因无法查看，除非自己亲自删除。</p>
+<p>关于图床可以查看这篇文章：<a href="https://lovelijunyi.gitee.io/posts/a833.html">图床对比与Github图床的优化</a></p>
+<p>我的博客使用PicGo将图片上传至github图床，选择这个方案的主要原因是稳定且完全免费，但国内访问有时需要科学上网（但个人觉得稳定性最为重要）。</p>
+<p>PicGo的使用以及jsDelivr优化加速可以参考这篇文章：<a href="https://blog.csdn.net/Wonz5130/article/details/104119008">使用GitHub+PicGo+jsDelivr搭建自己的私人图床</a></p>
+<p>此外需要提醒的是，github图床中的图片删除，需要到仓库中手动进行，而不能仅在PicGo相册中删除（相比于github，Gitee的图片删除是同步的，但Gitee仓库作为图床有风险！参见此文章<a href="https://blog.csdn.net/weixin_44062380/article/details/123761358">gitee图床因外链访问过多被封，我们该怎么办</a>），也希望读到此篇文章的大家对图库进行良好的分层管理，以方便维护。</p>
+<h2 id="结尾祝福"><a href="#结尾祝福" class="headerlink" title="结尾祝福"></a>结尾祝福</h2><p>最后希望读到此篇文章的大家都能建立起自己的小站，关于此文章教材的疑问都可邮件联系博主（主页有邮件联系按键），也期待大家建站后分享友链！</p>
+]]></content>
+  </entry>
+  <entry>
     <title>NL-ink</title>
     <url>/2022/10/10/NL-ink/</url>
     <content><![CDATA[<p>一个全栈式的无源NFC项目</p>
 ]]></content>
   </entry>
   <entry>
-    <title>PLL</title>
+    <title>锁相环课设</title>
     <url>/2022/10/10/PLL/</url>
     <content><![CDATA[<p>本文分享了我参与通信电子线路课程设计——锁相环的测量与应用中，一些较为关键且特别的经验。文章定位为关键心得分享，因此对较为基础的知识不再重复赘述。</p>
 <h2 id="任务描述"><a href="#任务描述" class="headerlink" title="任务描述"></a>任务描述</h2><p>本次课设是数字电路调试难度+模拟电路连线工作量，因此课程任务本身较为容易，按部就班连线并逐级调试即可。课设成绩的关键在于调参提高频率锁定的范围后，对稳定度和精确度进行追求，并对电路进行可能的创新性改进——这也是本文的中心。</p>
@@ -26,20 +130,6 @@
 <p>本系统采用<a href="https://www.ti.com.cn/product/cn/TLV3501">德州仪器TLV3501</a>比较器来采集4脚，完成了数字频率计ADC和锁相环路的隔离，因此极大的提高了系统稳定性。</p>
 <h2 id="系统实物图"><a href="#系统实物图" class="headerlink" title="系统实物图"></a>系统实物图</h2><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/PLL/cover.jpg" alt="" title="锁相环路"></p>
 <h2 id="详细资料"><a href="#详细资料" class="headerlink" title="详细资料"></a>详细资料</h2><p>以上仅为对课设中关键心得的分享，更为详细的课设资料均已开源，<a href="https://nuaaeducn-my.sharepoint.com/:f:/g/personal/zhengzk_nuaa_edu_cn/EqOjGeSHlJ9Hi1hydlygMegB50c2rHH2yKl1f7Ex4BW5IQ?e=MgxTaI">点此获取</a>。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2022/07/27/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
   </entry>
 </search>
