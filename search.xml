@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>NL-ink</title>
-    <url>/2022/10/10/NL-ink/</url>
-    <content><![CDATA[<p>一个全栈式的无源NFC项目</p>
-]]></content>
-  </entry>
-  <entry>
     <title>博客搭建教程</title>
     <url>/2022/10/11/Hexo-Butterfly/</url>
     <content><![CDATA[<div class="note orange icon-padding flat"><i class="note-icon fa-solid fa-megaphone"></i><p>本教程针对的是使用Hexo框架&amp;Butterfly主题，使用Github Pages作为服务器以供访问，建立个人博客的过程，此外，还包含图床配置内容。此方案免费简单，很好的满足了大家初次尝试建立一个漂亮的博客，并上传经验分享贴或经验总结贴的需求。</p>
@@ -119,20 +113,25 @@
 ]]></content>
   </entry>
   <entry>
+    <title>NL-ink</title>
+    <url>/2022/10/10/NL-ink/</url>
+    <content><![CDATA[<p>一个全栈式的无源NFC项目</p>
+]]></content>
+  </entry>
+  <entry>
     <title>里德堡原子主题调研</title>
     <url>/2022/10/13/Rydberg_theme/</url>
     <content><![CDATA[<div class="note red icon-padding flat"><i class="note-icon fa-solid fa-sun"></i><p>本文“里德堡原子主题调研”为进行相关工作之前的调研总结工作，仅为自身学习便利所记，大多内容是对其他作者现有研究成果的调研与引用</p>
 </div>
-<h2 id="量子信息简介"><a href="#量子信息简介" class="headerlink" title="量子信息简介"></a>量子信息简介</h2><blockquote>
-<p>量子信息是当今时代最热门的研究方向之一</p>
+<h2 id="量子信息简介"><a href="#量子信息简介" class="headerlink" title="量子信息简介"></a>量子信息简介</h2><mark class="hl-label purple">量子信息是当今时代最热门的研究方向之一</mark> 
 <ul>
 <li>量子比特是经典比特的量子相干叠加态，这使得基于量子比特的通信过程更安全、并能通过全新的编码和计算方式来并行处理数据完成算法</li>
 <li>光量子间相互作用弱、便于操纵、编码自由度多、传输速度快、损耗低等优点使得光量子成为量子信息领域最常见的信息载体</li>
 <li>对信息的处理过程就是对光子的操控过程，里德堡原子系统在光子操控上相比于基态原子有着得天独厚的优势</li>
 </ul>
-</blockquote>
-<h2 id="里德堡原子简介"><a href="#里德堡原子简介" class="headerlink" title="里德堡原子简介"></a>里德堡原子简介</h2><pre><code>核外电子被激发到远离核的高激发态（通常情况下要求主量子数n大于20）称为里德堡原激发态，对应被激发的原子称为里德堡原子。在这一接近于电离态的情形下，远离核的电子与原子核形成了极大的电偶极矩（相对低激发态大2-3个数量级），并表现出了许多奇异的特性
-</code></pre><h3 id="里德堡原子性质"><a href="#里德堡原子性质" class="headerlink" title="里德堡原子性质"></a>里德堡原子性质</h3><p>以碱金属的里德堡激发态原子原子为研究对象，其具有如下性质：</p>
+<h2 id="里德堡原子简介"><a href="#里德堡原子简介" class="headerlink" title="里德堡原子简介"></a>里德堡原子简介</h2><div class="note orange icon-padding flat"><i class="note-icon fa-solid fa-sun"></i><p>核外电子被激发到远离核的高激发态（通常情况下要求主量子数n大于20）称为里德堡原激发态，对应被激发的原子称为里德堡原子。在这一接近于电离态的情形下，远离核的电子与原子核形成了极大的电偶极矩（相对低激发态大2-3个数量级），并表现出了许多奇异的特性</p>
+</div>
+<h3 id="里德堡原子性质"><a href="#里德堡原子性质" class="headerlink" title="里德堡原子性质"></a>里德堡原子性质</h3><p>以碱金属的里德堡激发态原子原子为研究对象，其具有如下性质：</p>
 <ul>
 <li>里德堡原子<mark class="hl-label blue">轨道半径正比于主量子数的平方</mark> <ul>
 <li>极大的电偶极矩使得<mark class="hl-label blue">里德堡原子间相互作用强度要比基态中性原子间相互作用强度大三个数量级</mark> </li>
@@ -177,9 +176,7 @@
 </ul>
 </li>
 </ul>
-<h2 id="里德堡原子研究进展"><a href="#里德堡原子研究进展" class="headerlink" title="里德堡原子研究进展"></a>里德堡原子研究进展</h2><blockquote>
-<p>因为上述众多特性与优势，里德堡原子在量子信息领域成为最热门的研究方向之一</p>
-</blockquote>
+<h2 id="里德堡原子研究进展"><a href="#里德堡原子研究进展" class="headerlink" title="里德堡原子研究进展"></a>里德堡原子研究进展</h2><mark class="hl-label purple">因为上述众多特性与优势，里德堡原子在量子信息领域成为最热门的研究方向之一</mark> 
 <h3 id="微波信号强度探测"><a href="#微波信号强度探测" class="headerlink" title="微波信号强度探测"></a>微波信号强度探测</h3><ul>
 <li>极窄的能级间隔使得里德堡激发态系统能与微波发生耦合</li>
 <li>里德堡激发态系统对微波的响应由固定的物理参数决定，因此可以理论推导出探测微波的频率和强度等信息</li>
