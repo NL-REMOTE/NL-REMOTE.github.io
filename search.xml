@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>锁相环课设</title>
+    <url>/2022/10/10/PLL/</url>
+    <content><![CDATA[<p>本文分享了我参与通信电子线路课程设计——锁相环的测量与应用中，一些较为关键且特别的经验。文章定位为关键心得分享，因此对较为基础的知识不再重复赘述。</p>
+<h2 id="任务描述"><a href="#任务描述" class="headerlink" title="任务描述"></a>任务描述</h2><p>本次课设是数字电路调试难度+模拟电路连线工作量，因此课程任务本身较为容易，按部就班连线并逐级调试即可。课设成绩的关键在于调参提高频率锁定的范围后，对稳定度和精确度进行追求，并对电路进行可能的创新性改进——这也是本文的中心。</p>
+<h2 id="核心原理"><a href="#核心原理" class="headerlink" title="核心原理"></a>核心原理</h2><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/PLL/Core_principles.png" alt="" title="锁相环路"><br>锁相环路通过对比输入输出信号相位差来完成<mark class="hl-label blue">频率的锁定</mark> 。</p>
+<h2 id="优化思路"><a href="#优化思路" class="headerlink" title="优化思路"></a>优化思路</h2><h3 id="电源滤波"><a href="#电源滤波" class="headerlink" title="电源滤波"></a>电源滤波</h3><p>本电路信号频率在百千赫兹至兆赫兹数量级，因此可以使用100nF电容对模拟/数字芯片作电源滤波，以提高系统稳定性</p>
+<h3 id="器件选型"><a href="#器件选型" class="headerlink" title="器件选型"></a>器件选型</h3><p>本电路中外部环路滤波器的阻容及CD4046充放电电容对信号系统稳定性影响较大，可以在这些关键区域选择<a href="https://baike.baidu.com/item/%E9%87%91%E5%B1%9E%E8%86%9C%E7%94%B5%E9%98%BB">金属膜电阻</a>和<a href="https://baike.baidu.com/item/%E7%8B%AC%E7%9F%B3%E7%94%B5%E5%AE%B9">独石电容</a>这一类性能较好的直插器件来替换掉性能稍逊的<a href="https://baike.baidu.com/item/%E7%A2%B3%E8%86%9C%E7%94%B5%E9%98%BB">碳膜电阻</a>和<a href="https://baike.baidu.com/item/%E9%99%B6%E7%93%B7%E7%94%B5%E5%AE%B9">陶瓷电容</a>，提高系统稳定性。</p>
+<h3 id="巧妙的“锁定”观测方案"><a href="#巧妙的“锁定”观测方案" class="headerlink" title="巧妙的“锁定”观测方案"></a>巧妙的“锁定”观测方案</h3><p><a href="https://www.ti.com.cn/product/cn/CD4046B#tech-docs">CD4046</a>提供了锁定提示脚——在锁定下输出高电平,反之输出低电平。就本题需求而言，可以将该脚的输出视为<a href="https://blog.csdn.net/xuewei_Li/article/details/87907052">PWM(脉冲宽度调制)波</a>。</p>
+<p>而在一个<mark class="hl-label blue">惯性系统</mark> 中，PWM的占空比变化将影响平均功率，生活中常用此原理来实现灯的亮度和电机转速等控制。</p>
+<p>显然，我们可以通过灯来巧妙直观的观测这一锁定提示信号，但单纯通过亮度上的变化来反映PWM波的占空比仍然不太直观，因此我们可以采用如下方案：</p>
+<p>使用一颗共阴极/共阳极三引脚双色LED灯(推荐使用颜色色差较大的)。我使用的是红蓝双色灯，其可在“锁定”时显暖红色、“失锁”时显冷蓝色，并能利用灯自身的显色惯性，在芯片介于完全锁定和失锁之间时，对芯片输出的类PWM波形进行十分方便的观测：其颜色变化自大红色到粉色、到紫色、再到蓝紫色，最后变为亮蓝色。<mark class="hl-label blue">双色灯颜色的变化直观反映了系统的锁定状态，是一种十分推荐的巧妙检测方法！</mark> 。值得一提的是，正是这种巧妙的检测方法，使得我发现了频率计探针的接入能对锁相环路稳定性进行较大的影响(后文将提到)，并给出了针对性的有效改进。</p>
+<h3 id="自锁开关"><a href="#自锁开关" class="headerlink" title="自锁开关"></a>自锁开关</h3><p>由于题目需要对分频数N进行频繁的调整，来对系统进行宽频范围的测试。采用跳线的方案显然不太便利和可靠，而按键开关要求持续的按下来改变电平，同样不适合任务需求。</p>
+<p>推荐使用<a href="https://baike.baidu.com/item/%E8%87%AA%E9%94%81%E5%BC%80%E5%85%B3">自锁开关</a>，其特点为点按一次后按下，再点按一次后弹起。配置12颗自锁开关，并同时配置12颗LED灯来表征开关状态(因为在俯视调试过程中，按键按下/弹起的视觉差异不明显，我们需要的是高效的交互，而灯与自锁开关的搭配可以十分完美的实现这个要求！)。</p>
+<h3 id="避免测量对系统的影响"><a href="#避免测量对系统的影响" class="headerlink" title="避免测量对系统的影响"></a>避免测量对系统的影响</h3><p>在调试中发现，当频率计的探针接入CD4046的4脚时，原本显示为红色(表示锁定)的双色灯会变为粉色(轻微失锁)，疑似频率计中的高频ADC采样对系统造成影响所致。</p>
+<p>为了在获取频率的同时维持系统的极高稳定性，可采用电压跟随器对系统进行隔离。</p>
+<p>然而，要满足本课设单电源、宽带、轨至轨的要求，采用运放来实现要求过于严苛。但考虑到信号本身类数字时钟型号(对信号波形要求较低)，因此可以使用电压比较器来代替运放构成的电压跟随器电路。</p>
+<p>本系统采用<a href="https://www.ti.com.cn/product/cn/TLV3501">德州仪器TLV3501</a>比较器来采集4脚，完成了数字频率计ADC和锁相环路的隔离，因此极大的提高了系统稳定性。</p>
+<h2 id="系统实物图"><a href="#系统实物图" class="headerlink" title="系统实物图"></a>系统实物图</h2><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/PLL/cover.jpg" alt="" title="锁相环路"></p>
+<h2 id="详细资料"><a href="#详细资料" class="headerlink" title="详细资料"></a>详细资料</h2><p>以上仅为对课设中关键心得的分享，更为详细的课设资料均已开源，<a href="https://nuaaeducn-my.sharepoint.com/:f:/g/personal/zhengzk_nuaa_edu_cn/EqOjGeSHlJ9Hi1hydlygMegB50c2rHH2yKl1f7Ex4BW5IQ?e=MgxTaI">点此获取</a>。</p>
+]]></content>
+      <categories>
+        <category>NLFL</category>
+        <category>基础科学</category>
+        <category>实践</category>
+      </categories>
+  </entry>
+  <entry>
     <title>博客搭建教程</title>
     <url>/2022/10/11/Hexo-Butterfly/</url>
     <content><![CDATA[<div class="note orange icon-padding flat"><i class="note-icon fa-solid fa-megaphone"></i><p>本教程针对的是使用Hexo框架&amp;Butterfly主题，使用Github Pages作为服务器以供访问，建立个人博客的过程，此外，还包含图床配置内容。此方案免费简单，很好的满足了大家初次尝试建立一个漂亮的博客，并上传经验分享贴或经验总结贴的需求。</p>
@@ -89,34 +116,20 @@
 <p>此外需要提醒的是，github图床中的图片删除，需要到仓库中手动进行，而不能仅在PicGo相册中删除（相比于github，Gitee的图片删除是同步的，但Gitee仓库作为图床有风险！参见此文章<a href="https://blog.csdn.net/weixin_44062380/article/details/123761358">gitee图床因外链访问过多被封，我们该怎么办</a>），也希望读到此篇文章的大家对图库进行良好的分层管理，以方便维护。</p>
 <h2 id="结尾祝福"><a href="#结尾祝福" class="headerlink" title="结尾祝福"></a>结尾祝福</h2><p>最后希望读到此篇文章的大家都能建立起自己的小站，关于此文章教材的疑问都可邮件联系博主（主页有邮件联系按键），也期待大家建站后分享友链！</p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>锁相环课设</title>
-    <url>/2022/10/10/PLL/</url>
-    <content><![CDATA[<p>本文分享了我参与通信电子线路课程设计——锁相环的测量与应用中，一些较为关键且特别的经验。文章定位为关键心得分享，因此对较为基础的知识不再重复赘述。</p>
-<h2 id="任务描述"><a href="#任务描述" class="headerlink" title="任务描述"></a>任务描述</h2><p>本次课设是数字电路调试难度+模拟电路连线工作量，因此课程任务本身较为容易，按部就班连线并逐级调试即可。课设成绩的关键在于调参提高频率锁定的范围后，对稳定度和精确度进行追求，并对电路进行可能的创新性改进——这也是本文的中心。</p>
-<h2 id="核心原理"><a href="#核心原理" class="headerlink" title="核心原理"></a>核心原理</h2><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/PLL/Core_principles.png" alt="" title="锁相环路"><br>锁相环路通过对比输入输出信号相位差来完成<mark class="hl-label blue">频率的锁定</mark> 。</p>
-<h2 id="优化思路"><a href="#优化思路" class="headerlink" title="优化思路"></a>优化思路</h2><h3 id="电源滤波"><a href="#电源滤波" class="headerlink" title="电源滤波"></a>电源滤波</h3><p>本电路信号频率在百千赫兹至兆赫兹数量级，因此可以使用100nF电容对模拟/数字芯片作电源滤波，以提高系统稳定性</p>
-<h3 id="器件选型"><a href="#器件选型" class="headerlink" title="器件选型"></a>器件选型</h3><p>本电路中外部环路滤波器的阻容及CD4046充放电电容对信号系统稳定性影响较大，可以在这些关键区域选择<a href="https://baike.baidu.com/item/%E9%87%91%E5%B1%9E%E8%86%9C%E7%94%B5%E9%98%BB">金属膜电阻</a>和<a href="https://baike.baidu.com/item/%E7%8B%AC%E7%9F%B3%E7%94%B5%E5%AE%B9">独石电容</a>这一类性能较好的直插器件来替换掉性能稍逊的<a href="https://baike.baidu.com/item/%E7%A2%B3%E8%86%9C%E7%94%B5%E9%98%BB">碳膜电阻</a>和<a href="https://baike.baidu.com/item/%E9%99%B6%E7%93%B7%E7%94%B5%E5%AE%B9">陶瓷电容</a>，提高系统稳定性。</p>
-<h3 id="巧妙的“锁定”观测方案"><a href="#巧妙的“锁定”观测方案" class="headerlink" title="巧妙的“锁定”观测方案"></a>巧妙的“锁定”观测方案</h3><p><a href="https://www.ti.com.cn/product/cn/CD4046B#tech-docs">CD4046</a>提供了锁定提示脚——在锁定下输出高电平,反之输出低电平。就本题需求而言，可以将该脚的输出视为<a href="https://blog.csdn.net/xuewei_Li/article/details/87907052">PWM(脉冲宽度调制)波</a>。</p>
-<p>而在一个<mark class="hl-label blue">惯性系统</mark> 中，PWM的占空比变化将影响平均功率，生活中常用此原理来实现灯的亮度和电机转速等控制。</p>
-<p>显然，我们可以通过灯来巧妙直观的观测这一锁定提示信号，但单纯通过亮度上的变化来反映PWM波的占空比仍然不太直观，因此我们可以采用如下方案：</p>
-<p>使用一颗共阴极/共阳极三引脚双色LED灯(推荐使用颜色色差较大的)。我使用的是红蓝双色灯，其可在“锁定”时显暖红色、“失锁”时显冷蓝色，并能利用灯自身的显色惯性，在芯片介于完全锁定和失锁之间时，对芯片输出的类PWM波形进行十分方便的观测：其颜色变化自大红色到粉色、到紫色、再到蓝紫色，最后变为亮蓝色。<mark class="hl-label blue">双色灯颜色的变化直观反映了系统的锁定状态，是一种十分推荐的巧妙检测方法！</mark> 。值得一提的是，正是这种巧妙的检测方法，使得我发现了频率计探针的接入能对锁相环路稳定性进行较大的影响(后文将提到)，并给出了针对性的有效改进。</p>
-<h3 id="自锁开关"><a href="#自锁开关" class="headerlink" title="自锁开关"></a>自锁开关</h3><p>由于题目需要对分频数N进行频繁的调整，来对系统进行宽频范围的测试。采用跳线的方案显然不太便利和可靠，而按键开关要求持续的按下来改变电平，同样不适合任务需求。</p>
-<p>推荐使用<a href="https://baike.baidu.com/item/%E8%87%AA%E9%94%81%E5%BC%80%E5%85%B3">自锁开关</a>，其特点为点按一次后按下，再点按一次后弹起。配置12颗自锁开关，并同时配置12颗LED灯来表征开关状态(因为在俯视调试过程中，按键按下/弹起的视觉差异不明显，我们需要的是高效的交互，而灯与自锁开关的搭配可以十分完美的实现这个要求！)。</p>
-<h3 id="避免测量对系统的影响"><a href="#避免测量对系统的影响" class="headerlink" title="避免测量对系统的影响"></a>避免测量对系统的影响</h3><p>在调试中发现，当频率计的探针接入CD4046的4脚时，原本显示为红色(表示锁定)的双色灯会变为粉色(轻微失锁)，疑似频率计中的高频ADC采样对系统造成影响所致。</p>
-<p>为了在获取频率的同时维持系统的极高稳定性，可采用电压跟随器对系统进行隔离。</p>
-<p>然而，要满足本课设单电源、宽带、轨至轨的要求，采用运放来实现要求过于严苛。但考虑到信号本身类数字时钟型号(对信号波形要求较低)，因此可以使用电压比较器来代替运放构成的电压跟随器电路。</p>
-<p>本系统采用<a href="https://www.ti.com.cn/product/cn/TLV3501">德州仪器TLV3501</a>比较器来采集4脚，完成了数字频率计ADC和锁相环路的隔离，因此极大的提高了系统稳定性。</p>
-<h2 id="系统实物图"><a href="#系统实物图" class="headerlink" title="系统实物图"></a>系统实物图</h2><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/PLL/cover.jpg" alt="" title="锁相环路"></p>
-<h2 id="详细资料"><a href="#详细资料" class="headerlink" title="详细资料"></a>详细资料</h2><p>以上仅为对课设中关键心得的分享，更为详细的课设资料均已开源，<a href="https://nuaaeducn-my.sharepoint.com/:f:/g/personal/zhengzk_nuaa_edu_cn/EqOjGeSHlJ9Hi1hydlygMegB50c2rHH2yKl1f7Ex4BW5IQ?e=MgxTaI">点此获取</a>。</p>
-]]></content>
+      <categories>
+        <category>NLCC</category>
+        <category>博客运维</category>
+      </categories>
   </entry>
   <entry>
     <title>NL-ink</title>
     <url>/2022/10/10/NL-ink/</url>
     <content><![CDATA[<p>一个全栈式的无源NFC项目</p>
 ]]></content>
+      <categories>
+        <category>NLFL</category>
+        <category>全栈总结</category>
+      </categories>
   </entry>
   <entry>
     <title>里德堡原子主题调研</title>
@@ -207,19 +220,31 @@
 <li>金属中的自由电子具有随机热运动特性，这将在感应电流中引入随机热噪声，从而限制了经典微波测量方法灵敏度的提高</li>
 </ul>
 <h3 id="里德堡原子射频传感器"><a href="#里德堡原子射频传感器" class="headerlink" title="里德堡原子射频传感器"></a>里德堡原子射频传感器</h3><ul>
-<li>基本原理：里德堡原子的极大电偶极矩使得其对微波电场具有极高的灵敏度，能够实现对微弱电场信号的探测</li>
-<li>核心原理：EIT-AT效应（电磁诱导透明-欧特莱-汤斯效应），<mark class="hl-label blue">里德堡原子射频传感器就是利用EIT-AT效应，将电磁波信息调制到光信号上</mark> <ul>
-<li>EIT效应：当原子因探测光从基态跃迁至低激发态，并进一步因耦合光由低激发态跃迁至高激发态后，在耦合光的持续照射下，探测光可以透过原子群</li>
-<li>AT效应：指电磁场共振或近共振作用于原子或分子的跃迁时, 导致相应的吸收谱线产生分裂的现象。<ul>
-<li>对EIT实验得到的里德堡激发态原子群注入一定频率的微波，将导致扫描峰的分裂</li>
-<li>频域上两峰间隔对应入射电磁场的频率</li>
-</ul>
-</li>
-</ul>
+<li>系统优势：采用里德堡原子的空间电磁波传感器优点在于：<ol>
+<li>不受Chu极限限制、工作频带与传感器尺寸无关</li>
+<li>其次是无需进行校准，测量结果可直接溯源至基本物理常量</li>
+<li>另外，传感器中无固体金属结构，因此传感器对待测电场扰动小，可以实现全光无损探测</li>
+<li>此外，该传感器具有较高的电场测量灵敏度，可以达到μV/m量级</li>
+</ol>
 </li>
 <li>设备构成：里德堡激发态的碱金属气态原子、探测光和耦合光发射器、微波注入装置，探测光光电探测器</li>
+<li>基本原理：里德堡原子的极大电偶极矩使得其对微波电场具有极高的灵敏度，能够实现对微弱电场信号的探测</li>
+<li>核心原理：EIT-AT效应（电磁诱导透明-欧特莱-汤斯效应），<mark class="hl-label blue">里德堡原子射频传感器就是利用EIT-AT效应，将电磁波信息调制到光信号上</mark> <ul>
+<li>EIT效应：当原子因探测光从基态跃迁至低激发态，并进一步因耦合光由低激发态跃迁至高激发态后，在耦合光与探测光的持续照射下，探测光可以透过原子群并被光电探测器接收</li>
+<li>AT效应：指电磁场共振或近共振作用于原子或分子的跃迁时, 导致相应的吸收谱线产生分裂的现象。<ol>
+<li>对EIT实验得到的里德堡激发态原子群注入一定频率的微波，将导致扫描峰的分裂</li>
+<li>频域上两峰间隔对应入射电磁场的频率</li>
+</ol>
+</li>
 </ul>
-]]></content>
+</li>
+</ul>
+<mark class="hl-label purple">注：利用电磁诱导透明制造出来的透明介质，能让光的群速度减速至8m/s</mark> ]]></content>
+      <categories>
+        <category>NLFL</category>
+        <category>前沿科学</category>
+        <category>原理</category>
+      </categories>
   </entry>
   <entry>
     <title>Hello World</title>
@@ -234,5 +259,9 @@
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 ]]></content>
+      <categories>
+        <category>NLCC</category>
+        <category>博客运维</category>
+      </categories>
   </entry>
 </search>
