@@ -1,33 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>锁相环课设</title>
-    <url>/2022/10/10/PLL/</url>
-    <content><![CDATA[<p>本文分享了我参与通信电子线路课程设计——锁相环的测量与应用中，一些较为关键且特别的经验。文章定位为关键心得分享，因此对较为基础的知识不再重复赘述。</p>
-<h2 id="任务描述"><a href="#任务描述" class="headerlink" title="任务描述"></a>任务描述</h2><p>本次课设是数字电路调试难度+模拟电路连线工作量，因此课程任务本身较为容易，按部就班连线并逐级调试即可。课设成绩的关键在于调参提高频率锁定的范围后，对稳定度和精确度进行追求，并对电路进行可能的创新性改进——这也是本文的中心。</p>
-<h2 id="核心原理"><a href="#核心原理" class="headerlink" title="核心原理"></a>核心原理</h2><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/PLL/Core_principles.png" alt="" title="锁相环路"><br>锁相环路通过对比输入输出信号相位差来完成<mark class="hl-label blue">频率的锁定</mark> 。</p>
-<h2 id="优化思路"><a href="#优化思路" class="headerlink" title="优化思路"></a>优化思路</h2><h3 id="电源滤波"><a href="#电源滤波" class="headerlink" title="电源滤波"></a>电源滤波</h3><p>本电路信号频率在百千赫兹至兆赫兹数量级，因此可以使用100nF电容对模拟/数字芯片作电源滤波，以提高系统稳定性</p>
-<h3 id="器件选型"><a href="#器件选型" class="headerlink" title="器件选型"></a>器件选型</h3><p>本电路中外部环路滤波器的阻容及CD4046充放电电容对信号系统稳定性影响较大，可以在这些关键区域选择<a href="https://baike.baidu.com/item/%E9%87%91%E5%B1%9E%E8%86%9C%E7%94%B5%E9%98%BB">金属膜电阻</a>和<a href="https://baike.baidu.com/item/%E7%8B%AC%E7%9F%B3%E7%94%B5%E5%AE%B9">独石电容</a>这一类性能较好的直插器件来替换掉性能稍逊的<a href="https://baike.baidu.com/item/%E7%A2%B3%E8%86%9C%E7%94%B5%E9%98%BB">碳膜电阻</a>和<a href="https://baike.baidu.com/item/%E9%99%B6%E7%93%B7%E7%94%B5%E5%AE%B9">陶瓷电容</a>，提高系统稳定性。</p>
-<h3 id="巧妙的“锁定”观测方案"><a href="#巧妙的“锁定”观测方案" class="headerlink" title="巧妙的“锁定”观测方案"></a>巧妙的“锁定”观测方案</h3><p><a href="https://www.ti.com.cn/product/cn/CD4046B#tech-docs">CD4046</a>提供了锁定提示脚——在锁定下输出高电平,反之输出低电平。就本题需求而言，可以将该脚的输出视为<a href="https://blog.csdn.net/xuewei_Li/article/details/87907052">PWM(脉冲宽度调制)波</a>。</p>
-<p>而在一个<mark class="hl-label blue">惯性系统</mark> 中，PWM的占空比变化将影响平均功率，生活中常用此原理来实现灯的亮度和电机转速等控制。</p>
-<p>显然，我们可以通过灯来巧妙直观的观测这一锁定提示信号，但单纯通过亮度上的变化来反映PWM波的占空比仍然不太直观，因此我们可以采用如下方案：</p>
-<p>使用一颗共阴极/共阳极三引脚双色LED灯(推荐使用颜色色差较大的)。我使用的是红蓝双色灯，其可在“锁定”时显暖红色、“失锁”时显冷蓝色，并能利用灯自身的显色惯性，在芯片介于完全锁定和失锁之间时，对芯片输出的类PWM波形进行十分方便的观测：其颜色变化自大红色到粉色、到紫色、再到蓝紫色，最后变为亮蓝色。<mark class="hl-label blue">双色灯颜色的变化直观反映了系统的锁定状态，是一种十分推荐的巧妙检测方法！</mark> 。值得一提的是，正是这种巧妙的检测方法，使得我发现了频率计探针的接入能对锁相环路稳定性进行较大的影响(后文将提到)，并给出了针对性的有效改进。</p>
-<h3 id="自锁开关"><a href="#自锁开关" class="headerlink" title="自锁开关"></a>自锁开关</h3><p>由于题目需要对分频数N进行频繁的调整，来对系统进行宽频范围的测试。采用跳线的方案显然不太便利和可靠，而按键开关要求持续的按下来改变电平，同样不适合任务需求。</p>
-<p>推荐使用<a href="https://baike.baidu.com/item/%E8%87%AA%E9%94%81%E5%BC%80%E5%85%B3">自锁开关</a>，其特点为点按一次后按下，再点按一次后弹起。配置12颗自锁开关，并同时配置12颗LED灯来表征开关状态(因为在俯视调试过程中，按键按下/弹起的视觉差异不明显，我们需要的是高效的交互，而灯与自锁开关的搭配可以十分完美的实现这个要求！)。</p>
-<h3 id="避免测量对系统的影响"><a href="#避免测量对系统的影响" class="headerlink" title="避免测量对系统的影响"></a>避免测量对系统的影响</h3><p>在调试中发现，当频率计的探针接入CD4046的4脚时，原本显示为红色(表示锁定)的双色灯会变为粉色(轻微失锁)，疑似频率计中的高频ADC采样对系统造成影响所致。</p>
-<p>为了在获取频率的同时维持系统的极高稳定性，可采用电压跟随器对系统进行隔离。</p>
-<p>然而，要满足本课设单电源、宽带、轨至轨的要求，采用运放来实现要求过于严苛。但考虑到信号本身类数字时钟型号(对信号波形要求较低)，因此可以使用电压比较器来代替运放构成的电压跟随器电路。</p>
-<p>本系统采用<a href="https://www.ti.com.cn/product/cn/TLV3501">德州仪器TLV3501</a>比较器来采集4脚，完成了数字频率计ADC和锁相环路的隔离，因此极大的提高了系统稳定性。</p>
-<h2 id="系统实物图"><a href="#系统实物图" class="headerlink" title="系统实物图"></a>系统实物图</h2><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/PLL/cover.jpg" alt="" title="锁相环路"></p>
-<h2 id="详细资料"><a href="#详细资料" class="headerlink" title="详细资料"></a>详细资料</h2><p>以上仅为对课设中关键心得的分享，更为详细的课设资料均已开源，<a href="https://nuaaeducn-my.sharepoint.com/:f:/g/personal/zhengzk_nuaa_edu_cn/EqOjGeSHlJ9Hi1hydlygMegB50c2rHH2yKl1f7Ex4BW5IQ?e=MgxTaI">点此获取</a>。</p>
-]]></content>
-      <categories>
-        <category>NLFL</category>
-        <category>基础科学</category>
-        <category>实践</category>
-      </categories>
-  </entry>
-  <entry>
     <title>博客搭建教程</title>
     <url>/2022/10/11/Hexo-Butterfly/</url>
     <content><![CDATA[<div class="note orange icon-padding flat"><i class="note-icon fa-solid fa-megaphone"></i><p>本教程针对的是使用Hexo框架&amp;Butterfly主题，使用Github Pages作为服务器以供访问，建立个人博客的过程，此外，还包含图床配置内容。此方案免费简单，很好的满足了大家初次尝试建立一个漂亮的博客，并上传经验分享贴或经验总结贴的需求。</p>
@@ -122,13 +95,86 @@
       </categories>
   </entry>
   <entry>
-    <title>NL-ink</title>
-    <url>/2022/10/10/NL-ink/</url>
-    <content><![CDATA[<p>一个全栈式的无源NFC项目</p>
+    <title>锁相环课设</title>
+    <url>/2022/10/10/PLL/</url>
+    <content><![CDATA[<p>本文分享了我参与通信电子线路课程设计——锁相环的测量与应用中，一些较为关键且特别的经验。文章定位为关键心得分享，因此对较为基础的知识不再重复赘述。</p>
+<h2 id="任务描述"><a href="#任务描述" class="headerlink" title="任务描述"></a>任务描述</h2><p>本次课设是数字电路调试难度+模拟电路连线工作量，因此课程任务本身较为容易，按部就班连线并逐级调试即可。课设成绩的关键在于调参提高频率锁定的范围后，对稳定度和精确度进行追求，并对电路进行可能的创新性改进——这也是本文的中心。</p>
+<h2 id="核心原理"><a href="#核心原理" class="headerlink" title="核心原理"></a>核心原理</h2><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/PLL/Core_principles.png" alt="" title="锁相环路"><br>锁相环路通过对比输入输出信号相位差来完成<mark class="hl-label blue">频率的锁定</mark> 。</p>
+<h2 id="优化思路"><a href="#优化思路" class="headerlink" title="优化思路"></a>优化思路</h2><h3 id="电源滤波"><a href="#电源滤波" class="headerlink" title="电源滤波"></a>电源滤波</h3><p>本电路信号频率在百千赫兹至兆赫兹数量级，因此可以使用100nF电容对模拟/数字芯片作电源滤波，以提高系统稳定性</p>
+<h3 id="器件选型"><a href="#器件选型" class="headerlink" title="器件选型"></a>器件选型</h3><p>本电路中外部环路滤波器的阻容及CD4046充放电电容对信号系统稳定性影响较大，可以在这些关键区域选择<a href="https://baike.baidu.com/item/%E9%87%91%E5%B1%9E%E8%86%9C%E7%94%B5%E9%98%BB">金属膜电阻</a>和<a href="https://baike.baidu.com/item/%E7%8B%AC%E7%9F%B3%E7%94%B5%E5%AE%B9">独石电容</a>这一类性能较好的直插器件来替换掉性能稍逊的<a href="https://baike.baidu.com/item/%E7%A2%B3%E8%86%9C%E7%94%B5%E9%98%BB">碳膜电阻</a>和<a href="https://baike.baidu.com/item/%E9%99%B6%E7%93%B7%E7%94%B5%E5%AE%B9">陶瓷电容</a>，提高系统稳定性。</p>
+<h3 id="巧妙的“锁定”观测方案"><a href="#巧妙的“锁定”观测方案" class="headerlink" title="巧妙的“锁定”观测方案"></a>巧妙的“锁定”观测方案</h3><p><a href="https://www.ti.com.cn/product/cn/CD4046B#tech-docs">CD4046</a>提供了锁定提示脚——在锁定下输出高电平,反之输出低电平。就本题需求而言，可以将该脚的输出视为<a href="https://blog.csdn.net/xuewei_Li/article/details/87907052">PWM(脉冲宽度调制)波</a>。</p>
+<p>而在一个<mark class="hl-label blue">惯性系统</mark> 中，PWM的占空比变化将影响平均功率，生活中常用此原理来实现灯的亮度和电机转速等控制。</p>
+<p>显然，我们可以通过灯来巧妙直观的观测这一锁定提示信号，但单纯通过亮度上的变化来反映PWM波的占空比仍然不太直观，因此我们可以采用如下方案：</p>
+<p>使用一颗共阴极/共阳极三引脚双色LED灯(推荐使用颜色色差较大的)。我使用的是红蓝双色灯，其可在“锁定”时显暖红色、“失锁”时显冷蓝色，并能利用灯自身的显色惯性，在芯片介于完全锁定和失锁之间时，对芯片输出的类PWM波形进行十分方便的观测：其颜色变化自大红色到粉色、到紫色、再到蓝紫色，最后变为亮蓝色。<mark class="hl-label blue">双色灯颜色的变化直观反映了系统的锁定状态，是一种十分推荐的巧妙检测方法！</mark> 。值得一提的是，正是这种巧妙的检测方法，使得我发现了频率计探针的接入能对锁相环路稳定性进行较大的影响(后文将提到)，并给出了针对性的有效改进。</p>
+<h3 id="自锁开关"><a href="#自锁开关" class="headerlink" title="自锁开关"></a>自锁开关</h3><p>由于题目需要对分频数N进行频繁的调整，来对系统进行宽频范围的测试。采用跳线的方案显然不太便利和可靠，而按键开关要求持续的按下来改变电平，同样不适合任务需求。</p>
+<p>推荐使用<a href="https://baike.baidu.com/item/%E8%87%AA%E9%94%81%E5%BC%80%E5%85%B3">自锁开关</a>，其特点为点按一次后按下，再点按一次后弹起。配置12颗自锁开关，并同时配置12颗LED灯来表征开关状态(因为在俯视调试过程中，按键按下/弹起的视觉差异不明显，我们需要的是高效的交互，而灯与自锁开关的搭配可以十分完美的实现这个要求！)。</p>
+<h3 id="避免测量对系统的影响"><a href="#避免测量对系统的影响" class="headerlink" title="避免测量对系统的影响"></a>避免测量对系统的影响</h3><p>在调试中发现，当频率计的探针接入CD4046的4脚时，原本显示为红色(表示锁定)的双色灯会变为粉色(轻微失锁)，疑似频率计中的高频ADC采样对系统造成影响所致。</p>
+<p>为了在获取频率的同时维持系统的极高稳定性，可采用电压跟随器对系统进行隔离。</p>
+<p>然而，要满足本课设单电源、宽带、轨至轨的要求，采用运放来实现要求过于严苛。但考虑到信号本身类数字时钟型号(对信号波形要求较低)，因此可以使用电压比较器来代替运放构成的电压跟随器电路。</p>
+<p>本系统采用<a href="https://www.ti.com.cn/product/cn/TLV3501">德州仪器TLV3501</a>比较器来采集4脚，完成了数字频率计ADC和锁相环路的隔离，因此极大的提高了系统稳定性。</p>
+<h2 id="系统实物图"><a href="#系统实物图" class="headerlink" title="系统实物图"></a>系统实物图</h2><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/PLL/cover.jpg" alt="" title="锁相环路"></p>
+<h2 id="详细资料"><a href="#详细资料" class="headerlink" title="详细资料"></a>详细资料</h2><p>以上仅为对课设中关键心得的分享，更为详细的课设资料均已开源，<a href="https://nuaaeducn-my.sharepoint.com/:f:/g/personal/zhengzk_nuaa_edu_cn/EqOjGeSHlJ9Hi1hydlygMegB50c2rHH2yKl1f7Ex4BW5IQ?e=MgxTaI">点此获取</a>。</p>
 ]]></content>
       <categories>
         <category>NLFL</category>
-        <category>全栈总结</category>
+        <category>基础科学</category>
+        <category>实践</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>里德堡频谱感知性能调研</title>
+    <url>/2022/10/19/Rydberg_spectrum_sensing/</url>
+    <content><![CDATA[<h1 id="气体腔频谱感知机理"><a href="#气体腔频谱感知机理" class="headerlink" title="气体腔频谱感知机理"></a>气体腔频谱感知机理</h1><p>基于EIT-AT效应构成的里德堡原子射频传感器，其核心在于利用里德堡原子的特殊能级性质：其对微波的响应由固定的物理参数决定，因此可以理论推导出探测微波的频率和强度等信息。</p>
+<h2 id="能级跃迁理论"><a href="#能级跃迁理论" class="headerlink" title="能级跃迁理论"></a>能级跃迁理论</h2><p>能级跃迁理论是理解EIT效应、认识里德堡原子频谱感知的基础（来源：<a href="https://zhuanlan.zhihu.com/p/146275122">能级跃迁</a>）</p>
+<div class="tabs" id="1"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#1-1"><i class="fa-thin fa-atom"></i>E1跃迁</button></li><li class="tab"><button type="button" data-href="#1-2"><i class="fa-thin fa-atom"></i>E2跃迁</button></li><li class="tab"><button type="button" data-href="#1-3"><i class="fa-thin fa-atom"></i>M1跃迁</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="1-1"><p>E1跃迁是电场偶极近似（Eletric dipole approximation），假定的是一个均匀的震荡电场的条件下，单光子作用下的跃迁；也是电场对原子作用的0阶近似（在空间上）。E 代表电场，1 代表偶极近似。</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="1-2"><p>E2跃迁是电场电四极矩近似，在更为细致地考虑原子尺度内电场变化时引入，可以合理认为电四极矩都等价于双光子跃迁（考虑一个光子带1份角动量）。</p>
+<ul>
+<li>E2跃迁的概率要远低于E1跃迁，这是因为E2是更细致的小量</li>
+<li>因此E2跃迁常常出现在E1跃迁被禁止的情况。</li>
+<li>E2跃迁态相较于其他态具有非常长的寿命(ms级)</li>
+</ul><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="1-3"><p>M1跃迁是磁场偶极近似，在外磁场作用下发生。由M1跃迁的选择定则可以发现：超精细结构中的跃迁是M1跃迁，受到外磁场的驱动。<br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectrum_sensing/M1_transition.png" alt="" title="M1跃迁"></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>
+<h2 id="EIT气室频谱感知的物理本质"><a href="#EIT气室频谱感知的物理本质" class="headerlink" title="EIT气室频谱感知的物理本质"></a>EIT气室频谱感知的物理本质</h2><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectrum_sensing/schematic_diagram.png" alt="" title="四能级系统和用于测量EIT的气室装置图[9]"><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectrum_sensing/energy_level.png" alt="" title="里德堡原子能级及EIT-AT效应[8]"><br>现在我们可以清楚的是：</p>
+<ol>
+<li>探测光使原子从S态经E1跃迁至P态</li>
+<li>耦合光在扫频至特定频点时使原子从P态经E1跃迁至D态</li>
+<li>D态跃迁至S态为E2跃迁过程，其发生相对E1而言非常困难<ul>
+<li>根据电偶极跃迁选择定则，原子通过双光子激发的方式智能被激发到S或D态[5]</li>
+<li>单光子激发方式可以研究P态里德堡原子的相关物理特性，并且受限于紫外激光的功率，目前采用单光子激光制备里德堡原子的研究较少[5]</li>
+</ul>
+</li>
+</ol>
+<p>所以<mark class="hl-label blue">当探测光和特定频点的耦合光对原子气室进行持续的足够强度照射时，绝大部分原子在P态和D态间反复，从而原子气室对探测光诱导透明</mark> </p>
+<p>此外我们还可以清楚的是：<mark class="hl-label orange">我们关心的里德堡原子频谱感知，其底层物理机制为原子能级M1跃迁</mark> </p>
+<h2 id="EIT气室原子选择"><a href="#EIT气室原子选择" class="headerlink" title="EIT气室原子选择"></a>EIT气室原子选择</h2><p>在绝大多数的文献实验中，原子气室选择了碱金属原子(尤其是其中的铷和铯原子)<br><div class="tabs" id="2"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#2-1"><i class="fa-thin fa-atom"></i>碱金属优势</button></li><li class="tab"><button type="button" data-href="#2-2"><i class="fa-thin fa-atom"></i>铷原子特点</button></li><li class="tab"><button type="button" data-href="#2-3"><i class="fa-thin fa-atom"></i>铯原子特点</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="2-1"><p>碱金属最外层只有一个电子，能级构成相对简单，各种性质也被研究的比较透彻，其可看成由远离核的高激发态电子和剩下来的原子实两部分组成，并能借由氢原子能级导出里德堡激发态能级公式[1]<br>在精细结构中，碱金属原子最外层电子的自旋角动量S与轨道角动量L耦合为其角动量J(J=1/2、3/2)。考虑原子核的自旋后，出现超精细分裂[3]<br>根据中心力场近似，可以很好地描述最外层只有一个电子的原子能级结构[6]</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="2-2"><p>铷原子具有研究透彻的<a href="https://baike.baidu.com/item/%E8%B6%85%E7%B2%BE%E7%BB%86%E7%BB%93%E6%9E%84/2294748">超精细结构</a>，对应着可被运用的超精细能级[3]<br>铷是一种性质极为活泼的金属，87Rb的化学性质相较于85Rb更加活泼，在室温下容易蒸发，且它的吸收光波段使用激光器实现较为简单，并对外加的微波场非常敏感，当有激光作用时会产生显著的光学效应[10]<br>铷原子的超精细分裂与精细分裂相比虽然小很多，但依然可以分辨。两种同位素的超精细结构如下图所示，根据选择定则，两种同位素的D1线和D2线的超精细分裂分别有4条和6条[3]<br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectrum_sensing/85Rb&amp;87Rb_D1.png" alt="" title="85Rb和87Rb的D1线超精细结构[3]"><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectrum_sensing/85Rb&amp;87Rb_D2.png" alt="" title="85Rb和87Rb的D2线超精细结构[3]"></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="2-3"><p>铯原子容易被外场激发且能级宽度较窄。以铯原子体系总角动量F=4为例，根据量子力学中的跃迁选择定则，统计从基态能级6S1/2(F=4)到里德堡态200F7/2(F=4)之间所有F=4的超精细能级间的跃迁频率，并将得到的2336组Δf≤40GHz的组合按军用雷达波段划分，计算不同频率带宽下，各雷达波段占空比分布情况：[6]<br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectrum_sensing/duty_cycle.png" alt="" title="铯里德堡原子部分能级跃迁频率占空百分比[6]"><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectrum_sensing/133Cs_D1.png" alt="" title="133Cs原子D1线超精细结构[12]"><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectrum_sensing/133Cs_D2.png" alt="" title="133Cs原子D2线超精细结构[12]"></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div></p>
+<h2 id="气体腔参数对里德堡频谱感知性能的影响及气体腔改良"><a href="#气体腔参数对里德堡频谱感知性能的影响及气体腔改良" class="headerlink" title="气体腔参数对里德堡频谱感知性能的影响及气体腔改良"></a>气体腔参数对里德堡频谱感知性能的影响及气体腔改良</h2><p>(精细结构)吸收光谱谱线的展宽受到多普勒展宽、功率展宽、压力展宽/平移的影响[7]<br>对环境因素、温度、激光功率、非线性效应、原子气室(电磁)扰动(气室内部驻波)、阻抗匹配等多个因素进行系统性分析，计算出微波功率测量不确定度[10]<br><div class="tabs" id="3"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#3-1">多普勒展宽</button></li><li class="tab"><button type="button" data-href="#3-2">碰撞展宽</button></li><li class="tab"><button type="button" data-href="#3-3">原子气室扰动</button></li><li class="tab"><button type="button" data-href="#3-4">背景噪声</button></li><li class="tab"><button type="button" data-href="#3-5">测量探头</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="3-1"><p>在热平衡时，粒子的速度分布呈高斯分布，多普勒展宽半高全宽宽度与热力学温度存在如下解析关系，式中kＢ为玻尔兹曼常数；Ｔ为热力学温度；ｍ为特征粒子的质量；ｃ为真空光速。此原理已被应用于原级测温。[7]<br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectrum_sensing/Doppler_broadening.png" alt="" title="多普勒展宽[7]"></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="3-2"><p>随着气室周围的温度逐渐升高，气室内部的气压也在逐渐增大，原子间的碰撞加剧导致高能级原子寿命缩短，跃迁过程中断，跃迁时间减小，能级变宽。由于碰撞展宽导致谱线宽度△vc不断增加。[10]<br>温度对于实验结果的影响主要体现为温度对EIT信号的峰高和线宽的影响导致实验测量结果的波动。EIT信号的峰高越高，信号的强度越大，线宽越小，测量的灵敏度越高，因此为了得到更好的实验测量结果，希望测量到的EIT信号的峰高越高越好，同时线宽越窄越好，然而实验测量结果显示，温度对EIT信号峰高和线宽影响的趋势并不相同，当达到一定温度时，EII信号的峰高随温度的升高而降低。[10]</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="3-3"><p>原子气室的驻波和电场散射效应会对实验测量结果产生较大的影响，本文设计了新型原子气室(材料、结构等)来降低原子气室的影响[10]<br>原子气室是决定测量准确性的重要因素之一,射频电场可以被原子气室的壁吸收或反射,尽管我们可以通过选择合适的材料来减小反射和吸收，但射频电场的变化可能是由于法布里·珀罗(FP)效应引起的，当射频电场通过气室与原子相互作用时，气室表面的吸收，以及电场与介电材料之间的相互作用，会导致气室内部产生极化效应，当微波入射到气室中，由于玻璃壁的反射，在原子气室内会产生驻波，形成FP腔，产生FP效应。原子气室内部电场分布会根据射频电场的频率与原子气室的大小而发生变化，导致气室内部的电场与入射徼波电场会有差异。Holloway教授团队对原子气室对微波电场扰动的影响及优化方法进行了详细的研究。为了降低扰动，应尽量选用低介电常数的材料来制作尽可能薄的原子气室，且需要减小原子气室的尺寸[10]</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="3-4"><p>在实验中发现有较强的背景噪声对实验测量产生影响，在后续的实验中通过搭建差分探测光路(光路优化)来减小背景噪声[10]</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="3-5"><p>基于量子体系的微波测量,一般采用由石英或者派莱克斯耐高温材料制成的原子气室作为测量探头，以此来降低电磁热效应的影响,传统的微波探头中通常带有电子元器件，电子元器件在<mark class="hl-label blue">受热或强电磁场的作用</mark> 下会产生不可逆的漂移，导电元器件在KV/m的场强下其机械结构可能会产生形变或电磁性能的改变等。为了降低电磁热效应的影响，目前实验室常用的由石英玻璃制成原子气室,其介电材料在高达 MV/m的场强下才会发生离子化，因此结构相对稳定，测量结果更加的准确。原子气室由于复杂的结构，特殊的介电性质等因素的影响，实验时需要对原子气室的性能进行分析[10]</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div></p>
+<p>为克服温度、碰撞展宽等不良影响，可采用以下机制</p>
+<ul>
+<li>冷原子机理[11]</li>
+<li>缓冲气体[3]</li>
+<li>高真空气室[10]</li>
+</ul>
+<h1 id="里德堡频谱感知的性能优势"><a href="#里德堡频谱感知的性能优势" class="headerlink" title="里德堡频谱感知的性能优势"></a>里德堡频谱感知的性能优势</h1><h1 id="天线接收提高里德堡频谱感知性能的可行性"><a href="#天线接收提高里德堡频谱感知性能的可行性" class="headerlink" title="天线接收提高里德堡频谱感知性能的可行性"></a>天线接收提高里德堡频谱感知性能的可行性</h1>]]></content>
+      <categories>
+        <category>NLFL</category>
+        <category>前沿科学</category>
+        <category>原理</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2022/07/27/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+      <categories>
+        <category>NLCC</category>
+        <category>博客运维</category>
       </categories>
   </entry>
   <entry>
@@ -247,21 +293,13 @@
       </categories>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2022/07/27/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+    <title>NL-ink</title>
+    <url>/2022/10/10/NL-ink/</url>
+    <content><![CDATA[<p>一个全栈式的无源NFC项目</p>
 ]]></content>
       <categories>
-        <category>NLCC</category>
-        <category>博客运维</category>
+        <category>NLFL</category>
+        <category>全栈总结</category>
       </categories>
   </entry>
 </search>
