@@ -1,25 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>光谱响应测量技术提升灵敏度或提升里德堡频谱感知性能的调研</title>
-    <url>/2022/10/20/Rydberg_spectral_response/</url>
-    <content><![CDATA[<h1 id="光谱响应测量技术提升灵敏度或提升里德堡频谱感知性能的调研"><a href="#光谱响应测量技术提升灵敏度或提升里德堡频谱感知性能的调研" class="headerlink" title="光谱响应测量技术提升灵敏度或提升里德堡频谱感知性能的调研"></a>光谱响应测量技术提升灵敏度或提升里德堡频谱感知性能的调研</h1><h2 id="使用MZI来消除原子射频电场传感探头激光器的读出噪声"><a href="#使用MZI来消除原子射频电场传感探头激光器的读出噪声" class="headerlink" title="使用MZI来消除原子射频电场传感探头激光器的读出噪声"></a>使用MZI来消除原子射频电场传感探头激光器的读出噪声</h2><h3 id="原理及测试方法"><a href="#原理及测试方法" class="headerlink" title="原理及测试方法"></a>原理及测试方法</h3><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/1.png" alt=""><br>MZI检测非线性相移，而不是直接测量传输的探头功率。探测激光的噪声通过零差检测中的减法降低，EIT信号通过强本振（LO）增强<br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/2.png" alt=""><br>显示带有和不带MZI的Rydberg EIT探头传输信号的单轨迹。</p>
-<h3 id="提升的性能及幅度"><a href="#提升的性能及幅度" class="headerlink" title="提升的性能及幅度"></a>提升的性能及幅度</h3><p>使用MZI来消除原子射频电场传感探头激光器的读出噪声。实现了射频电场绝对测量的新灵敏度极限 5μV∙cm^(-1)∙HZ^(-1)</p>
-<h2 id="三光子读取射频电场的方法"><a href="#三光子读取射频电场的方法" class="headerlink" title="三光子读取射频电场的方法"></a>三光子读取射频电场的方法</h2><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/3.png" alt=""><br>通过扩展AT范围来提高方法的灵敏度和精度。为了减少光子散粒噪声，探针的Rabi频率可以很大，但仍有一个有效的窄传输窗口。三光子读数可以将灵敏度提高约一个数量级。</p>
-<h2 id="调频光谱法"><a href="#调频光谱法" class="headerlink" title="调频光谱法"></a>调频光谱法</h2><h3 id="原理及测试方法-1"><a href="#原理及测试方法-1" class="headerlink" title="原理及测试方法"></a>原理及测试方法</h3><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/4.png" alt=""><br>通过RAM主动控制的 FM 光谱提高了基于里德堡原子的射频 E场传感的读出信噪比。<br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/5.png" alt=""><br>图中显示了两种不同情况下RAM锁定和解锁性能的典型比较。RAM锁定打开（红色）和关闭（黑色）时RAM信号与采样时间的Allan偏差示例。</p>
-<h3 id="提升的性能及幅度-1"><a href="#提升的性能及幅度-1" class="headerlink" title="提升的性能及幅度"></a>提升的性能及幅度</h3><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/6.png" alt=""><br>主动控制RAM的FM光谱学提高了基于里德堡原子的射频电场传感的读出信噪比，采用匹配滤波方法可以检测到1.8μV∙cm^(-1)的微弱射频电场，灵敏度达到3μV∙cm^(-1)∙HZ^(-1)。</p>
-<h2 id="微波场的振幅调制提高里德堡原子微波电测法的灵敏度"><a href="#微波场的振幅调制提高里德堡原子微波电测法的灵敏度" class="headerlink" title="微波场的振幅调制提高里德堡原子微波电测法的灵敏度"></a>微波场的振幅调制提高里德堡原子微波电测法的灵敏度</h2><h3 id="原理及测试方法-2"><a href="#原理及测试方法-2" class="headerlink" title="原理及测试方法"></a>原理及测试方法</h3><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/7.png" alt=""><br>MW调幅方案的基本原理。（a）能级图。（b）利用里德堡EIT光谱的MW振幅调制方案计算MW传感示意图。黑色实线和红色虚线分别表示ΩMW=0和Ω的里德堡EIT光谱。蓝色虚线对应色散误差信号。黑色虚线表示纵坐标为零的直线。（c）实验装置。PD表示光电探测器，DM表示二向色镜。</p>
-<h3 id="提升的性能及幅度-2"><a href="#提升的性能及幅度-2" class="headerlink" title="提升的性能及幅度"></a>提升的性能及幅度</h3><p>采用微波场的振幅调制来解决弱微波电场中的EIT-AT分裂。色散误差信号的EIT共振附近的两个过零点之间的光谱间隔用于测量MW电场的强度。在室温蒸汽电池中，最小可检测MW强度可小至430±37μV/cm，比传统的EIT-AT分裂方法提高了六倍。</p>
-<h2 id="光学腔增强的里德堡原子微波电场测量"><a href="#光学腔增强的里德堡原子微波电场测量" class="headerlink" title="光学腔增强的里德堡原子微波电场测量"></a>光学腔增强的里德堡原子微波电场测量</h2><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/8.png" alt=""><br>腔透射谱较介质透射谱有着更小的分辨率，腔增强的测量方案将可探测最小微波场强度降低约８倍。</p>
-<h2 id="其他方法"><a href="#其他方法" class="headerlink" title="其他方法"></a>其他方法</h2><p>在相同MW电场强度下，将MW频率从共振变为失谐，以延长Δfm<br>利用辅助微波处理的Rydberg EIT-AT系统来扩展直接SI可追踪微波电场强度测量的下限<br>通过激光冷却原子，显著降低了残余多普勒效应，从而使可检测的微波场强度低至100μV/cm。</p>
-]]></content>
-      <categories>
-        <category>NLFL</category>
-        <category>前沿科学</category>
-        <category>原理</category>
-      </categories>
-  </entry>
-  <entry>
     <title>锁相环课设</title>
     <url>/2022/10/10/PLL/</url>
     <content><![CDATA[<p>本文分享了我参与通信电子线路课程设计——锁相环的测量与应用中，一些较为关键且特别的经验。文章定位为关键心得分享，因此对较为基础的知识不再重复赘述。</p>
@@ -44,6 +25,16 @@
         <category>NLFL</category>
         <category>基础科学</category>
         <category>实践</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>NL-ink</title>
+    <url>/2022/10/10/NL-ink/</url>
+    <content><![CDATA[<p>一个全栈式的无源NFC项目</p>
+]]></content>
+      <categories>
+        <category>NLFL</category>
+        <category>全栈总结</category>
       </categories>
   </entry>
   <entry>
@@ -138,6 +129,25 @@
       <categories>
         <category>NLCC</category>
         <category>博客运维</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>光谱响应测量技术提升灵敏度或提升里德堡频谱感知性能的调研</title>
+    <url>/2022/10/20/Rydberg_spectral_response/</url>
+    <content><![CDATA[<h1 id="光谱响应测量技术提升灵敏度或提升里德堡频谱感知性能的调研"><a href="#光谱响应测量技术提升灵敏度或提升里德堡频谱感知性能的调研" class="headerlink" title="光谱响应测量技术提升灵敏度或提升里德堡频谱感知性能的调研"></a>光谱响应测量技术提升灵敏度或提升里德堡频谱感知性能的调研</h1><h2 id="使用MZI来消除原子射频电场传感探头激光器的读出噪声"><a href="#使用MZI来消除原子射频电场传感探头激光器的读出噪声" class="headerlink" title="使用MZI来消除原子射频电场传感探头激光器的读出噪声"></a>使用MZI来消除原子射频电场传感探头激光器的读出噪声</h2><h3 id="原理及测试方法"><a href="#原理及测试方法" class="headerlink" title="原理及测试方法"></a>原理及测试方法</h3><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/1.png" alt=""><br>MZI检测非线性相移，而不是直接测量传输的探头功率。探测激光的噪声通过零差检测中的减法降低，EIT信号通过强本振（LO）增强<br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/2.png" alt=""><br>显示带有和不带MZI的Rydberg EIT探头传输信号的单轨迹。</p>
+<h3 id="提升的性能及幅度"><a href="#提升的性能及幅度" class="headerlink" title="提升的性能及幅度"></a>提升的性能及幅度</h3><p>使用MZI来消除原子射频电场传感探头激光器的读出噪声。实现了射频电场绝对测量的新灵敏度极限 5μV∙cm^(-1)∙HZ^(-1)</p>
+<h2 id="三光子读取射频电场的方法"><a href="#三光子读取射频电场的方法" class="headerlink" title="三光子读取射频电场的方法"></a>三光子读取射频电场的方法</h2><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/3.png" alt=""><br>通过扩展AT范围来提高方法的灵敏度和精度。为了减少光子散粒噪声，探针的Rabi频率可以很大，但仍有一个有效的窄传输窗口。三光子读数可以将灵敏度提高约一个数量级。</p>
+<h2 id="调频光谱法"><a href="#调频光谱法" class="headerlink" title="调频光谱法"></a>调频光谱法</h2><h3 id="原理及测试方法-1"><a href="#原理及测试方法-1" class="headerlink" title="原理及测试方法"></a>原理及测试方法</h3><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/4.png" alt=""><br>通过RAM主动控制的 FM 光谱提高了基于里德堡原子的射频 E场传感的读出信噪比。<br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/5.png" alt=""><br>图中显示了两种不同情况下RAM锁定和解锁性能的典型比较。RAM锁定打开（红色）和关闭（黑色）时RAM信号与采样时间的Allan偏差示例。</p>
+<h3 id="提升的性能及幅度-1"><a href="#提升的性能及幅度-1" class="headerlink" title="提升的性能及幅度"></a>提升的性能及幅度</h3><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/6.png" alt=""><br>主动控制RAM的FM光谱学提高了基于里德堡原子的射频电场传感的读出信噪比，采用匹配滤波方法可以检测到1.8μV∙cm^(-1)的微弱射频电场，灵敏度达到3μV∙cm^(-1)∙HZ^(-1)。</p>
+<h2 id="微波场的振幅调制提高里德堡原子微波电测法的灵敏度"><a href="#微波场的振幅调制提高里德堡原子微波电测法的灵敏度" class="headerlink" title="微波场的振幅调制提高里德堡原子微波电测法的灵敏度"></a>微波场的振幅调制提高里德堡原子微波电测法的灵敏度</h2><h3 id="原理及测试方法-2"><a href="#原理及测试方法-2" class="headerlink" title="原理及测试方法"></a>原理及测试方法</h3><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/7.png" alt=""><br>MW调幅方案的基本原理。（a）能级图。（b）利用里德堡EIT光谱的MW振幅调制方案计算MW传感示意图。黑色实线和红色虚线分别表示ΩMW=0和Ω的里德堡EIT光谱。蓝色虚线对应色散误差信号。黑色虚线表示纵坐标为零的直线。（c）实验装置。PD表示光电探测器，DM表示二向色镜。</p>
+<h3 id="提升的性能及幅度-2"><a href="#提升的性能及幅度-2" class="headerlink" title="提升的性能及幅度"></a>提升的性能及幅度</h3><p>采用微波场的振幅调制来解决弱微波电场中的EIT-AT分裂。色散误差信号的EIT共振附近的两个过零点之间的光谱间隔用于测量MW电场的强度。在室温蒸汽电池中，最小可检测MW强度可小至430±37μV/cm，比传统的EIT-AT分裂方法提高了六倍。</p>
+<h2 id="光学腔增强的里德堡原子微波电场测量"><a href="#光学腔增强的里德堡原子微波电场测量" class="headerlink" title="光学腔增强的里德堡原子微波电场测量"></a>光学腔增强的里德堡原子微波电场测量</h2><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/8.png" alt=""><br>腔透射谱较介质透射谱有着更小的分辨率，腔增强的测量方案将可探测最小微波场强度降低约８倍。</p>
+<h2 id="其他方法"><a href="#其他方法" class="headerlink" title="其他方法"></a>其他方法</h2><p>在相同MW电场强度下，将MW频率从共振变为失谐，以延长Δfm<br>利用辅助微波处理的Rydberg EIT-AT系统来扩展直接SI可追踪微波电场强度测量的下限<br>通过激光冷却原子，显著降低了残余多普勒效应，从而使可检测的微波场强度低至100μV/cm。</p>
+]]></content>
+      <categories>
+        <category>NLFL</category>
+        <category>前沿科学</category>
+        <category>原理</category>
       </categories>
   </entry>
   <entry>
@@ -361,16 +371,6 @@
 ]]></content>
       <categories>
         <category>NLCC</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>NL-ink</title>
-    <url>/2022/10/10/NL-ink/</url>
-    <content><![CDATA[<p>一个全栈式的无源NFC项目</p>
-]]></content>
-      <categories>
-        <category>NLFL</category>
-        <category>全栈总结</category>
       </categories>
   </entry>
   <entry>
