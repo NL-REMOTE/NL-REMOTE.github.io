@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>童话</title>
-    <url>/2023/07/01/Fairytale_1/</url>
-    <content><![CDATA[<div class="fj-gallery"><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Fairytale/1/1.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Fairytale/1/2.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Fairytale/1/3.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Fairytale/1/4.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Fairytale/1/5.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Fairytale/1/6.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Fairytale/1/7.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Fairytale/1/8.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Fairytale/1/9.jpg" alt=""></p>
-          </div>]]></content>
-      <categories>
-        <category>NL</category>
-      </categories>
-  </entry>
-  <entry>
     <title>党校培训考试填空题库plus</title>
     <url>/2022/11/19/Dxpx_Completion_plus/</url>
     <content><![CDATA[<div class="note red icon-padding flat"><i class="note-icon fa-solid fa-sun"></i><p>偶然想到博客的tag-hide标签外挂可以较好的协助填空复习，所以浅浅的进行一个上传，自用。</p>
@@ -194,17 +185,6 @@
       <categories>
         <category>NL</category>
         <category>党校培训</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>NL-ink</title>
-    <url>/2022/10/10/NL-ink/</url>
-    <content><![CDATA[<p>一个全栈式的无源NFC项目</p>
-]]></content>
-      <categories>
-        <category>NLFL</category>
-        <category>开源工程</category>
-        <category>全栈总结</category>
       </categories>
   </entry>
   <entry>
@@ -709,11 +689,20 @@
   <figcaption>
   <div class="gallery-group-name">厦门</div>
   <p>熙熙港城的回忆</p>
-  <a href='/Xiamen'></a>
+  <a href='https://nl-remote.github.io/2024/02/10/Xiamen'></a>
   </figcaption>
   </figure>
   
 </div>]]></content>
+      <categories>
+        <category>NL</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>童话</title>
+    <url>/2023/07/01/Fairytale_1/</url>
+    <content><![CDATA[<div class="fj-gallery"><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Fairytale/1/1.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Fairytale/1/2.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Fairytale/1/3.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Fairytale/1/4.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Fairytale/1/5.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Fairytale/1/6.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Fairytale/1/7.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Fairytale/1/8.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Fairytale/1/9.jpg" alt=""></p>
+          </div>]]></content>
       <categories>
         <category>NL</category>
       </categories>
@@ -814,6 +803,17 @@
       </categories>
   </entry>
   <entry>
+    <title>NL-ink</title>
+    <url>/2022/10/10/NL-ink/</url>
+    <content><![CDATA[<p>一个全栈式的无源NFC项目</p>
+]]></content>
+      <categories>
+        <category>NLFL</category>
+        <category>开源工程</category>
+        <category>全栈总结</category>
+      </categories>
+  </entry>
+  <entry>
     <title>锁相环课设</title>
     <url>/2022/10/10/PLL/</url>
     <content><![CDATA[<p>本文分享了我参与通信电子线路课程设计——锁相环的测量与应用中，一些较为关键且特别的经验。文章定位为关键心得分享，因此对较为基础的知识不再重复赘述。</p>
@@ -838,6 +838,144 @@
         <category>NLFL</category>
         <category>基础科学</category>
         <category>实践</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>里德堡频谱感知性能调研</title>
+    <url>/2022/10/19/Rydberg_spectrum_sensing/</url>
+    <content><![CDATA[<h1 id="气体腔频谱感知机理"><a href="#气体腔频谱感知机理" class="headerlink" title="气体腔频谱感知机理"></a>气体腔频谱感知机理</h1><p>基于EIT-AT效应构成的里德堡原子射频传感器，其核心在于利用里德堡原子的特殊能级性质：其对微波的响应由固定的物理参数决定，因此可以理论推导出探测微波的频率和强度等信息。</p>
+<h2 id="能级跃迁理论"><a href="#能级跃迁理论" class="headerlink" title="能级跃迁理论"></a>能级跃迁理论</h2><p>能级跃迁理论是理解EIT效应、认识里德堡原子频谱感知的基础（来源：<a href="https://zhuanlan.zhihu.com/p/146275122">能级跃迁</a>）</p>
+<div class="tabs" id="1"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#1-1">E1跃迁</button></li><li class="tab"><button type="button" data-href="#1-2">E2跃迁</button></li><li class="tab"><button type="button" data-href="#1-3">M1跃迁</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="1-1"><p>E1跃迁是电场偶极近似（Eletric dipole approximation），假定的是一个均匀的震荡电场的条件下，单光子作用下的跃迁；也是电场对原子作用的0阶近似（在空间上）。E 代表电场，1 代表偶极近似。</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="1-2"><p>E2跃迁是电场电四极矩近似，在更为细致地考虑原子尺度内电场变化时引入，可以合理认为电四极矩都等价于双光子跃迁（考虑一个光子带1份角动量）。</p>
+<ul>
+<li>E2跃迁的概率要远低于E1跃迁，这是因为E2是更细致的小量</li>
+<li>因此E2跃迁常常出现在E1跃迁被禁止的情况。</li>
+<li>E2跃迁态相较于其他态具有非常长的寿命(ms级)</li>
+</ul><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="1-3"><p>M1跃迁是磁场偶极近似，在外磁场作用下发生。由M1跃迁的选择定则可以发现：超精细结构中的跃迁是M1跃迁，受到外磁场的驱动。<br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectrum_sensing/M1_transition.png" alt="" title="M1跃迁"></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>
+<h2 id="EIT气室频谱感知的物理本质"><a href="#EIT气室频谱感知的物理本质" class="headerlink" title="EIT气室频谱感知的物理本质"></a>EIT气室频谱感知的物理本质</h2><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectrum_sensing/schematic_diagram.png" alt="" title="四能级系统和用于测量EIT的气室装置图[9]"><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectrum_sensing/energy_level.png" alt="" title="里德堡原子能级及EIT-AT效应[8]"><br>现在我们可以清楚的是：</p>
+<ol>
+<li>探测光使原子从S态经E1跃迁至P态</li>
+<li>耦合光在扫频至特定频点时使原子从P态经E1跃迁至D态</li>
+<li>D态跃迁至S态为E2跃迁过程，其发生相对E1而言非常困难<ul>
+<li>根据电偶极跃迁选择定则，原子通过双光子激发的方式智能被激发到S或D态[5]</li>
+<li>单光子激发方式可以研究P态里德堡原子的相关物理特性，并且受限于紫外激光的功率，目前采用单光子激光制备里德堡原子的研究较少[5]</li>
+</ul>
+</li>
+</ol>
+<p>所以<mark class="hl-label blue">当探测光和特定频点的耦合光对原子气室进行持续的足够强度照射时，绝大部分原子在P态和D态间反复，从而原子气室对探测光诱导透明</mark> </p>
+<p>此外我们还可以清楚的是：<mark class="hl-label orange">我们关心的里德堡原子频谱感知，其底层物理机制为原子能级M1跃迁</mark> </p>
+<h2 id="EIT气室原子选择"><a href="#EIT气室原子选择" class="headerlink" title="EIT气室原子选择"></a>EIT气室原子选择</h2><p>在绝大多数的文献实验中，原子气室选择了碱金属原子(尤其是其中的铷和铯原子)<br><div class="tabs" id="2"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#2-1">碱金属优势</button></li><li class="tab"><button type="button" data-href="#2-2">铷原子特点</button></li><li class="tab"><button type="button" data-href="#2-3">铯原子特点</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="2-1"><p>碱金属最外层只有一个电子，能级构成相对简单，各种性质也被研究的比较透彻，其可看成由远离核的高激发态电子和剩下来的原子实两部分组成，并能借由氢原子能级导出里德堡激发态能级公式[1]<br>在精细结构中，碱金属原子最外层电子的自旋角动量S与轨道角动量L耦合为其角动量J(J=1/2、3/2)。考虑原子核的自旋后，出现超精细分裂[3]<br>根据中心力场近似，可以很好地描述最外层只有一个电子的原子能级结构[6]</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="2-2"><p>铷原子具有研究透彻的<a href="https://baike.baidu.com/item/%E8%B6%85%E7%B2%BE%E7%BB%86%E7%BB%93%E6%9E%84/2294748">超精细结构</a>，对应着可被运用的超精细能级[3]<br>铷是一种性质极为活泼的金属，87Rb的化学性质相较于85Rb更加活泼，在室温下容易蒸发，且它的吸收光波段使用激光器实现较为简单，并对外加的微波场非常敏感，当有激光作用时会产生显著的光学效应[10]<br>铷原子的超精细分裂与精细分裂相比虽然小很多，但依然可以分辨。两种同位素的超精细结构如下图所示，根据选择定则，两种同位素的D1线和D2线的超精细分裂分别有4条和6条[3]<br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectrum_sensing/85Rb&amp;87Rb_D1.png" alt="" title="85Rb和87Rb的D1线超精细结构[3]"><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectrum_sensing/85Rb&amp;87Rb_D2.png" alt="" title="85Rb和87Rb的D2线超精细结构[3]"></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="2-3"><p>铯原子容易被外场激发且能级宽度较窄。以铯原子体系总角动量F=4为例，根据量子力学中的跃迁选择定则，统计从基态能级6S1/2(F=4)到里德堡态200F7/2(F=4)之间所有F=4的超精细能级间的跃迁频率，并将得到的2336组Δf≤40GHz的组合按军用雷达波段划分，计算不同频率带宽下，各雷达波段占空比分布情况：[6]<br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectrum_sensing/duty_cycle.png" alt="" title="铯里德堡原子部分能级跃迁频率占空百分比[6]"><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectrum_sensing/133Cs_D1.png" alt="" title="133Cs原子D1线超精细结构[12]"><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectrum_sensing/133Cs_D2.png" alt="" title="133Cs原子D2线超精细结构[12]"></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div></p>
+<h2 id="气体腔参数对里德堡频谱感知性能的影响及气体腔改良"><a href="#气体腔参数对里德堡频谱感知性能的影响及气体腔改良" class="headerlink" title="气体腔参数对里德堡频谱感知性能的影响及气体腔改良"></a>气体腔参数对里德堡频谱感知性能的影响及气体腔改良</h2><p>(精细结构)吸收光谱谱线的展宽受到多普勒展宽、功率展宽、压力展宽/平移的影响[7]<br>对环境因素、温度、激光功率、非线性效应、原子气室(电磁)扰动(气室内部驻波)、阻抗匹配等多个因素进行系统性分析，计算出微波功率测量不确定度[10]<br><div class="tabs" id="3"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#3-1">多普勒展宽</button></li><li class="tab"><button type="button" data-href="#3-2">碰撞展宽</button></li><li class="tab"><button type="button" data-href="#3-3">原子气室扰动</button></li><li class="tab"><button type="button" data-href="#3-4">背景噪声</button></li><li class="tab"><button type="button" data-href="#3-5">测量探头</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="3-1"><p>在热平衡时，粒子的速度分布呈高斯分布，多普勒展宽半高全宽宽度与热力学温度存在如下解析关系，式中kＢ为玻尔兹曼常数；Ｔ为热力学温度；ｍ为特征粒子的质量；ｃ为真空光速。此原理已被应用于原级测温。[7]<br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectrum_sensing/Doppler_broadening.png" alt="" title="多普勒展宽[7]"></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="3-2"><p>随着气室周围的温度逐渐升高，气室内部的气压也在逐渐增大，原子间的碰撞加剧导致高能级原子寿命缩短，跃迁过程中断，跃迁时间减小，能级变宽。由于碰撞展宽导致谱线宽度△vc不断增加。[10]<br>温度对于实验结果的影响主要体现为温度对EIT信号的峰高和线宽的影响导致实验测量结果的波动。EIT信号的峰高越高，信号的强度越大，线宽越小，测量的灵敏度越高，因此为了得到更好的实验测量结果，希望测量到的EIT信号的峰高越高越好，同时线宽越窄越好，然而实验测量结果显示，温度对EIT信号峰高和线宽影响的趋势并不相同，当达到一定温度时，EII信号的峰高随温度的升高而降低。[10]</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="3-3"><p>原子气室的驻波和电场散射效应会对实验测量结果产生较大的影响，本文设计了新型原子气室(材料、结构等)来降低原子气室的影响[10]<br>原子气室是决定测量准确性的重要因素之一,射频电场可以被原子气室的壁吸收或反射,尽管我们可以通过选择合适的材料来减小反射和吸收，但射频电场的变化可能是由于法布里·珀罗(FP)效应引起的，当射频电场通过气室与原子相互作用时，气室表面的吸收，以及电场与介电材料之间的相互作用，会导致气室内部产生极化效应，当微波入射到气室中，由于玻璃壁的反射，在原子气室内会产生驻波，形成FP腔，产生FP效应。原子气室内部电场分布会根据射频电场的频率与原子气室的大小而发生变化，导致气室内部的电场与入射徼波电场会有差异。Holloway教授团队对原子气室对微波电场扰动的影响及优化方法进行了详细的研究。为了降低扰动，应尽量选用低介电常数的材料来制作尽可能薄的原子气室，且需要减小原子气室的尺寸[10]</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="3-4"><p>在实验中发现有较强的背景噪声对实验测量产生影响，在后续的实验中通过搭建差分探测光路(光路优化)来减小背景噪声[10]</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="3-5"><p>基于量子体系的微波测量,一般采用由石英或者派莱克斯耐高温材料制成的原子气室作为测量探头，以此来降低电磁热效应的影响,传统的微波探头中通常带有电子元器件，电子元器件在<mark class="hl-label blue">受热或强电磁场的作用</mark> 下会产生不可逆的漂移，导电元器件在KV/m的场强下其机械结构可能会产生形变或电磁性能的改变等。为了降低电磁热效应的影响，目前实验室常用的由石英玻璃制成原子气室,其介电材料在高达 MV/m的场强下才会发生离子化，因此结构相对稳定，测量结果更加的准确。原子气室由于复杂的结构，特殊的介电性质等因素的影响，实验时需要对原子气室的性能进行分析[10]</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div></p>
+<p>为克服温度、碰撞展宽等不良影响，可采用以下机制</p>
+<ul>
+<li>冷原子机理[11]</li>
+<li>缓冲气体[3]</li>
+<li>高真空气室[10]</li>
+</ul>
+<h1 id="里德堡频谱感知的性能优势"><a href="#里德堡频谱感知的性能优势" class="headerlink" title="里德堡频谱感知的性能优势"></a>里德堡频谱感知的性能优势</h1><h2 id="经典微波电场传感方案局限"><a href="#经典微波电场传感方案局限" class="headerlink" title="经典微波电场传感方案局限"></a>经典微波电场传感方案局限</h2><p>目前来说，对于电场的测量手段主要分为三种：利用热电偶效应进行电场测量的热电偶传感器；基于Pockels电光效应完成电场对光场的控制的电场测量系统，从而测量出相应光强与装置晶体端的电压的函数特性曲线；二极管检波（加载偶极子的方式）[2]<br>然而直到现在，建立一种<mark class="hl-label blue">自动校准</mark> 探头来实现这些电场值的独立和绝对测量仍然是一份十分困难的工作。现阶段的微波电场测量标准均是通过“标准场”方法，即通过一个标准天线来测量待测电场，通过这种方式进行探测器的校准。[2]<br>传统的微波电场探测器存在以下瓶颈：(1)由尺寸限制无法实现高分辨率高灵敏度的电场测量；(2)电场测量溯源链冗余复杂，无法直接溯源至国际单位制SI；(3)探测器的振子本身为金属元件，可能会对待测场产生干扰。同时，随着新兴技术的发展，传统的电场测量方式已经无法满足在chip-on-cell级电磁干扰测量、生物电磁效应感知、微波毫米波近场扫描等需求，可溯源的便携式电场测量设备成为电磁学发展中的主要问题，我们亟需一种新的测量方式来实现对电场的高灵敏度、高准确率和高分辨率的测量，搭建一个完整的测量体系，形成可信赖的有效测量方式，具有可溯源至国际单位制SI的能力，迎合国际发展，提高长期可靠性和对未来的适应性。[2]<br>经典微波电场传感方案基于金属偶极子天线在微波电场作用下产生感应电流，通过感应电流的测量获得微波电场的振幅、频率、相位等参数信息。其测量灵敏度主要受限于<mark class="hl-label blue">热噪声</mark> (信号和噪声都被编码在电子的宏观运动中)。同时<mark class="hl-label blue">天线尺寸</mark> 决定了宏观电流运动的边界条件，影响了微波电场感应驻波电流的建立，进而影响微波测量的灵敏度和带宽。另外传统天线产生的感应电场<mark class="hl-label blue">对被测微波场扰动较大</mark> ，不利于高精度测量的实现。[13]<br>基于金属天线的传统微波测量(偶极天线)特点为：[14]</p>
+<ol>
+<li>传感器部分(金属天线中的自由电子通过电(磁)偶极相互作用分别响应微波电磁场的电(磁)场分量,从而形成可被测量的宏观运动电流,实现传感功能)</li>
+<li>物理测量部分(将不可直接测量的微波电场转换为可直接测量的物理量)，主要有宽带微波频率计，超外差接收机</li>
+<li>受限于Johnson-Nyquist噪声：在热平衡状态下由于电导体内部的电荷载流子(通常是电子)随机热运动产生的电流噪声</li>
+<li>想获得实际测量灵敏度,要考虑天线尺寸效应，即考虑天线对空间电磁波信号的转化效率</li>
+<li>天线的形状、电偶极天线和磁偶极天线的种类不同、微波频率不同都会影响辐射效率,使得辐射效率难以精确估计和测量</li>
+<li>天线本身的金属结构也会对待测的微波场产生严重的干扰</li>
+</ol>
+<h2 id="里德堡原子传感方案优势"><a href="#里德堡原子传感方案优势" class="headerlink" title="里德堡原子传感方案优势"></a>里德堡原子传感方案优势</h2><p>里德堡原子频谱感知性能提升的机制优势：[14]</p>
+<ol>
+<li>电偶极矩大，对外部电磁场十分敏感不会强烈吸收电磁波能量</li>
+<li>理论极限灵敏度仅受限于量子投影噪声，远优于传统的微波测量系统</li>
+<li>里德堡激光系统的大连续无跳模扫描范围以及可实现任意里德堡态激发的优势</li>
+<li>原子本身是足够干净的，没有噪声的，足以实现单光子量级的极其灵敏的微波测量</li>
+<li>原子系统也比经典的微波电场计更加直接，原子系统的测量部分仅涉及到微波电场拉比频率的测量,其本质是光学频率的测量。而光学频率的测量是公认的人们目前所能测量理量中最为精确的</li>
+<li>在原子测量系统中，可溯源到普朗克常量、可精确计算的跃迁偶极距、仅涉及到精确的光学频率测量以及原子自身所具有的稳定的特性,使得原子电场计极有可能成为像原子钟一样的新一代微波电场计量标准</li>
+<li>在电极小情况下，原子微波电场传感器可以有效克服天线尺寸效应，避免Chu-Harrington极限</li>
+</ol>
+<p>基于EIT光谱技术的里德堡原子电场计：探测灵敏度3mV·m-1·Hz-1/2；场强大于0.3V·m-1时具有较好线性度[13]</p>
+<p>缀饰微波场的加入，极大地提高了里德堡原子系综对微波场响应的内禀增益[13]</p>
+<p>缀饰里德堡原子超外差接收机：探测灵敏度5.5μV·m-1·Hz-1/2；最小探测微波场强780pV·cm-1[13][14]</p>
+<p>考虑到缀饰里德堡原子超外差接收机在被测微波场的强度和本振微波场强度接近时才开始出现非线性效应，表明其线性动态范围可以达到90dB，优于原子电场计约60dB[13]</p>
+<h1 id="天线接收提高里德堡频谱感知性能的可行性"><a href="#天线接收提高里德堡频谱感知性能的可行性" class="headerlink" title="天线接收提高里德堡频谱感知性能的可行性"></a>天线接收提高里德堡频谱感知性能的可行性</h1><h2 id="传统超外差接收机和里德堡频谱感知灵敏度对比"><a href="#传统超外差接收机和里德堡频谱感知灵敏度对比" class="headerlink" title="传统超外差接收机和里德堡频谱感知灵敏度对比"></a>传统超外差接收机和里德堡频谱感知灵敏度对比</h2><p>如果天线指向深空，其等效噪声温度等于宇宙背景辐射的噪声温度，约为Teff=3K，对应于噪声功率密度为－194dBm/Hz。对于有源器件如微波低噪放，其等效噪声温度约等于物理温度，在室温下(T=300K)噪声功率密度为－174dBm/Hz。因此目前传统超外差接收机的理论功率测量灵敏度为－174dBm/Hz。然而在实际情况中，后路的器件依旧会导致额外的噪声，其大小以噪声指数来描述，对于非理想情况下的超外差接收机系统，其噪声指数一般为10dB，即其实际功率测量灵敏度约为－164dBm/Hz。[9]<br>量子系统的测量灵敏度由海森堡不确定关系和量子噪声极限决定(简称量子噪声)，里德堡原子－量子超外差系统的灵敏度的理论极限用下式表示:<br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectrum_sensing/sensitivity.png" alt="" title="里德堡原子－量子超外差系统的灵敏度的理论极限[9]"><br>其中，Emin为最小可测量的电场强度，tm为实际测量的总时间，μr为里德堡原子跃迁偶极距，Na为参与测量的原子数，τ为系统相干时间。[9]<br>里德堡原子发生由47D5/2→48P3/2的里德堡态跃迁，跃迁矩阵元为μr=1443.4498ea0，探测激光功率5μW，参与测量原子数约为106个，系统相干时间20.16ns，原子蒸汽池长度5cm，光斑半径0.85mm，理论极限0.53nV/cm·Hz1/2，折合功率谱密度7.45·10－19mW/cm2·Hz，折合功率灵敏度为－182dBm/Hz，比实际情况下传统的微波超外差接收机差一个数量级，体现出量子测量系统的极大潜力。[9]<br>基于原子的量子测量体系用一台接收机可覆盖宽频谱，且尺寸可做得很小，突破了传统电磁信号接收天线的尺寸的限制，具有小型化、集成化的优势，在单兵信息装备的配置和使用、无人化平台等方面极具潜力。基于原子传感器的电磁探测，在强电磁辐射情况下仍然可以正常使用，能有效抵抗传统接收机的电磁损伤，同时原子传感器不像传统天线会强烈吸收电磁波能量，使用更灵活和隐蔽，可以提升装备在复杂电磁环境下的生存能力，发挥作战效能，在系统形态、灵敏度和测量精度等方面全面提升电子战系统能力。[9]</p>
+<h1 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h1><p>[1]基于里德堡原子的光子操控<em>于溢琛<br>[2]基于量子效应的全光学空间电场测量及原子通信接收机研究</em>邹海洋<br>[3]铷原子D1、D2线的光谱分析与展宽机制<em>杨静<br>[4]基于里德堡原子的单频微波电场测量</em>陈庆庆<br>[5]采用319纳米紫外激光对铯…的单光子跃迁里德堡激发研究<em>白建东<br>[6]基于原子传感器的无源侦察方法研究</em>蒲泳庄<br>[7]基于铯133原子D1线直接…的多普勒展宽热力学温度测量<em>廖文汉<br>[8]里德堡原子射频传感器的研究综述</em>王时佳<br>[9]基于原子传感器的电磁信息感知测量<em>鲜佩<br>[10]基于里德堡原子的微波功率精密测量</em>张杰<br>[11]简并费米气体中自旋张量—动…以及里德堡激发态的实验研究<em>李东豪<br>[12]D.A.Stock.Cesium D Line Data.2010<br>[13]基于里德堡原子的微波电场量子传感</em>张临杰<br>[14]基于里德堡原子的微波超外差精密测量研究_景明勇</p>
+]]></content>
+      <categories>
+        <category>NLFL</category>
+        <category>前沿科学</category>
+        <category>原理</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Xiamen</title>
+    <url>/2024/02/10/Xiamen/</url>
+    <content><![CDATA[<div class="fj-gallery"><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231129/01.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/01.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/02.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/03.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/04.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/05.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/06.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/07.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/08.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/09.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/10.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/11.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/12.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/13.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/14.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/15.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/16.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/17.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/18.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/19.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/20.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/21.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/22.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/23.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231201/01.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231201/02.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231201/03.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231201/04.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231201/05.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231201/06.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231201/07.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231201/08.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231201/09.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231201/10.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231201/11.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231201/12.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231201/13.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231201/14.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231201/15.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231201/16.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231201/17.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231201/18.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231202/01.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231202/02.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231202/03.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231202/04.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231202/05.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231202/06.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231202/07.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231202/08.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231202/09.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231202/10.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231202/11.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231202/12.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231202/13.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231202/14.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231203/01.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231203/02.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231203/03.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231203/04.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231203/05.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231203/06.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231204/01.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231204/02.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231204/03.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231204/04.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231204/05.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231204/06.jpg" alt=""></p>
+          </div>]]></content>
+      <categories>
+        <category>NL</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>光谱响应测量技术提升灵敏度或提升里德堡频谱感知性能的调研</title>
+    <url>/2022/10/20/Rydberg_spectral_response/</url>
+    <content><![CDATA[<h1 id="光谱响应测量技术提升灵敏度或提升里德堡频谱感知性能的调研"><a href="#光谱响应测量技术提升灵敏度或提升里德堡频谱感知性能的调研" class="headerlink" title="光谱响应测量技术提升灵敏度或提升里德堡频谱感知性能的调研"></a>光谱响应测量技术提升灵敏度或提升里德堡频谱感知性能的调研</h1><h2 id="使用MZI来消除原子射频电场传感探头激光器的读出噪声"><a href="#使用MZI来消除原子射频电场传感探头激光器的读出噪声" class="headerlink" title="使用MZI来消除原子射频电场传感探头激光器的读出噪声"></a>使用MZI来消除原子射频电场传感探头激光器的读出噪声</h2><h3 id="原理及测试方法"><a href="#原理及测试方法" class="headerlink" title="原理及测试方法"></a>原理及测试方法</h3><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/1.png" alt=""><br>MZI检测非线性相移，而不是直接测量传输的探头功率。探测激光的噪声通过零差检测中的减法降低，EIT信号通过强本振（LO）增强<br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/2.png" alt=""><br>显示带有和不带MZI的Rydberg EIT探头传输信号的单轨迹。</p>
+<h3 id="提升的性能及幅度"><a href="#提升的性能及幅度" class="headerlink" title="提升的性能及幅度"></a>提升的性能及幅度</h3><p>使用MZI来消除原子射频电场传感探头激光器的读出噪声。实现了射频电场绝对测量的新灵敏度极限 5μV∙cm^(-1)∙HZ^(-1)</p>
+<h2 id="三光子读取射频电场的方法"><a href="#三光子读取射频电场的方法" class="headerlink" title="三光子读取射频电场的方法"></a>三光子读取射频电场的方法</h2><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/3.png" alt=""><br>通过扩展AT范围来提高方法的灵敏度和精度。为了减少光子散粒噪声，探针的Rabi频率可以很大，但仍有一个有效的窄传输窗口。三光子读数可以将灵敏度提高约一个数量级。</p>
+<h2 id="调频光谱法"><a href="#调频光谱法" class="headerlink" title="调频光谱法"></a>调频光谱法</h2><h3 id="原理及测试方法-1"><a href="#原理及测试方法-1" class="headerlink" title="原理及测试方法"></a>原理及测试方法</h3><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/4.png" alt=""><br>通过RAM主动控制的 FM 光谱提高了基于里德堡原子的射频 E场传感的读出信噪比。<br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/5.png" alt=""><br>图中显示了两种不同情况下RAM锁定和解锁性能的典型比较。RAM锁定打开（红色）和关闭（黑色）时RAM信号与采样时间的Allan偏差示例。</p>
+<h3 id="提升的性能及幅度-1"><a href="#提升的性能及幅度-1" class="headerlink" title="提升的性能及幅度"></a>提升的性能及幅度</h3><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/6.png" alt=""><br>主动控制RAM的FM光谱学提高了基于里德堡原子的射频电场传感的读出信噪比，采用匹配滤波方法可以检测到1.8μV∙cm^(-1)的微弱射频电场，灵敏度达到3μV∙cm^(-1)∙HZ^(-1)。</p>
+<h2 id="微波场的振幅调制提高里德堡原子微波电测法的灵敏度"><a href="#微波场的振幅调制提高里德堡原子微波电测法的灵敏度" class="headerlink" title="微波场的振幅调制提高里德堡原子微波电测法的灵敏度"></a>微波场的振幅调制提高里德堡原子微波电测法的灵敏度</h2><h3 id="原理及测试方法-2"><a href="#原理及测试方法-2" class="headerlink" title="原理及测试方法"></a>原理及测试方法</h3><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/7.png" alt=""><br>MW调幅方案的基本原理。（a）能级图。（b）利用里德堡EIT光谱的MW振幅调制方案计算MW传感示意图。黑色实线和红色虚线分别表示ΩMW=0和Ω的里德堡EIT光谱。蓝色虚线对应色散误差信号。黑色虚线表示纵坐标为零的直线。（c）实验装置。PD表示光电探测器，DM表示二向色镜。</p>
+<h3 id="提升的性能及幅度-2"><a href="#提升的性能及幅度-2" class="headerlink" title="提升的性能及幅度"></a>提升的性能及幅度</h3><p>采用微波场的振幅调制来解决弱微波电场中的EIT-AT分裂。色散误差信号的EIT共振附近的两个过零点之间的光谱间隔用于测量MW电场的强度。在室温蒸汽电池中，最小可检测MW强度可小至430±37μV/cm，比传统的EIT-AT分裂方法提高了六倍。</p>
+<h2 id="光学腔增强的里德堡原子微波电场测量"><a href="#光学腔增强的里德堡原子微波电场测量" class="headerlink" title="光学腔增强的里德堡原子微波电场测量"></a>光学腔增强的里德堡原子微波电场测量</h2><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/8.png" alt=""><br>腔透射谱较介质透射谱有着更小的分辨率，腔增强的测量方案将可探测最小微波场强度降低约８倍。</p>
+<h2 id="其他方法"><a href="#其他方法" class="headerlink" title="其他方法"></a>其他方法</h2><p>在相同MW电场强度下，将MW频率从共振变为失谐，以延长Δfm<br>利用辅助微波处理的Rydberg EIT-AT系统来扩展直接SI可追踪微波电场强度测量的下限<br>通过激光冷却原子，显著降低了残余多普勒效应，从而使可检测的微波场强度低至100μV/cm。</p>
+]]></content>
+      <categories>
+        <category>NLFL</category>
+        <category>前沿科学</category>
+        <category>原理</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>一个计划创作的科幻脑洞</title>
+    <url>/2022/10/22/Science_fiction/</url>
+    <content><![CDATA[<h1 id="此文创作原因-过去的一个脑洞-amp-FLAG"><a href="#此文创作原因-过去的一个脑洞-amp-FLAG" class="headerlink" title="此文创作原因/过去的一个脑洞&amp;FLAG"></a>此文创作原因/过去的一个脑洞&amp;FLAG</h1><p>起因是今年春季追感兴趣的天文类知识时，看到木星的固态内核质量近似在地球的一个数量级内，作为一个对天文感兴趣的科幻迷，因为知道太阳至少是第三代恒星，很快想到一个觉得很有趣的科幻构想：所谓气态巨星的固态内核，在上一代恒星的主序星阶段，是否也是一个类地行星。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Science_fiction/cover.jfif" alt="" title="太阳系"></p>
+<p>这个构想的核心基于下面几个设定：</p>
+<ol>
+<li>红巨星/超新星的爆发及质量损失/膨胀带来的引力减小使原来的幸存的类地行星逐渐移出内“太阳”系</li>
+<li>较轻的元素在爆发中飞得更快，被这些原有的行星不断吸积清理</li>
+<li>较重的元素在爆发中飞得较慢，留在内“太阳”系，并逐渐形成新的类地行星</li>
+<li>被喷出的元素中轻元素质量占比远大于重元素，这使得新的巨行星能形成现实中较大的质量优势，这一点通过目前对恒星的认识来说是容易理解的</li>
+</ol>
+<p>上述的推论可能已经被严谨的天文学证伪，但这丝毫不影响其与大家的常识相符，作为一个科幻构想来说，是完全足够的。</p>
+<p>当时就在想，这么好的idea我这个科幻迷居然没有看到类似的作品，那不如我自己写，笔来！(人菜瘾大.jpg)</p>
+<h1 id="初步的创作定调"><a href="#初步的创作定调" class="headerlink" title="初步的创作定调"></a>初步的创作定调</h1><p>首先为这篇还在脑洞阶段的文章定个调：按照我对文创的认识，一切面向意义的优秀创作，需要兼顾受众在体验和叙事上的感受，因此，这必将是一篇精雕细琢的作品，有新颖宏大的叙事构造，及细腻梦幻的意境体验。(为爱发电了，可能需要雕琢/鸽很久才能和大家见面bushi</p>
+<h1 id="暂时完成的一些构思"><a href="#暂时完成的一些构思" class="headerlink" title="暂时完成的一些构思"></a>暂时完成的一些构思</h1><p>根据文章定调，首先引入了下面一些内容作为文章实现定调目标的关键</p>
+<ol>
+<li>增加文明，跨世代的文明，要通过生命在超新星/红巨星爆发这种难以承受之重下实现某种传承，来升华上述的“巨行星地球说”设定：上一代文明的首都星球，这会可能正在某个气态巨星的内核中呢</li>
+<li>通过构造跨世代文明间的差异，通过反映从哲学观念、文明形态、科学技术水平等等的差异，来引发对上述问题的思考</li>
+<li>跨世代的文明必须通过某种方式生存至第三个恒星文明的时间线上，他们不一定要以原本的形态相见(这对于数十亿年的时间跨度过于困难)，但一定需要作为智慧生命体存在而非以遗骸存在(数十亿年侵蚀下的残骸即便存在也没法反映多少有用信息了)</li>
+</ol>
+<p>首先，要实现前两代文明跨越数十亿年的生存并不容易，并且，还需要通过某种绝对的机制来限制前两代文明的技术发展(换言之，禁止超模！否则就没后来者什么事了)，因此，初步敲定的设定有：</p>
+<ol>
+<li>关于第一代文明：第一代文明在航天时代就被一个银河游客般的黑洞横穿恒星系，(对恒星的影响暂时没想好)，仅有的两颗？(数量待定)行星土崩瓦解，<mark class="hl-label blue">小说的基本设定是光速无法逾越，并且还没有跃迁、冬眠这些技术</mark> ，世代飞船计划没能成功拯救文明，但文明的毁灭者却成为了文明的庇护者——第一代文明的大多数做出了唯一的选择，深入黑洞的引力阱，寄希望于外部时间流动更快、发展更快的文明能对其进行拯救(一方面是希望得到登上世代飞船的同胞们的拯救，因为世代飞船的设定只能送走少数人，因此绝大多数人都飞往了黑洞，而另一方面也希望得到其他高等文明的拯救)。这样第一代文明在黑洞引力阱下跨过数十亿年是可行的，但是预期需要承受较为极端的撕裂，不过生命形态还没定嘛，可以圆回来</li>
+<li>关于第二代文明：第二代文明的技术水平要稍优于第一代文明，计算机技术和生物学技术的发展到了准备揭示生命智慧奥秘的阶段，同样，计算力的提高也创造了大量人工智能造物，文明发展停滞的原因在于智慧机械体的失控(<mark class="hl-label blue">文章将重新探讨一个重要的问题：人与动物的不同，人与目前基于机器学习的人造智慧的不同</mark> )，智慧机械体能在相当长一段时间内完全控制并屠杀有机智慧生命，文明唯一的“火种”(说是火种，其实并不再能靠自己复兴了，往下看)落在当时极端远离恒星的一颗行星/矮行星的核心中，依靠低温超导和自律维护机械硬是抗住了亿年的侵蚀，唯一跨过时间的是一台深度睡眠的超级AI和带有自解译系统的文明数据库(有机体在这儿活不下来很容易理解，但生命遗传物质都带不过来甚至AI都要开深度睡眠，原因在于不能发出太多的废热，这会被失控机械察觉到，并被追杀，并且需要极端节约能源，所以上了低温超导)。那些并不能算做文明的失控机械体屠夫在时间和光速带来的空间限制下全部损毁于恒星系，在数十亿年光阴和超新星爆发下化作泡影。</li>
+<li>关于第三代文明：</li>
+</ol>
+<ul>
+<li>第三代文明和第二代文明高度相似，同样的发声方式和原始语言形态，说原始是因为第三代文明并不拒绝和机械技术的融合，或者说第三代文明的发展时间比第二代文明更长。为了通信的高效，他们的交流方式从原来的形态文字演变为通过类似视频的形式进行沟通：所有的信息被加载在光上，并能通过光的强度及相位信息、相邻单元的相关性实现编码和解码，与此同时，所有的个体当然都带有极为先进的光分析器，当然还有更多的人造设备。</li>
+<li>这里涉及一个伦理问题：即通过机械改造实现物种适应。首先，第三代文明的机械改造事实上是从医学救治开始的，从为失去手脚的病人换上义肢，到为器官损坏的病人换上人造器官等等，技术的发展始于救死扶伤。其次，第三代文明所处的是一个文明较多的时间段，危机四伏，不演化意味着毁灭。再者，第三代文明事实上并非为生存所迫，相反，他们是群星中的佼佼者，不同的理念使得他们的文明在星海中具有压倒性的发展优势。在解释完伦理问题后，两个文明的对话将集中于对<mark class="hl-label blue">人文主义</mark> 的看法上</li>
+<li>另外，还会在第三代文明和第二代文明AI的对话中开启第三代文明对意义的全新认识，这个场景或许将在第二代文明AI见到恒星周围的戴森阵列时感慨到，你们以光作为语言，那么那片奇观也是在和你们攀谈吧！(致敬《光谱》)，而回答将是：如果那是信息，不过是一堆乱码罢了，但那是意境，信息无法表达的意境——之后逐渐交待第三代文明对意义的认识——体验和叙事的复合体，以及对叙事的认识——能动场</li>
+<li>现在来说一下对第三代文明的核心设定：有一个一致拥护的理念，鼓励一切能动性，这是既是文明发展昌盛、傲视群星的关键，也是文明能够跨光年距离发展、而不担心文明分裂的关键，也是文明能够规避第二代文明毁灭缘由的关键。后续将在第三代文明以及她们挖出的第二代文明超级AI的对话中知道：对能动性的坚定维护使得第三代文明的生产力极大发展，反过来为能动的探索提供了物质基础，这一循环推动着文明不断向前，从而摆脱了其他矛盾的限制，并在谈及敌对的蜂群思维文明时依旧能够轻松的说出：“蜂群的女王害怕下属的能动性，她声称数据能征服一切，个体需要像传感器般服从，这样才能带来文明的兴盛，但思考的却是控制和稳定，如果蜂群跨越五光年建立文明，那么不久之后便会和同胞兵戎相见，但我们不同，每个个体均坚定代表文明的风采，所以文明的关切从不是蜂群，而一直是对世界的认识与探索”。此外两代文明将对哲学、社会学、自然科学进行较多的讨论，并借此推动对第三代文明发展情况更详细的描绘</li>
+</ul>
+<ol>
+<li>到这里读者应该已经意识到了：其实第二代文明是对人类社会形态的一个翻版，但在时间上被提前到了第二个恒星纪元，为的是更好的推动对当前一些社会问题的思考。第三代文明在发展中同样形成了矛盾、联系等等理论，但生产力水平的不同，以及在一些问题选择上的不同，使其最终的发展状况也和前辈产生了极大的不同</li>
+<li>关于蜂群，蜂群目前是一个代表着<mark class="hl-label blue">数据主义</mark> ，用来引发人们对人文主义和数据主义思考的文明，但其结果将成为用于衬托第三代文明优势的物种(同样是败在能动性上，蜂群就像是地图上的敌对野怪bushi)，作者会对蜂群的社会形态进行一些刻画，另外会对第三代文明与其进行交战的场面进行绘制(期待描绘一场宏大的战争场面，跃跃欲试.jpg)，另外可能会带上其他社会形态的文明，看作者水平叭(逃)</li>
+<li>关于拯救计划——这是第三代文明在戴森阵列后的第二个奇观，用于救助第一代文明(没想到吧，这个绕银河运动的黑洞它绕了一圈又回来了)，研究表明，在黑洞中加入大量的相同电荷，并在黑洞外部布置巨大的相反电荷的吸引构造，所产生的电磁力可以抵挡黑洞的引力，甚至对黑洞进行分解（致敬《星空》），第三代文明计划通过这样的手段将“前辈”捞出来，不过他们并不太在意投入的资源代价(这一文明种群规模并不大，这源于种群对更高水平需求的追求更甚，并且有着极为丰富的资源和生产力)，相反的，他们倒是对这一颗送上门来的黑洞样品很感兴趣(黑洞：你不要过来啊！)</li>
+</ol>
+<p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Science_fiction/Science_fiction.png" alt="" title="设定图"></p>
+<h1 id="一些进一步的考虑"><a href="#一些进一步的考虑" class="headerlink" title="一些进一步的考虑"></a>一些进一步的考虑</h1><p>暂时计划对上述创意进行封笔，首先因为在谈及推动第三代文明发展的能动性时，使用的是我自身对意义的一些思考，但目前我对意义驱动较为清楚的认识仅限于压力和能动，没能从原理上很好的理清更宏大的信仰以及其可能对这一文明的形态产生什么样的影响，所以需要作者本人首先在意义论上有更深的思考。其次，作者认为量子世界的涨落和意义具有较高的相似性，在第三代文明谈及他们也并非将所有图案当作信息，在壮美风景前他们同样感受的是意境时，将抛出一个观点——文字组合或是几个光彩构成可以代表明确的信息，但庞大的绘图将代表一种意义层面具有感染力的意境，换言之，语言就像意义场中的粒子，能对场产生影响，但真正震撼的是欣赏场本身、真正关注的是场的演变，语言是沟通的手段，但真正进行的是两个场之间的交流。<br>所以，期待作者进一步探索意义和量子物理后的好消息叭，一定会让小说思想相当深刻的！</p>
+]]></content>
+      <categories>
+        <category>NLCC</category>
+        <category>微光工程</category>
+        <category>科幻小说</category>
       </categories>
   </entry>
   <entry>
@@ -956,135 +1094,6 @@
       </categories>
   </entry>
   <entry>
-    <title>光谱响应测量技术提升灵敏度或提升里德堡频谱感知性能的调研</title>
-    <url>/2022/10/20/Rydberg_spectral_response/</url>
-    <content><![CDATA[<h1 id="光谱响应测量技术提升灵敏度或提升里德堡频谱感知性能的调研"><a href="#光谱响应测量技术提升灵敏度或提升里德堡频谱感知性能的调研" class="headerlink" title="光谱响应测量技术提升灵敏度或提升里德堡频谱感知性能的调研"></a>光谱响应测量技术提升灵敏度或提升里德堡频谱感知性能的调研</h1><h2 id="使用MZI来消除原子射频电场传感探头激光器的读出噪声"><a href="#使用MZI来消除原子射频电场传感探头激光器的读出噪声" class="headerlink" title="使用MZI来消除原子射频电场传感探头激光器的读出噪声"></a>使用MZI来消除原子射频电场传感探头激光器的读出噪声</h2><h3 id="原理及测试方法"><a href="#原理及测试方法" class="headerlink" title="原理及测试方法"></a>原理及测试方法</h3><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/1.png" alt=""><br>MZI检测非线性相移，而不是直接测量传输的探头功率。探测激光的噪声通过零差检测中的减法降低，EIT信号通过强本振（LO）增强<br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/2.png" alt=""><br>显示带有和不带MZI的Rydberg EIT探头传输信号的单轨迹。</p>
-<h3 id="提升的性能及幅度"><a href="#提升的性能及幅度" class="headerlink" title="提升的性能及幅度"></a>提升的性能及幅度</h3><p>使用MZI来消除原子射频电场传感探头激光器的读出噪声。实现了射频电场绝对测量的新灵敏度极限 5μV∙cm^(-1)∙HZ^(-1)</p>
-<h2 id="三光子读取射频电场的方法"><a href="#三光子读取射频电场的方法" class="headerlink" title="三光子读取射频电场的方法"></a>三光子读取射频电场的方法</h2><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/3.png" alt=""><br>通过扩展AT范围来提高方法的灵敏度和精度。为了减少光子散粒噪声，探针的Rabi频率可以很大，但仍有一个有效的窄传输窗口。三光子读数可以将灵敏度提高约一个数量级。</p>
-<h2 id="调频光谱法"><a href="#调频光谱法" class="headerlink" title="调频光谱法"></a>调频光谱法</h2><h3 id="原理及测试方法-1"><a href="#原理及测试方法-1" class="headerlink" title="原理及测试方法"></a>原理及测试方法</h3><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/4.png" alt=""><br>通过RAM主动控制的 FM 光谱提高了基于里德堡原子的射频 E场传感的读出信噪比。<br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/5.png" alt=""><br>图中显示了两种不同情况下RAM锁定和解锁性能的典型比较。RAM锁定打开（红色）和关闭（黑色）时RAM信号与采样时间的Allan偏差示例。</p>
-<h3 id="提升的性能及幅度-1"><a href="#提升的性能及幅度-1" class="headerlink" title="提升的性能及幅度"></a>提升的性能及幅度</h3><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/6.png" alt=""><br>主动控制RAM的FM光谱学提高了基于里德堡原子的射频电场传感的读出信噪比，采用匹配滤波方法可以检测到1.8μV∙cm^(-1)的微弱射频电场，灵敏度达到3μV∙cm^(-1)∙HZ^(-1)。</p>
-<h2 id="微波场的振幅调制提高里德堡原子微波电测法的灵敏度"><a href="#微波场的振幅调制提高里德堡原子微波电测法的灵敏度" class="headerlink" title="微波场的振幅调制提高里德堡原子微波电测法的灵敏度"></a>微波场的振幅调制提高里德堡原子微波电测法的灵敏度</h2><h3 id="原理及测试方法-2"><a href="#原理及测试方法-2" class="headerlink" title="原理及测试方法"></a>原理及测试方法</h3><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/7.png" alt=""><br>MW调幅方案的基本原理。（a）能级图。（b）利用里德堡EIT光谱的MW振幅调制方案计算MW传感示意图。黑色实线和红色虚线分别表示ΩMW=0和Ω的里德堡EIT光谱。蓝色虚线对应色散误差信号。黑色虚线表示纵坐标为零的直线。（c）实验装置。PD表示光电探测器，DM表示二向色镜。</p>
-<h3 id="提升的性能及幅度-2"><a href="#提升的性能及幅度-2" class="headerlink" title="提升的性能及幅度"></a>提升的性能及幅度</h3><p>采用微波场的振幅调制来解决弱微波电场中的EIT-AT分裂。色散误差信号的EIT共振附近的两个过零点之间的光谱间隔用于测量MW电场的强度。在室温蒸汽电池中，最小可检测MW强度可小至430±37μV/cm，比传统的EIT-AT分裂方法提高了六倍。</p>
-<h2 id="光学腔增强的里德堡原子微波电场测量"><a href="#光学腔增强的里德堡原子微波电场测量" class="headerlink" title="光学腔增强的里德堡原子微波电场测量"></a>光学腔增强的里德堡原子微波电场测量</h2><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/8.png" alt=""><br>腔透射谱较介质透射谱有着更小的分辨率，腔增强的测量方案将可探测最小微波场强度降低约８倍。</p>
-<h2 id="其他方法"><a href="#其他方法" class="headerlink" title="其他方法"></a>其他方法</h2><p>在相同MW电场强度下，将MW频率从共振变为失谐，以延长Δfm<br>利用辅助微波处理的Rydberg EIT-AT系统来扩展直接SI可追踪微波电场强度测量的下限<br>通过激光冷却原子，显著降低了残余多普勒效应，从而使可检测的微波场强度低至100μV/cm。</p>
-]]></content>
-      <categories>
-        <category>NLFL</category>
-        <category>前沿科学</category>
-        <category>原理</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>里德堡频谱感知性能调研</title>
-    <url>/2022/10/19/Rydberg_spectrum_sensing/</url>
-    <content><![CDATA[<h1 id="气体腔频谱感知机理"><a href="#气体腔频谱感知机理" class="headerlink" title="气体腔频谱感知机理"></a>气体腔频谱感知机理</h1><p>基于EIT-AT效应构成的里德堡原子射频传感器，其核心在于利用里德堡原子的特殊能级性质：其对微波的响应由固定的物理参数决定，因此可以理论推导出探测微波的频率和强度等信息。</p>
-<h2 id="能级跃迁理论"><a href="#能级跃迁理论" class="headerlink" title="能级跃迁理论"></a>能级跃迁理论</h2><p>能级跃迁理论是理解EIT效应、认识里德堡原子频谱感知的基础（来源：<a href="https://zhuanlan.zhihu.com/p/146275122">能级跃迁</a>）</p>
-<div class="tabs" id="1"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#1-1">E1跃迁</button></li><li class="tab"><button type="button" data-href="#1-2">E2跃迁</button></li><li class="tab"><button type="button" data-href="#1-3">M1跃迁</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="1-1"><p>E1跃迁是电场偶极近似（Eletric dipole approximation），假定的是一个均匀的震荡电场的条件下，单光子作用下的跃迁；也是电场对原子作用的0阶近似（在空间上）。E 代表电场，1 代表偶极近似。</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="1-2"><p>E2跃迁是电场电四极矩近似，在更为细致地考虑原子尺度内电场变化时引入，可以合理认为电四极矩都等价于双光子跃迁（考虑一个光子带1份角动量）。</p>
-<ul>
-<li>E2跃迁的概率要远低于E1跃迁，这是因为E2是更细致的小量</li>
-<li>因此E2跃迁常常出现在E1跃迁被禁止的情况。</li>
-<li>E2跃迁态相较于其他态具有非常长的寿命(ms级)</li>
-</ul><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="1-3"><p>M1跃迁是磁场偶极近似，在外磁场作用下发生。由M1跃迁的选择定则可以发现：超精细结构中的跃迁是M1跃迁，受到外磁场的驱动。<br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectrum_sensing/M1_transition.png" alt="" title="M1跃迁"></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>
-<h2 id="EIT气室频谱感知的物理本质"><a href="#EIT气室频谱感知的物理本质" class="headerlink" title="EIT气室频谱感知的物理本质"></a>EIT气室频谱感知的物理本质</h2><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectrum_sensing/schematic_diagram.png" alt="" title="四能级系统和用于测量EIT的气室装置图[9]"><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectrum_sensing/energy_level.png" alt="" title="里德堡原子能级及EIT-AT效应[8]"><br>现在我们可以清楚的是：</p>
-<ol>
-<li>探测光使原子从S态经E1跃迁至P态</li>
-<li>耦合光在扫频至特定频点时使原子从P态经E1跃迁至D态</li>
-<li>D态跃迁至S态为E2跃迁过程，其发生相对E1而言非常困难<ul>
-<li>根据电偶极跃迁选择定则，原子通过双光子激发的方式智能被激发到S或D态[5]</li>
-<li>单光子激发方式可以研究P态里德堡原子的相关物理特性，并且受限于紫外激光的功率，目前采用单光子激光制备里德堡原子的研究较少[5]</li>
-</ul>
-</li>
-</ol>
-<p>所以<mark class="hl-label blue">当探测光和特定频点的耦合光对原子气室进行持续的足够强度照射时，绝大部分原子在P态和D态间反复，从而原子气室对探测光诱导透明</mark> </p>
-<p>此外我们还可以清楚的是：<mark class="hl-label orange">我们关心的里德堡原子频谱感知，其底层物理机制为原子能级M1跃迁</mark> </p>
-<h2 id="EIT气室原子选择"><a href="#EIT气室原子选择" class="headerlink" title="EIT气室原子选择"></a>EIT气室原子选择</h2><p>在绝大多数的文献实验中，原子气室选择了碱金属原子(尤其是其中的铷和铯原子)<br><div class="tabs" id="2"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#2-1">碱金属优势</button></li><li class="tab"><button type="button" data-href="#2-2">铷原子特点</button></li><li class="tab"><button type="button" data-href="#2-3">铯原子特点</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="2-1"><p>碱金属最外层只有一个电子，能级构成相对简单，各种性质也被研究的比较透彻，其可看成由远离核的高激发态电子和剩下来的原子实两部分组成，并能借由氢原子能级导出里德堡激发态能级公式[1]<br>在精细结构中，碱金属原子最外层电子的自旋角动量S与轨道角动量L耦合为其角动量J(J=1/2、3/2)。考虑原子核的自旋后，出现超精细分裂[3]<br>根据中心力场近似，可以很好地描述最外层只有一个电子的原子能级结构[6]</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="2-2"><p>铷原子具有研究透彻的<a href="https://baike.baidu.com/item/%E8%B6%85%E7%B2%BE%E7%BB%86%E7%BB%93%E6%9E%84/2294748">超精细结构</a>，对应着可被运用的超精细能级[3]<br>铷是一种性质极为活泼的金属，87Rb的化学性质相较于85Rb更加活泼，在室温下容易蒸发，且它的吸收光波段使用激光器实现较为简单，并对外加的微波场非常敏感，当有激光作用时会产生显著的光学效应[10]<br>铷原子的超精细分裂与精细分裂相比虽然小很多，但依然可以分辨。两种同位素的超精细结构如下图所示，根据选择定则，两种同位素的D1线和D2线的超精细分裂分别有4条和6条[3]<br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectrum_sensing/85Rb&amp;87Rb_D1.png" alt="" title="85Rb和87Rb的D1线超精细结构[3]"><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectrum_sensing/85Rb&amp;87Rb_D2.png" alt="" title="85Rb和87Rb的D2线超精细结构[3]"></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="2-3"><p>铯原子容易被外场激发且能级宽度较窄。以铯原子体系总角动量F=4为例，根据量子力学中的跃迁选择定则，统计从基态能级6S1/2(F=4)到里德堡态200F7/2(F=4)之间所有F=4的超精细能级间的跃迁频率，并将得到的2336组Δf≤40GHz的组合按军用雷达波段划分，计算不同频率带宽下，各雷达波段占空比分布情况：[6]<br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectrum_sensing/duty_cycle.png" alt="" title="铯里德堡原子部分能级跃迁频率占空百分比[6]"><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectrum_sensing/133Cs_D1.png" alt="" title="133Cs原子D1线超精细结构[12]"><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectrum_sensing/133Cs_D2.png" alt="" title="133Cs原子D2线超精细结构[12]"></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div></p>
-<h2 id="气体腔参数对里德堡频谱感知性能的影响及气体腔改良"><a href="#气体腔参数对里德堡频谱感知性能的影响及气体腔改良" class="headerlink" title="气体腔参数对里德堡频谱感知性能的影响及气体腔改良"></a>气体腔参数对里德堡频谱感知性能的影响及气体腔改良</h2><p>(精细结构)吸收光谱谱线的展宽受到多普勒展宽、功率展宽、压力展宽/平移的影响[7]<br>对环境因素、温度、激光功率、非线性效应、原子气室(电磁)扰动(气室内部驻波)、阻抗匹配等多个因素进行系统性分析，计算出微波功率测量不确定度[10]<br><div class="tabs" id="3"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#3-1">多普勒展宽</button></li><li class="tab"><button type="button" data-href="#3-2">碰撞展宽</button></li><li class="tab"><button type="button" data-href="#3-3">原子气室扰动</button></li><li class="tab"><button type="button" data-href="#3-4">背景噪声</button></li><li class="tab"><button type="button" data-href="#3-5">测量探头</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="3-1"><p>在热平衡时，粒子的速度分布呈高斯分布，多普勒展宽半高全宽宽度与热力学温度存在如下解析关系，式中kＢ为玻尔兹曼常数；Ｔ为热力学温度；ｍ为特征粒子的质量；ｃ为真空光速。此原理已被应用于原级测温。[7]<br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectrum_sensing/Doppler_broadening.png" alt="" title="多普勒展宽[7]"></p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="3-2"><p>随着气室周围的温度逐渐升高，气室内部的气压也在逐渐增大，原子间的碰撞加剧导致高能级原子寿命缩短，跃迁过程中断，跃迁时间减小，能级变宽。由于碰撞展宽导致谱线宽度△vc不断增加。[10]<br>温度对于实验结果的影响主要体现为温度对EIT信号的峰高和线宽的影响导致实验测量结果的波动。EIT信号的峰高越高，信号的强度越大，线宽越小，测量的灵敏度越高，因此为了得到更好的实验测量结果，希望测量到的EIT信号的峰高越高越好，同时线宽越窄越好，然而实验测量结果显示，温度对EIT信号峰高和线宽影响的趋势并不相同，当达到一定温度时，EII信号的峰高随温度的升高而降低。[10]</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="3-3"><p>原子气室的驻波和电场散射效应会对实验测量结果产生较大的影响，本文设计了新型原子气室(材料、结构等)来降低原子气室的影响[10]<br>原子气室是决定测量准确性的重要因素之一,射频电场可以被原子气室的壁吸收或反射,尽管我们可以通过选择合适的材料来减小反射和吸收，但射频电场的变化可能是由于法布里·珀罗(FP)效应引起的，当射频电场通过气室与原子相互作用时，气室表面的吸收，以及电场与介电材料之间的相互作用，会导致气室内部产生极化效应，当微波入射到气室中，由于玻璃壁的反射，在原子气室内会产生驻波，形成FP腔，产生FP效应。原子气室内部电场分布会根据射频电场的频率与原子气室的大小而发生变化，导致气室内部的电场与入射徼波电场会有差异。Holloway教授团队对原子气室对微波电场扰动的影响及优化方法进行了详细的研究。为了降低扰动，应尽量选用低介电常数的材料来制作尽可能薄的原子气室，且需要减小原子气室的尺寸[10]</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="3-4"><p>在实验中发现有较强的背景噪声对实验测量产生影响，在后续的实验中通过搭建差分探测光路(光路优化)来减小背景噪声[10]</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="3-5"><p>基于量子体系的微波测量,一般采用由石英或者派莱克斯耐高温材料制成的原子气室作为测量探头，以此来降低电磁热效应的影响,传统的微波探头中通常带有电子元器件，电子元器件在<mark class="hl-label blue">受热或强电磁场的作用</mark> 下会产生不可逆的漂移，导电元器件在KV/m的场强下其机械结构可能会产生形变或电磁性能的改变等。为了降低电磁热效应的影响，目前实验室常用的由石英玻璃制成原子气室,其介电材料在高达 MV/m的场强下才会发生离子化，因此结构相对稳定，测量结果更加的准确。原子气室由于复杂的结构，特殊的介电性质等因素的影响，实验时需要对原子气室的性能进行分析[10]</p><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div></p>
-<p>为克服温度、碰撞展宽等不良影响，可采用以下机制</p>
-<ul>
-<li>冷原子机理[11]</li>
-<li>缓冲气体[3]</li>
-<li>高真空气室[10]</li>
-</ul>
-<h1 id="里德堡频谱感知的性能优势"><a href="#里德堡频谱感知的性能优势" class="headerlink" title="里德堡频谱感知的性能优势"></a>里德堡频谱感知的性能优势</h1><h2 id="经典微波电场传感方案局限"><a href="#经典微波电场传感方案局限" class="headerlink" title="经典微波电场传感方案局限"></a>经典微波电场传感方案局限</h2><p>目前来说，对于电场的测量手段主要分为三种：利用热电偶效应进行电场测量的热电偶传感器；基于Pockels电光效应完成电场对光场的控制的电场测量系统，从而测量出相应光强与装置晶体端的电压的函数特性曲线；二极管检波（加载偶极子的方式）[2]<br>然而直到现在，建立一种<mark class="hl-label blue">自动校准</mark> 探头来实现这些电场值的独立和绝对测量仍然是一份十分困难的工作。现阶段的微波电场测量标准均是通过“标准场”方法，即通过一个标准天线来测量待测电场，通过这种方式进行探测器的校准。[2]<br>传统的微波电场探测器存在以下瓶颈：(1)由尺寸限制无法实现高分辨率高灵敏度的电场测量；(2)电场测量溯源链冗余复杂，无法直接溯源至国际单位制SI；(3)探测器的振子本身为金属元件，可能会对待测场产生干扰。同时，随着新兴技术的发展，传统的电场测量方式已经无法满足在chip-on-cell级电磁干扰测量、生物电磁效应感知、微波毫米波近场扫描等需求，可溯源的便携式电场测量设备成为电磁学发展中的主要问题，我们亟需一种新的测量方式来实现对电场的高灵敏度、高准确率和高分辨率的测量，搭建一个完整的测量体系，形成可信赖的有效测量方式，具有可溯源至国际单位制SI的能力，迎合国际发展，提高长期可靠性和对未来的适应性。[2]<br>经典微波电场传感方案基于金属偶极子天线在微波电场作用下产生感应电流，通过感应电流的测量获得微波电场的振幅、频率、相位等参数信息。其测量灵敏度主要受限于<mark class="hl-label blue">热噪声</mark> (信号和噪声都被编码在电子的宏观运动中)。同时<mark class="hl-label blue">天线尺寸</mark> 决定了宏观电流运动的边界条件，影响了微波电场感应驻波电流的建立，进而影响微波测量的灵敏度和带宽。另外传统天线产生的感应电场<mark class="hl-label blue">对被测微波场扰动较大</mark> ，不利于高精度测量的实现。[13]<br>基于金属天线的传统微波测量(偶极天线)特点为：[14]</p>
-<ol>
-<li>传感器部分(金属天线中的自由电子通过电(磁)偶极相互作用分别响应微波电磁场的电(磁)场分量,从而形成可被测量的宏观运动电流,实现传感功能)</li>
-<li>物理测量部分(将不可直接测量的微波电场转换为可直接测量的物理量)，主要有宽带微波频率计，超外差接收机</li>
-<li>受限于Johnson-Nyquist噪声：在热平衡状态下由于电导体内部的电荷载流子(通常是电子)随机热运动产生的电流噪声</li>
-<li>想获得实际测量灵敏度,要考虑天线尺寸效应，即考虑天线对空间电磁波信号的转化效率</li>
-<li>天线的形状、电偶极天线和磁偶极天线的种类不同、微波频率不同都会影响辐射效率,使得辐射效率难以精确估计和测量</li>
-<li>天线本身的金属结构也会对待测的微波场产生严重的干扰</li>
-</ol>
-<h2 id="里德堡原子传感方案优势"><a href="#里德堡原子传感方案优势" class="headerlink" title="里德堡原子传感方案优势"></a>里德堡原子传感方案优势</h2><p>里德堡原子频谱感知性能提升的机制优势：[14]</p>
-<ol>
-<li>电偶极矩大，对外部电磁场十分敏感不会强烈吸收电磁波能量</li>
-<li>理论极限灵敏度仅受限于量子投影噪声，远优于传统的微波测量系统</li>
-<li>里德堡激光系统的大连续无跳模扫描范围以及可实现任意里德堡态激发的优势</li>
-<li>原子本身是足够干净的，没有噪声的，足以实现单光子量级的极其灵敏的微波测量</li>
-<li>原子系统也比经典的微波电场计更加直接，原子系统的测量部分仅涉及到微波电场拉比频率的测量,其本质是光学频率的测量。而光学频率的测量是公认的人们目前所能测量理量中最为精确的</li>
-<li>在原子测量系统中，可溯源到普朗克常量、可精确计算的跃迁偶极距、仅涉及到精确的光学频率测量以及原子自身所具有的稳定的特性,使得原子电场计极有可能成为像原子钟一样的新一代微波电场计量标准</li>
-<li>在电极小情况下，原子微波电场传感器可以有效克服天线尺寸效应，避免Chu-Harrington极限</li>
-</ol>
-<p>基于EIT光谱技术的里德堡原子电场计：探测灵敏度3mV·m-1·Hz-1/2；场强大于0.3V·m-1时具有较好线性度[13]</p>
-<p>缀饰微波场的加入，极大地提高了里德堡原子系综对微波场响应的内禀增益[13]</p>
-<p>缀饰里德堡原子超外差接收机：探测灵敏度5.5μV·m-1·Hz-1/2；最小探测微波场强780pV·cm-1[13][14]</p>
-<p>考虑到缀饰里德堡原子超外差接收机在被测微波场的强度和本振微波场强度接近时才开始出现非线性效应，表明其线性动态范围可以达到90dB，优于原子电场计约60dB[13]</p>
-<h1 id="天线接收提高里德堡频谱感知性能的可行性"><a href="#天线接收提高里德堡频谱感知性能的可行性" class="headerlink" title="天线接收提高里德堡频谱感知性能的可行性"></a>天线接收提高里德堡频谱感知性能的可行性</h1><h2 id="传统超外差接收机和里德堡频谱感知灵敏度对比"><a href="#传统超外差接收机和里德堡频谱感知灵敏度对比" class="headerlink" title="传统超外差接收机和里德堡频谱感知灵敏度对比"></a>传统超外差接收机和里德堡频谱感知灵敏度对比</h2><p>如果天线指向深空，其等效噪声温度等于宇宙背景辐射的噪声温度，约为Teff=3K，对应于噪声功率密度为－194dBm/Hz。对于有源器件如微波低噪放，其等效噪声温度约等于物理温度，在室温下(T=300K)噪声功率密度为－174dBm/Hz。因此目前传统超外差接收机的理论功率测量灵敏度为－174dBm/Hz。然而在实际情况中，后路的器件依旧会导致额外的噪声，其大小以噪声指数来描述，对于非理想情况下的超外差接收机系统，其噪声指数一般为10dB，即其实际功率测量灵敏度约为－164dBm/Hz。[9]<br>量子系统的测量灵敏度由海森堡不确定关系和量子噪声极限决定(简称量子噪声)，里德堡原子－量子超外差系统的灵敏度的理论极限用下式表示:<br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectrum_sensing/sensitivity.png" alt="" title="里德堡原子－量子超外差系统的灵敏度的理论极限[9]"><br>其中，Emin为最小可测量的电场强度，tm为实际测量的总时间，μr为里德堡原子跃迁偶极距，Na为参与测量的原子数，τ为系统相干时间。[9]<br>里德堡原子发生由47D5/2→48P3/2的里德堡态跃迁，跃迁矩阵元为μr=1443.4498ea0，探测激光功率5μW，参与测量原子数约为106个，系统相干时间20.16ns，原子蒸汽池长度5cm，光斑半径0.85mm，理论极限0.53nV/cm·Hz1/2，折合功率谱密度7.45·10－19mW/cm2·Hz，折合功率灵敏度为－182dBm/Hz，比实际情况下传统的微波超外差接收机差一个数量级，体现出量子测量系统的极大潜力。[9]<br>基于原子的量子测量体系用一台接收机可覆盖宽频谱，且尺寸可做得很小，突破了传统电磁信号接收天线的尺寸的限制，具有小型化、集成化的优势，在单兵信息装备的配置和使用、无人化平台等方面极具潜力。基于原子传感器的电磁探测，在强电磁辐射情况下仍然可以正常使用，能有效抵抗传统接收机的电磁损伤，同时原子传感器不像传统天线会强烈吸收电磁波能量，使用更灵活和隐蔽，可以提升装备在复杂电磁环境下的生存能力，发挥作战效能，在系统形态、灵敏度和测量精度等方面全面提升电子战系统能力。[9]</p>
-<h1 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h1><p>[1]基于里德堡原子的光子操控<em>于溢琛<br>[2]基于量子效应的全光学空间电场测量及原子通信接收机研究</em>邹海洋<br>[3]铷原子D1、D2线的光谱分析与展宽机制<em>杨静<br>[4]基于里德堡原子的单频微波电场测量</em>陈庆庆<br>[5]采用319纳米紫外激光对铯…的单光子跃迁里德堡激发研究<em>白建东<br>[6]基于原子传感器的无源侦察方法研究</em>蒲泳庄<br>[7]基于铯133原子D1线直接…的多普勒展宽热力学温度测量<em>廖文汉<br>[8]里德堡原子射频传感器的研究综述</em>王时佳<br>[9]基于原子传感器的电磁信息感知测量<em>鲜佩<br>[10]基于里德堡原子的微波功率精密测量</em>张杰<br>[11]简并费米气体中自旋张量—动…以及里德堡激发态的实验研究<em>李东豪<br>[12]D.A.Stock.Cesium D Line Data.2010<br>[13]基于里德堡原子的微波电场量子传感</em>张临杰<br>[14]基于里德堡原子的微波超外差精密测量研究_景明勇</p>
-]]></content>
-      <categories>
-        <category>NLFL</category>
-        <category>前沿科学</category>
-        <category>原理</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>一个计划创作的科幻脑洞</title>
-    <url>/2022/10/22/Science_fiction/</url>
-    <content><![CDATA[<h1 id="此文创作原因-过去的一个脑洞-amp-FLAG"><a href="#此文创作原因-过去的一个脑洞-amp-FLAG" class="headerlink" title="此文创作原因/过去的一个脑洞&amp;FLAG"></a>此文创作原因/过去的一个脑洞&amp;FLAG</h1><p>起因是今年春季追感兴趣的天文类知识时，看到木星的固态内核质量近似在地球的一个数量级内，作为一个对天文感兴趣的科幻迷，因为知道太阳至少是第三代恒星，很快想到一个觉得很有趣的科幻构想：所谓气态巨星的固态内核，在上一代恒星的主序星阶段，是否也是一个类地行星。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Science_fiction/cover.jfif" alt="" title="太阳系"></p>
-<p>这个构想的核心基于下面几个设定：</p>
-<ol>
-<li>红巨星/超新星的爆发及质量损失/膨胀带来的引力减小使原来的幸存的类地行星逐渐移出内“太阳”系</li>
-<li>较轻的元素在爆发中飞得更快，被这些原有的行星不断吸积清理</li>
-<li>较重的元素在爆发中飞得较慢，留在内“太阳”系，并逐渐形成新的类地行星</li>
-<li>被喷出的元素中轻元素质量占比远大于重元素，这使得新的巨行星能形成现实中较大的质量优势，这一点通过目前对恒星的认识来说是容易理解的</li>
-</ol>
-<p>上述的推论可能已经被严谨的天文学证伪，但这丝毫不影响其与大家的常识相符，作为一个科幻构想来说，是完全足够的。</p>
-<p>当时就在想，这么好的idea我这个科幻迷居然没有看到类似的作品，那不如我自己写，笔来！(人菜瘾大.jpg)</p>
-<h1 id="初步的创作定调"><a href="#初步的创作定调" class="headerlink" title="初步的创作定调"></a>初步的创作定调</h1><p>首先为这篇还在脑洞阶段的文章定个调：按照我对文创的认识，一切面向意义的优秀创作，需要兼顾受众在体验和叙事上的感受，因此，这必将是一篇精雕细琢的作品，有新颖宏大的叙事构造，及细腻梦幻的意境体验。(为爱发电了，可能需要雕琢/鸽很久才能和大家见面bushi</p>
-<h1 id="暂时完成的一些构思"><a href="#暂时完成的一些构思" class="headerlink" title="暂时完成的一些构思"></a>暂时完成的一些构思</h1><p>根据文章定调，首先引入了下面一些内容作为文章实现定调目标的关键</p>
-<ol>
-<li>增加文明，跨世代的文明，要通过生命在超新星/红巨星爆发这种难以承受之重下实现某种传承，来升华上述的“巨行星地球说”设定：上一代文明的首都星球，这会可能正在某个气态巨星的内核中呢</li>
-<li>通过构造跨世代文明间的差异，通过反映从哲学观念、文明形态、科学技术水平等等的差异，来引发对上述问题的思考</li>
-<li>跨世代的文明必须通过某种方式生存至第三个恒星文明的时间线上，他们不一定要以原本的形态相见(这对于数十亿年的时间跨度过于困难)，但一定需要作为智慧生命体存在而非以遗骸存在(数十亿年侵蚀下的残骸即便存在也没法反映多少有用信息了)</li>
-</ol>
-<p>首先，要实现前两代文明跨越数十亿年的生存并不容易，并且，还需要通过某种绝对的机制来限制前两代文明的技术发展(换言之，禁止超模！否则就没后来者什么事了)，因此，初步敲定的设定有：</p>
-<ol>
-<li>关于第一代文明：第一代文明在航天时代就被一个银河游客般的黑洞横穿恒星系，(对恒星的影响暂时没想好)，仅有的两颗？(数量待定)行星土崩瓦解，<mark class="hl-label blue">小说的基本设定是光速无法逾越，并且还没有跃迁、冬眠这些技术</mark> ，世代飞船计划没能成功拯救文明，但文明的毁灭者却成为了文明的庇护者——第一代文明的大多数做出了唯一的选择，深入黑洞的引力阱，寄希望于外部时间流动更快、发展更快的文明能对其进行拯救(一方面是希望得到登上世代飞船的同胞们的拯救，因为世代飞船的设定只能送走少数人，因此绝大多数人都飞往了黑洞，而另一方面也希望得到其他高等文明的拯救)。这样第一代文明在黑洞引力阱下跨过数十亿年是可行的，但是预期需要承受较为极端的撕裂，不过生命形态还没定嘛，可以圆回来</li>
-<li>关于第二代文明：第二代文明的技术水平要稍优于第一代文明，计算机技术和生物学技术的发展到了准备揭示生命智慧奥秘的阶段，同样，计算力的提高也创造了大量人工智能造物，文明发展停滞的原因在于智慧机械体的失控(<mark class="hl-label blue">文章将重新探讨一个重要的问题：人与动物的不同，人与目前基于机器学习的人造智慧的不同</mark> )，智慧机械体能在相当长一段时间内完全控制并屠杀有机智慧生命，文明唯一的“火种”(说是火种，其实并不再能靠自己复兴了，往下看)落在当时极端远离恒星的一颗行星/矮行星的核心中，依靠低温超导和自律维护机械硬是抗住了亿年的侵蚀，唯一跨过时间的是一台深度睡眠的超级AI和带有自解译系统的文明数据库(有机体在这儿活不下来很容易理解，但生命遗传物质都带不过来甚至AI都要开深度睡眠，原因在于不能发出太多的废热，这会被失控机械察觉到，并被追杀，并且需要极端节约能源，所以上了低温超导)。那些并不能算做文明的失控机械体屠夫在时间和光速带来的空间限制下全部损毁于恒星系，在数十亿年光阴和超新星爆发下化作泡影。</li>
-<li>关于第三代文明：</li>
-</ol>
-<ul>
-<li>第三代文明和第二代文明高度相似，同样的发声方式和原始语言形态，说原始是因为第三代文明并不拒绝和机械技术的融合，或者说第三代文明的发展时间比第二代文明更长。为了通信的高效，他们的交流方式从原来的形态文字演变为通过类似视频的形式进行沟通：所有的信息被加载在光上，并能通过光的强度及相位信息、相邻单元的相关性实现编码和解码，与此同时，所有的个体当然都带有极为先进的光分析器，当然还有更多的人造设备。</li>
-<li>这里涉及一个伦理问题：即通过机械改造实现物种适应。首先，第三代文明的机械改造事实上是从医学救治开始的，从为失去手脚的病人换上义肢，到为器官损坏的病人换上人造器官等等，技术的发展始于救死扶伤。其次，第三代文明所处的是一个文明较多的时间段，危机四伏，不演化意味着毁灭。再者，第三代文明事实上并非为生存所迫，相反，他们是群星中的佼佼者，不同的理念使得他们的文明在星海中具有压倒性的发展优势。在解释完伦理问题后，两个文明的对话将集中于对<mark class="hl-label blue">人文主义</mark> 的看法上</li>
-<li>另外，还会在第三代文明和第二代文明AI的对话中开启第三代文明对意义的全新认识，这个场景或许将在第二代文明AI见到恒星周围的戴森阵列时感慨到，你们以光作为语言，那么那片奇观也是在和你们攀谈吧！(致敬《光谱》)，而回答将是：如果那是信息，不过是一堆乱码罢了，但那是意境，信息无法表达的意境——之后逐渐交待第三代文明对意义的认识——体验和叙事的复合体，以及对叙事的认识——能动场</li>
-<li>现在来说一下对第三代文明的核心设定：有一个一致拥护的理念，鼓励一切能动性，这是既是文明发展昌盛、傲视群星的关键，也是文明能够跨光年距离发展、而不担心文明分裂的关键，也是文明能够规避第二代文明毁灭缘由的关键。后续将在第三代文明以及她们挖出的第二代文明超级AI的对话中知道：对能动性的坚定维护使得第三代文明的生产力极大发展，反过来为能动的探索提供了物质基础，这一循环推动着文明不断向前，从而摆脱了其他矛盾的限制，并在谈及敌对的蜂群思维文明时依旧能够轻松的说出：“蜂群的女王害怕下属的能动性，她声称数据能征服一切，个体需要像传感器般服从，这样才能带来文明的兴盛，但思考的却是控制和稳定，如果蜂群跨越五光年建立文明，那么不久之后便会和同胞兵戎相见，但我们不同，每个个体均坚定代表文明的风采，所以文明的关切从不是蜂群，而一直是对世界的认识与探索”。此外两代文明将对哲学、社会学、自然科学进行较多的讨论，并借此推动对第三代文明发展情况更详细的描绘</li>
-</ul>
-<ol>
-<li>到这里读者应该已经意识到了：其实第二代文明是对人类社会形态的一个翻版，但在时间上被提前到了第二个恒星纪元，为的是更好的推动对当前一些社会问题的思考。第三代文明在发展中同样形成了矛盾、联系等等理论，但生产力水平的不同，以及在一些问题选择上的不同，使其最终的发展状况也和前辈产生了极大的不同</li>
-<li>关于蜂群，蜂群目前是一个代表着<mark class="hl-label blue">数据主义</mark> ，用来引发人们对人文主义和数据主义思考的文明，但其结果将成为用于衬托第三代文明优势的物种(同样是败在能动性上，蜂群就像是地图上的敌对野怪bushi)，作者会对蜂群的社会形态进行一些刻画，另外会对第三代文明与其进行交战的场面进行绘制(期待描绘一场宏大的战争场面，跃跃欲试.jpg)，另外可能会带上其他社会形态的文明，看作者水平叭(逃)</li>
-<li>关于拯救计划——这是第三代文明在戴森阵列后的第二个奇观，用于救助第一代文明(没想到吧，这个绕银河运动的黑洞它绕了一圈又回来了)，研究表明，在黑洞中加入大量的相同电荷，并在黑洞外部布置巨大的相反电荷的吸引构造，所产生的电磁力可以抵挡黑洞的引力，甚至对黑洞进行分解（致敬《星空》），第三代文明计划通过这样的手段将“前辈”捞出来，不过他们并不太在意投入的资源代价(这一文明种群规模并不大，这源于种群对更高水平需求的追求更甚，并且有着极为丰富的资源和生产力)，相反的，他们倒是对这一颗送上门来的黑洞样品很感兴趣(黑洞：你不要过来啊！)</li>
-</ol>
-<p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Science_fiction/Science_fiction.png" alt="" title="设定图"></p>
-<h1 id="一些进一步的考虑"><a href="#一些进一步的考虑" class="headerlink" title="一些进一步的考虑"></a>一些进一步的考虑</h1><p>暂时计划对上述创意进行封笔，首先因为在谈及推动第三代文明发展的能动性时，使用的是我自身对意义的一些思考，但目前我对意义驱动较为清楚的认识仅限于压力和能动，没能从原理上很好的理清更宏大的信仰以及其可能对这一文明的形态产生什么样的影响，所以需要作者本人首先在意义论上有更深的思考。其次，作者认为量子世界的涨落和意义具有较高的相似性，在第三代文明谈及他们也并非将所有图案当作信息，在壮美风景前他们同样感受的是意境时，将抛出一个观点——文字组合或是几个光彩构成可以代表明确的信息，但庞大的绘图将代表一种意义层面具有感染力的意境，换言之，语言就像意义场中的粒子，能对场产生影响，但真正震撼的是欣赏场本身、真正关注的是场的演变，语言是沟通的手段，但真正进行的是两个场之间的交流。<br>所以，期待作者进一步探索意义和量子物理后的好消息叭，一定会让小说思想相当深刻的！</p>
-]]></content>
-      <categories>
-        <category>NLCC</category>
-        <category>微光工程</category>
-        <category>科幻小说</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2022/07/27/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -1101,15 +1110,6 @@
         <category>NLCC</category>
         <category>微光工程</category>
         <category>博客运维</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>Xiamen</title>
-    <url>/2024/02/10/Xiamen/</url>
-    <content><![CDATA[<div class="fj-gallery"><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231129/01.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/01.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/02.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/03.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/04.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/05.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/06.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/07.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/08.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/09.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/10.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/11.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/12.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/13.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/14.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/15.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/16.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/17.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/18.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/19.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/20.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/21.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/22.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231130/23.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231201/01.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231201/02.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231201/03.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231201/04.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231201/05.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231201/06.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231201/07.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231201/08.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231201/09.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231201/10.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231201/11.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231201/12.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231201/13.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231201/14.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231201/15.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231201/16.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231201/17.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231201/18.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231202/01.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231202/02.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231202/03.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231202/04.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231202/05.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231202/06.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231202/07.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231202/08.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231202/09.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231202/10.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231202/11.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231202/12.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231202/13.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231202/14.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231203/01.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231203/02.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231203/03.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231203/04.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231203/05.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231203/06.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231204/01.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231204/02.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231204/03.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231204/04.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231204/05.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Gallery/20231204/06.jpg" alt=""></p>
-          </div>]]></content>
-      <categories>
-        <category>NL</category>
       </categories>
   </entry>
 </search>
