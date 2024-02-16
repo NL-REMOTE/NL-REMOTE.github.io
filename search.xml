@@ -1,37 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Gallery</title>
-    <url>/2024/02/10/Gallery/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="8942559b84f7e733f03a9a47fb043ea5f178095a2c2e25acbb6fc447f83f2a87">d7fd17daed32457d32e259a1dc7414711dab6a0bbe2823354f45383d904678e018a5d36e7f637bc7d038878daa0cd164a021f8cf77216d4391452701a9780443a77355f70e6ca05a68556802722355a782f792ddf9f91b1c1bb2c5d34bbfd316acb79307d2a5b6b61eafaf28a7863059823ac13186f2b439c0441066772308a22c83c3966682ce17f2f90768a437a20750b5a13a76fcee49d3ab30a0350c2a9984d2a1b0335f8f1fce2e9994dfbc8f93c54ca714ecfbcb8c99e46e823e569758cdadaa62e6c8fc38556cadd770f1a8af16f0eaeb882e01f2aae57af28224b2a982733b61c0b0b5786d8b0d76ac8af6cc141a998adb7343ba4dd39f5958912d7221ea1e854e9b70a00eee1e64236fc653609d27b770f5b170af70d29f4a3b442dcaad8c7bee212ee42f597f2e5b378d5ce639f1f6fcc2fd3b50124b4a5edbc81a06aa25953c469ec64357f1287f6ff6052502b55c25d6c122a8dfab643c69c5302f5a71e4c62ed84d11573036ddb3cada1c79b867a95a988dcede96a0b6c81aa046dd6420779434b49a5dd78d724f4d63bc1277953c76a45e69c8986dc66d7f987f3672e37596cddc138497caeca53d22</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">这里需要密码才能访问.</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>NL</category>
-      </categories>
-      <tags>
-        <tag>作为相册加密</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>童话</title>
-    <url>/2023/07/01/Fairytale_1/</url>
-    <content><![CDATA[<div class="fj-gallery"><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Fairytale/1/1.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Fairytale/1/2.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Fairytale/1/3.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Fairytale/1/4.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Fairytale/1/5.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Fairytale/1/6.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Fairytale/1/7.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Fairytale/1/8.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Fairytale/1/9.jpg" alt=""></p>
-          </div>]]></content>
-      <categories>
-        <category>NL</category>
-      </categories>
-  </entry>
-  <entry>
     <title>党校培训考试填空题库</title>
     <url>/2022/11/19/Dxpx_Completion/</url>
     <content><![CDATA[<div class="note red icon-padding flat"><i class="note-icon fa-solid fa-sun"></i><p>偶然想到博客的tag-hide标签外挂可以较好的协助填空复习，所以浅浅的进行一个上传，自用。</p>
@@ -524,158 +493,6 @@
       </categories>
   </entry>
   <entry>
-    <title>博客搭建教程</title>
-    <url>/2022/10/11/Hexo-Butterfly/</url>
-    <content><![CDATA[<div class="note orange icon-padding flat"><i class="note-icon fa-solid fa-megaphone"></i><p>本教程针对的是使用Hexo框架&amp;Butterfly主题，使用Github Pages作为服务器以供访问，建立个人博客的过程，此外，还包含图床配置内容。此方案免费简单，很好的满足了大家初次尝试建立一个漂亮的博客，并上传经验分享贴或经验总结贴的需求。</p>
-</div>
-<h2 id="博客搭建"><a href="#博客搭建" class="headerlink" title="博客搭建"></a>博客搭建</h2><h3 id="入门"><a href="#入门" class="headerlink" title="入门"></a>入门</h3><ul>
-<li>Hexo是一个快速、简洁且高效的博客框架，使用Markdown解析文章并生成静态网页</li>
-<li>Butterfly是一个美观简单的Hexo卡片UI设计主题，开发者提供了十分详细的教程并保持了高频率的版本更新，十分适合初学者选择</li>
-<li>Github建站原理：将所有资源建立在特定的github仓库中，使用Github Pages作为服务器以供访问</li>
-</ul>
-<h3 id="工具下载"><a href="#工具下载" class="headerlink" title="工具下载"></a>工具下载</h3><ul>
-<li>下载<a href="https://nodejs.org/en/download/">Node.js</a>（JavaScript运行环境）<ul>
-<li>点击链接<a href="https://nodejs.org/en/download/">Node.js</a>进行下载</li>
-<li><a href="https://baike.baidu.com/item/CMD%E5%91%BD%E4%BB%A4">cmd</a>输入<code>node -v</code>检查是否安装/已安装的Node.js版本号</li>
-<li><a href="https://baike.baidu.com/item/CMD%E5%91%BD%E4%BB%A4">cmd</a>输入<code>npm -v</code>检查是否安装/已安装的Node.js中npm工具的版本号</li>
-</ul>
-</li>
-<li>下载<a href="https://git-scm.com/downloads">Git</a>（开源分布式版本控制系统，项目版本管理）<ul>
-<li>点击链接<a href="https://git-scm.com/downloads">Git</a>进行下载</li>
-<li><a href="https://baike.baidu.com/item/CMD%E5%91%BD%E4%BB%A4">cmd</a>输入<code>git --version</code>检查是否安装/已安装的Git版本号</li>
-</ul>
-</li>
-<li>下载Hexo（博客框架）：<ul>
-<li><a href="https://baike.baidu.com/item/CMD%E5%91%BD%E4%BB%A4">cmd</a>输入<code>npm install hexo-cli --location=global</code>下载/更新Hexo</li>
-<li><a href="https://baike.baidu.com/item/CMD%E5%91%BD%E4%BB%A4">cmd</a>输入<code>hexo -v</code>检查是否安装/已安装的Hexo版本号</li>
-</ul>
-</li>
-</ul>
-<h3 id="建立仓库"><a href="#建立仓库" class="headerlink" title="建立仓库"></a>建立仓库</h3><ul>
-<li>在github建立仓库：由于该仓库启用Github Pages服务，因此该仓库为特殊仓库，命名必须为Username.github.io（在Settings界面中：Public profile-Name为昵称，Account-username为用户名）</li>
-<li>勾选Add a README file</li>
-<li>最后点击建立仓库。</li>
-</ul>
-<h3 id="生成SSH-Keys（github关联本地-上传权限）"><a href="#生成SSH-Keys（github关联本地-上传权限）" class="headerlink" title="生成SSH Keys（github关联本地/上传权限）"></a>生成SSH Keys（github关联本地/上传权限）</h3><ul>
-<li>在本地<mark class="hl-label blue">任意</mark> 文件夹的空白区域右键，并点击Git Bash Here</li>
-<li>在打开的Git界面中（该界面环境为Linux，因此粘贴为右键-Paste/而不是ctrl+v）<ul>
-<li>输入<code>ssh</code>检查是否安装/已安装的ssh（一般在安装Git时已经带有此工具）</li>
-<li>输入<code>ssh-keygen -t rsa -C &quot;邮件地址&quot;</code>（邮件地址为github注册时的邮件地址）后，连续敲四次回车,此时已经在电脑本地建立文件夹，路径为/c/Users(用户)/“用户名”/.ssh/id_rsa</li>
-</ul>
-</li>
-<li>右键该路径下的id_rsa.pub文件，用文本编辑器(如Notepad++)打开，对内容进行全选复制</li>
-<li>在Github-Settings界面中的SSH and GPG keys选项卡中，点击New SSH key新建一个钥匙，你可以任取一个Title，并把id_rsa.pub文件中复制的内容<mark class="hl-label blue">原封不动</mark> 的复制到Key中</li>
-<li>最后，在Git界面中输入ssh -T git@github.com测试ssh是否绑定成功（当显示Hi+github注册名即成功）</li>
-</ul>
-<h3 id="本地生成博客内容"><a href="#本地生成博客内容" class="headerlink" title="本地生成博客内容"></a>本地生成博客内容</h3><p>博客内容需要先在本地建立，并以部署的形式上传到网上，此外，由于部署需要时间，本地生成也是一个十分方便的调试手段</p>
-<ul>
-<li>新建一个文件夹(该文件夹将为你的本地博客根目录)，打开后在空白处右键，点击<code>Git Bash Here</code></li>
-<li>在打开的Git界面中<ul>
-<li>输入<code>hexo init</code>以初始化hexo（由于github是国外网站，若连接失败可以多次尝试或换镜像源）</li>
-<li>当出现INFO  Start blogging with Hexo!时，代表包安装成功</li>
-<li>输入hexo s在本地静态生成hexo页面（打开本地服务器，不需要时按Ctrl+C后可关闭该本地服务器）</li>
-</ul>
-</li>
-</ul>
-<h3 id="发布博客至互联网"><a href="#发布博客至互联网" class="headerlink" title="发布博客至互联网"></a>发布博客至互联网</h3><p>到目前为止，我们的本地博客就成功搭建了，但是现在我们只能通过本地静态生成页面查看博客，我们的目标是让其他人也能够访问我们的博客，这就需要我们将博客<mark class="hl-label blue">部署</mark> 到Github Pages上</p>
-<ul>
-<li>需要了解的github过去进行的两次更新(这使得有些教程已经失效)：<ul>
-<li>将本地文件上传至github不再使用钥匙验证，而使用令牌验证</li>
-<li>默认分支从master改为了main</li>
-</ul>
-</li>
-<li>打开本地博客文件夹中_config.yml文件，将最后的deploy部分修改为<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span>   <span class="string">//冒号后有空格</span></span><br><span class="line">  <span class="attr">repository:</span> <span class="string">【这里填你的SSH】例如：git@github.com:NL-REMOTE/NL-REMOTE.github.io.git，SSH可以在特殊仓库-Code-SSH中找到</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">main</span></span><br></pre></td></tr></table></figure></li>
-<li>在博客文件夹下右键并点击<code>Git Bash Here</code><ul>
-<li>输入<code>npm install hexo-deployer-git --save</code>，安装hexo部署到git page的自动部署发布工具<br>Hexo安装完成后，将会在指定文件夹中新建所需要的文件，其目录如下：<br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Hexo-Butterfly/file_catalog.jpg" alt="" title="本地文件目录"></li>
-<li>本次为初次生成，因此不需输入<code>hexo clean</code></li>
-<li>输入<code>hexo g</code>生成页面</li>
-<li>输入<code>hexo d</code>上传文件至github</li>
-<li>在首先弹出的GITHUB登陆界面中输入用户名和密码，登陆</li>
-<li>在接下来弹出的SSH界面中输入用户名和令牌（此处不是密码）</li>
-<li>在github-Settings-Developer settings-Personal access tokens中新建令牌，命名、设置有效期、赋予权限（可以全部选上）</li>
-<li>新建令牌完成后会生成一段序列号（用以取代前面需要输入的密码），<mark class="hl-label blue">强烈建议妥善保存</mark> （关闭页面后该序列号会被隐藏）<br>若报错Error: Spawn failed，依次执行以下命令（可重复执行）<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure></li>
-</ul>
-</li>
-<li>上述命令在之后的博客生涯中将不断使用，人称“hexo三板斧”<ul>
-<li>当出现INFO  Deploy done: git时代表本地网页上传成功</li>
-<li>此时可以通过网址打开已经上传至互联网的网页（网址路径：特殊仓库-settings-Pages）</li>
-</ul>
-</li>
-</ul>
-<div class="note red icon-padding flat"><i class="note-icon fa-solid fa-sun"></i><p>自此，我们已经成功完成了博客的搭建</p>
-</div>
-<h2 id="博客主题配置"><a href="#博客主题配置" class="headerlink" title="博客主题配置"></a>博客主题配置</h2><p>美观的主题对于博客来说当然是重中之重（谁不希望常常光顾漂亮的小站呢），<a href="https://butterfly.js.org/">Butterfly</a>是一个十分推荐的漂亮主题，但最为重要的是：他的开发者提供了十分详细的操作文档，并保持了高频率的版本更新。（有些很漂亮的主题操作文档并不完善，资料零散，甚至更不上hexo版本，因此十分推荐新手使用Butterfly主题）<br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Hexo-Butterfly/butterfly.png" alt="" title="butterfly主题"><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Hexo-Butterfly/butterfly2.png" alt="" title="butterfly主题"><br>点击此处跳转至<a href="https://butterfly.js.org/posts/21cfbf15/">Butterfly官方安装文档</a>，按照教程即可完成所有基本配置</p>
-<h2 id="图床配置"><a href="#图床配置" class="headerlink" title="图床配置"></a>图床配置</h2><p>什么是图床？图床就是一个便于在博文中插入在线图片链接的个人图片仓库，它必须位于网上并可通过链接随时访问。设置图床之后，在自己博客中插入的图片链接就可以随时随地在线预览了，并且不会因为任何意外原因无法查看，除非自己亲自删除。</p>
-<p>关于图床可以查看这篇文章：<a href="https://lovelijunyi.gitee.io/posts/a833.html">图床对比与Github图床的优化</a></p>
-<p>我的博客使用PicGo将图片上传至github图床，选择这个方案的主要原因是稳定且完全免费，但国内访问有时需要科学上网（但个人觉得稳定性最为重要）。</p>
-<p>PicGo的使用以及jsDelivr优化加速可以参考这篇文章：<a href="https://blog.csdn.net/Wonz5130/article/details/104119008">使用GitHub+PicGo+jsDelivr搭建自己的私人图床</a></p>
-<p>此外需要提醒的是，github图床中的图片删除，需要到仓库中手动进行，而不能仅在PicGo相册中删除（相比于github，Gitee的图片删除是同步的，但Gitee仓库作为图床有风险！参见此文章<a href="https://blog.csdn.net/weixin_44062380/article/details/123761358">gitee图床因外链访问过多被封，我们该怎么办</a>），也希望读到此篇文章的大家对图库进行良好的分层管理，以方便维护。</p>
-<h2 id="结尾祝福"><a href="#结尾祝福" class="headerlink" title="结尾祝福"></a>结尾祝福</h2><p>最后希望读到此篇文章的大家都能建立起自己的小站，关于此文章教材的疑问都可邮件联系博主（主页有邮件联系按键），也期待大家建站后分享友链！</p>
-]]></content>
-      <categories>
-        <category>NLCC</category>
-        <category>微光工程</category>
-        <category>博客运维</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>NL-ink</title>
-    <url>/2022/10/10/NL-ink/</url>
-    <content><![CDATA[<p>一个全栈式的无源NFC项目</p>
-]]></content>
-      <categories>
-        <category>NLFL</category>
-        <category>开源工程</category>
-        <category>全栈总结</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>锁相环课设</title>
-    <url>/2022/10/10/PLL/</url>
-    <content><![CDATA[<p>本文分享了我参与通信电子线路课程设计——锁相环的测量与应用中，一些较为关键且特别的经验。文章定位为关键心得分享，因此对较为基础的知识不再重复赘述。</p>
-<h2 id="任务描述"><a href="#任务描述" class="headerlink" title="任务描述"></a>任务描述</h2><p>本次课设是数字电路调试难度+模拟电路连线工作量，因此课程任务本身较为容易，按部就班连线并逐级调试即可。课设成绩的关键在于调参提高频率锁定的范围后，对稳定度和精确度进行追求，并对电路进行可能的创新性改进——这也是本文的中心。</p>
-<h2 id="核心原理"><a href="#核心原理" class="headerlink" title="核心原理"></a>核心原理</h2><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/PLL/Core_principles.png" alt="" title="锁相环路"><br>锁相环路通过对比输入输出信号相位差来完成<mark class="hl-label blue">频率的锁定</mark> 。</p>
-<h2 id="优化思路"><a href="#优化思路" class="headerlink" title="优化思路"></a>优化思路</h2><h3 id="电源滤波"><a href="#电源滤波" class="headerlink" title="电源滤波"></a>电源滤波</h3><p>本电路信号频率在百千赫兹至兆赫兹数量级，因此可以使用100nF电容对模拟/数字芯片作电源滤波，以提高系统稳定性</p>
-<h3 id="器件选型"><a href="#器件选型" class="headerlink" title="器件选型"></a>器件选型</h3><p>本电路中外部环路滤波器的阻容及CD4046充放电电容对信号系统稳定性影响较大，可以在这些关键区域选择<a href="https://baike.baidu.com/item/%E9%87%91%E5%B1%9E%E8%86%9C%E7%94%B5%E9%98%BB">金属膜电阻</a>和<a href="https://baike.baidu.com/item/%E7%8B%AC%E7%9F%B3%E7%94%B5%E5%AE%B9">独石电容</a>这一类性能较好的直插器件来替换掉性能稍逊的<a href="https://baike.baidu.com/item/%E7%A2%B3%E8%86%9C%E7%94%B5%E9%98%BB">碳膜电阻</a>和<a href="https://baike.baidu.com/item/%E9%99%B6%E7%93%B7%E7%94%B5%E5%AE%B9">陶瓷电容</a>，提高系统稳定性。</p>
-<h3 id="巧妙的“锁定”观测方案"><a href="#巧妙的“锁定”观测方案" class="headerlink" title="巧妙的“锁定”观测方案"></a>巧妙的“锁定”观测方案</h3><p><a href="https://www.ti.com.cn/product/cn/CD4046B#tech-docs">CD4046</a>提供了锁定提示脚——在锁定下输出高电平,反之输出低电平。就本题需求而言，可以将该脚的输出视为<a href="https://blog.csdn.net/xuewei_Li/article/details/87907052">PWM(脉冲宽度调制)波</a>。</p>
-<p>而在一个<mark class="hl-label blue">惯性系统</mark> 中，PWM的占空比变化将影响平均功率，生活中常用此原理来实现灯的亮度和电机转速等控制。</p>
-<p>显然，我们可以通过灯来巧妙直观的观测这一锁定提示信号，但单纯通过亮度上的变化来反映PWM波的占空比仍然不太直观，因此我们可以采用如下方案：</p>
-<p>使用一颗共阴极/共阳极三引脚双色LED灯(推荐使用颜色色差较大的)。我使用的是红蓝双色灯，其可在“锁定”时显暖红色、“失锁”时显冷蓝色，并能利用灯自身的显色惯性，在芯片介于完全锁定和失锁之间时，对芯片输出的类PWM波形进行十分方便的观测：其颜色变化自大红色到粉色、到紫色、再到蓝紫色，最后变为亮蓝色。<mark class="hl-label blue">双色灯颜色的变化直观反映了系统的锁定状态，是一种十分推荐的巧妙检测方法！</mark> 。值得一提的是，正是这种巧妙的检测方法，使得我发现了频率计探针的接入能对锁相环路稳定性进行较大的影响(后文将提到)，并给出了针对性的有效改进。</p>
-<h3 id="自锁开关"><a href="#自锁开关" class="headerlink" title="自锁开关"></a>自锁开关</h3><p>由于题目需要对分频数N进行频繁的调整，来对系统进行宽频范围的测试。采用跳线的方案显然不太便利和可靠，而按键开关要求持续的按下来改变电平，同样不适合任务需求。</p>
-<p>推荐使用<a href="https://baike.baidu.com/item/%E8%87%AA%E9%94%81%E5%BC%80%E5%85%B3">自锁开关</a>，其特点为点按一次后按下，再点按一次后弹起。配置12颗自锁开关，并同时配置12颗LED灯来表征开关状态(因为在俯视调试过程中，按键按下/弹起的视觉差异不明显，我们需要的是高效的交互，而灯与自锁开关的搭配可以十分完美的实现这个要求！)。</p>
-<h3 id="避免测量对系统的影响"><a href="#避免测量对系统的影响" class="headerlink" title="避免测量对系统的影响"></a>避免测量对系统的影响</h3><p>在调试中发现，当频率计的探针接入CD4046的4脚时，原本显示为红色(表示锁定)的双色灯会变为粉色(轻微失锁)，疑似频率计中的高频ADC采样对系统造成影响所致。</p>
-<p>为了在获取频率的同时维持系统的极高稳定性，可采用电压跟随器对系统进行隔离。</p>
-<p>然而，要满足本课设单电源、宽带、轨至轨的要求，采用运放来实现要求过于严苛。但考虑到信号本身类数字时钟型号(对信号波形要求较低)，因此可以使用电压比较器来代替运放构成的电压跟随器电路。</p>
-<p>本系统采用<a href="https://www.ti.com.cn/product/cn/TLV3501">德州仪器TLV3501</a>比较器来采集4脚，完成了数字频率计ADC和锁相环路的隔离，因此极大的提高了系统稳定性。</p>
-<h2 id="系统实物图"><a href="#系统实物图" class="headerlink" title="系统实物图"></a>系统实物图</h2><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/PLL/cover.jpg" alt="" title="锁相环路"></p>
-<h2 id="详细资料"><a href="#详细资料" class="headerlink" title="详细资料"></a>详细资料</h2><p>以上仅为对课设中关键心得的分享，更为详细的课设资料均已开源，<a href="https://nuaaeducn-my.sharepoint.com/:f:/g/personal/zhengzk_nuaa_edu_cn/EqOjGeSHlJ9Hi1hydlygMegB50c2rHH2yKl1f7Ex4BW5IQ?e=MgxTaI">点此获取</a>。</p>
-]]></content>
-      <categories>
-        <category>NLFL</category>
-        <category>基础科学</category>
-        <category>实践</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>光谱响应测量技术提升灵敏度或提升里德堡频谱感知性能的调研</title>
-    <url>/2022/10/20/Rydberg_spectral_response/</url>
-    <content><![CDATA[<h1 id="光谱响应测量技术提升灵敏度或提升里德堡频谱感知性能的调研"><a href="#光谱响应测量技术提升灵敏度或提升里德堡频谱感知性能的调研" class="headerlink" title="光谱响应测量技术提升灵敏度或提升里德堡频谱感知性能的调研"></a>光谱响应测量技术提升灵敏度或提升里德堡频谱感知性能的调研</h1><h2 id="使用MZI来消除原子射频电场传感探头激光器的读出噪声"><a href="#使用MZI来消除原子射频电场传感探头激光器的读出噪声" class="headerlink" title="使用MZI来消除原子射频电场传感探头激光器的读出噪声"></a>使用MZI来消除原子射频电场传感探头激光器的读出噪声</h2><h3 id="原理及测试方法"><a href="#原理及测试方法" class="headerlink" title="原理及测试方法"></a>原理及测试方法</h3><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/1.png" alt=""><br>MZI检测非线性相移，而不是直接测量传输的探头功率。探测激光的噪声通过零差检测中的减法降低，EIT信号通过强本振（LO）增强<br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/2.png" alt=""><br>显示带有和不带MZI的Rydberg EIT探头传输信号的单轨迹。</p>
-<h3 id="提升的性能及幅度"><a href="#提升的性能及幅度" class="headerlink" title="提升的性能及幅度"></a>提升的性能及幅度</h3><p>使用MZI来消除原子射频电场传感探头激光器的读出噪声。实现了射频电场绝对测量的新灵敏度极限 5μV∙cm^(-1)∙HZ^(-1)</p>
-<h2 id="三光子读取射频电场的方法"><a href="#三光子读取射频电场的方法" class="headerlink" title="三光子读取射频电场的方法"></a>三光子读取射频电场的方法</h2><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/3.png" alt=""><br>通过扩展AT范围来提高方法的灵敏度和精度。为了减少光子散粒噪声，探针的Rabi频率可以很大，但仍有一个有效的窄传输窗口。三光子读数可以将灵敏度提高约一个数量级。</p>
-<h2 id="调频光谱法"><a href="#调频光谱法" class="headerlink" title="调频光谱法"></a>调频光谱法</h2><h3 id="原理及测试方法-1"><a href="#原理及测试方法-1" class="headerlink" title="原理及测试方法"></a>原理及测试方法</h3><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/4.png" alt=""><br>通过RAM主动控制的 FM 光谱提高了基于里德堡原子的射频 E场传感的读出信噪比。<br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/5.png" alt=""><br>图中显示了两种不同情况下RAM锁定和解锁性能的典型比较。RAM锁定打开（红色）和关闭（黑色）时RAM信号与采样时间的Allan偏差示例。</p>
-<h3 id="提升的性能及幅度-1"><a href="#提升的性能及幅度-1" class="headerlink" title="提升的性能及幅度"></a>提升的性能及幅度</h3><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/6.png" alt=""><br>主动控制RAM的FM光谱学提高了基于里德堡原子的射频电场传感的读出信噪比，采用匹配滤波方法可以检测到1.8μV∙cm^(-1)的微弱射频电场，灵敏度达到3μV∙cm^(-1)∙HZ^(-1)。</p>
-<h2 id="微波场的振幅调制提高里德堡原子微波电测法的灵敏度"><a href="#微波场的振幅调制提高里德堡原子微波电测法的灵敏度" class="headerlink" title="微波场的振幅调制提高里德堡原子微波电测法的灵敏度"></a>微波场的振幅调制提高里德堡原子微波电测法的灵敏度</h2><h3 id="原理及测试方法-2"><a href="#原理及测试方法-2" class="headerlink" title="原理及测试方法"></a>原理及测试方法</h3><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/7.png" alt=""><br>MW调幅方案的基本原理。（a）能级图。（b）利用里德堡EIT光谱的MW振幅调制方案计算MW传感示意图。黑色实线和红色虚线分别表示ΩMW=0和Ω的里德堡EIT光谱。蓝色虚线对应色散误差信号。黑色虚线表示纵坐标为零的直线。（c）实验装置。PD表示光电探测器，DM表示二向色镜。</p>
-<h3 id="提升的性能及幅度-2"><a href="#提升的性能及幅度-2" class="headerlink" title="提升的性能及幅度"></a>提升的性能及幅度</h3><p>采用微波场的振幅调制来解决弱微波电场中的EIT-AT分裂。色散误差信号的EIT共振附近的两个过零点之间的光谱间隔用于测量MW电场的强度。在室温蒸汽电池中，最小可检测MW强度可小至430±37μV/cm，比传统的EIT-AT分裂方法提高了六倍。</p>
-<h2 id="光学腔增强的里德堡原子微波电场测量"><a href="#光学腔增强的里德堡原子微波电场测量" class="headerlink" title="光学腔增强的里德堡原子微波电场测量"></a>光学腔增强的里德堡原子微波电场测量</h2><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/8.png" alt=""><br>腔透射谱较介质透射谱有着更小的分辨率，腔增强的测量方案将可探测最小微波场强度降低约８倍。</p>
-<h2 id="其他方法"><a href="#其他方法" class="headerlink" title="其他方法"></a>其他方法</h2><p>在相同MW电场强度下，将MW频率从共振变为失谐，以延长Δfm<br>利用辅助微波处理的Rydberg EIT-AT系统来扩展直接SI可追踪微波电场强度测量的下限<br>通过激光冷却原子，显著降低了残余多普勒效应，从而使可检测的微波场强度低至100μV/cm。</p>
-]]></content>
-      <categories>
-        <category>NLFL</category>
-        <category>前沿科学</category>
-        <category>原理</category>
-      </categories>
-  </entry>
-  <entry>
     <title>党校培训考试填空题库plus</title>
     <url>/2022/11/19/Dxpx_Completion_plus/</url>
     <content><![CDATA[<div class="note red icon-padding flat"><i class="note-icon fa-solid fa-sun"></i><p>偶然想到博客的tag-hide标签外挂可以较好的协助填空复习，所以浅浅的进行一个上传，自用。</p>
@@ -863,10 +680,152 @@
       </categories>
   </entry>
   <entry>
-    <title>苏州</title>
-    <url>/2024/02/16/Suzhou/</url>
+    <title>童话</title>
+    <url>/2023/07/01/Fairytale_1/</url>
+    <content><![CDATA[<div class="fj-gallery"><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Fairytale/1/1.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Fairytale/1/2.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Fairytale/1/3.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Fairytale/1/4.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Fairytale/1/5.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Fairytale/1/6.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Fairytale/1/7.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Fairytale/1/8.jpg" alt=""><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/Fairytale/1/9.jpg" alt=""></p>
+          </div>]]></content>
+      <categories>
+        <category>NL</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>博客搭建教程</title>
+    <url>/2022/10/11/Hexo-Butterfly/</url>
+    <content><![CDATA[<div class="note orange icon-padding flat"><i class="note-icon fa-solid fa-megaphone"></i><p>本教程针对的是使用Hexo框架&amp;Butterfly主题，使用Github Pages作为服务器以供访问，建立个人博客的过程，此外，还包含图床配置内容。此方案免费简单，很好的满足了大家初次尝试建立一个漂亮的博客，并上传经验分享贴或经验总结贴的需求。</p>
+</div>
+<h2 id="博客搭建"><a href="#博客搭建" class="headerlink" title="博客搭建"></a>博客搭建</h2><h3 id="入门"><a href="#入门" class="headerlink" title="入门"></a>入门</h3><ul>
+<li>Hexo是一个快速、简洁且高效的博客框架，使用Markdown解析文章并生成静态网页</li>
+<li>Butterfly是一个美观简单的Hexo卡片UI设计主题，开发者提供了十分详细的教程并保持了高频率的版本更新，十分适合初学者选择</li>
+<li>Github建站原理：将所有资源建立在特定的github仓库中，使用Github Pages作为服务器以供访问</li>
+</ul>
+<h3 id="工具下载"><a href="#工具下载" class="headerlink" title="工具下载"></a>工具下载</h3><ul>
+<li>下载<a href="https://nodejs.org/en/download/">Node.js</a>（JavaScript运行环境）<ul>
+<li>点击链接<a href="https://nodejs.org/en/download/">Node.js</a>进行下载</li>
+<li><a href="https://baike.baidu.com/item/CMD%E5%91%BD%E4%BB%A4">cmd</a>输入<code>node -v</code>检查是否安装/已安装的Node.js版本号</li>
+<li><a href="https://baike.baidu.com/item/CMD%E5%91%BD%E4%BB%A4">cmd</a>输入<code>npm -v</code>检查是否安装/已安装的Node.js中npm工具的版本号</li>
+</ul>
+</li>
+<li>下载<a href="https://git-scm.com/downloads">Git</a>（开源分布式版本控制系统，项目版本管理）<ul>
+<li>点击链接<a href="https://git-scm.com/downloads">Git</a>进行下载</li>
+<li><a href="https://baike.baidu.com/item/CMD%E5%91%BD%E4%BB%A4">cmd</a>输入<code>git --version</code>检查是否安装/已安装的Git版本号</li>
+</ul>
+</li>
+<li>下载Hexo（博客框架）：<ul>
+<li><a href="https://baike.baidu.com/item/CMD%E5%91%BD%E4%BB%A4">cmd</a>输入<code>npm install hexo-cli --location=global</code>下载/更新Hexo</li>
+<li><a href="https://baike.baidu.com/item/CMD%E5%91%BD%E4%BB%A4">cmd</a>输入<code>hexo -v</code>检查是否安装/已安装的Hexo版本号</li>
+</ul>
+</li>
+</ul>
+<h3 id="建立仓库"><a href="#建立仓库" class="headerlink" title="建立仓库"></a>建立仓库</h3><ul>
+<li>在github建立仓库：由于该仓库启用Github Pages服务，因此该仓库为特殊仓库，命名必须为Username.github.io（在Settings界面中：Public profile-Name为昵称，Account-username为用户名）</li>
+<li>勾选Add a README file</li>
+<li>最后点击建立仓库。</li>
+</ul>
+<h3 id="生成SSH-Keys（github关联本地-上传权限）"><a href="#生成SSH-Keys（github关联本地-上传权限）" class="headerlink" title="生成SSH Keys（github关联本地/上传权限）"></a>生成SSH Keys（github关联本地/上传权限）</h3><ul>
+<li>在本地<mark class="hl-label blue">任意</mark> 文件夹的空白区域右键，并点击Git Bash Here</li>
+<li>在打开的Git界面中（该界面环境为Linux，因此粘贴为右键-Paste/而不是ctrl+v）<ul>
+<li>输入<code>ssh</code>检查是否安装/已安装的ssh（一般在安装Git时已经带有此工具）</li>
+<li>输入<code>ssh-keygen -t rsa -C &quot;邮件地址&quot;</code>（邮件地址为github注册时的邮件地址）后，连续敲四次回车,此时已经在电脑本地建立文件夹，路径为/c/Users(用户)/“用户名”/.ssh/id_rsa</li>
+</ul>
+</li>
+<li>右键该路径下的id_rsa.pub文件，用文本编辑器(如Notepad++)打开，对内容进行全选复制</li>
+<li>在Github-Settings界面中的SSH and GPG keys选项卡中，点击New SSH key新建一个钥匙，你可以任取一个Title，并把id_rsa.pub文件中复制的内容<mark class="hl-label blue">原封不动</mark> 的复制到Key中</li>
+<li>最后，在Git界面中输入ssh -T git@github.com测试ssh是否绑定成功（当显示Hi+github注册名即成功）</li>
+</ul>
+<h3 id="本地生成博客内容"><a href="#本地生成博客内容" class="headerlink" title="本地生成博客内容"></a>本地生成博客内容</h3><p>博客内容需要先在本地建立，并以部署的形式上传到网上，此外，由于部署需要时间，本地生成也是一个十分方便的调试手段</p>
+<ul>
+<li>新建一个文件夹(该文件夹将为你的本地博客根目录)，打开后在空白处右键，点击<code>Git Bash Here</code></li>
+<li>在打开的Git界面中<ul>
+<li>输入<code>hexo init</code>以初始化hexo（由于github是国外网站，若连接失败可以多次尝试或换镜像源）</li>
+<li>当出现INFO  Start blogging with Hexo!时，代表包安装成功</li>
+<li>输入hexo s在本地静态生成hexo页面（打开本地服务器，不需要时按Ctrl+C后可关闭该本地服务器）</li>
+</ul>
+</li>
+</ul>
+<h3 id="发布博客至互联网"><a href="#发布博客至互联网" class="headerlink" title="发布博客至互联网"></a>发布博客至互联网</h3><p>到目前为止，我们的本地博客就成功搭建了，但是现在我们只能通过本地静态生成页面查看博客，我们的目标是让其他人也能够访问我们的博客，这就需要我们将博客<mark class="hl-label blue">部署</mark> 到Github Pages上</p>
+<ul>
+<li>需要了解的github过去进行的两次更新(这使得有些教程已经失效)：<ul>
+<li>将本地文件上传至github不再使用钥匙验证，而使用令牌验证</li>
+<li>默认分支从master改为了main</li>
+</ul>
+</li>
+<li>打开本地博客文件夹中_config.yml文件，将最后的deploy部分修改为<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span>   <span class="string">//冒号后有空格</span></span><br><span class="line">  <span class="attr">repository:</span> <span class="string">【这里填你的SSH】例如：git@github.com:NL-REMOTE/NL-REMOTE.github.io.git，SSH可以在特殊仓库-Code-SSH中找到</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">main</span></span><br></pre></td></tr></table></figure></li>
+<li>在博客文件夹下右键并点击<code>Git Bash Here</code><ul>
+<li>输入<code>npm install hexo-deployer-git --save</code>，安装hexo部署到git page的自动部署发布工具<br>Hexo安装完成后，将会在指定文件夹中新建所需要的文件，其目录如下：<br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Hexo-Butterfly/file_catalog.jpg" alt="" title="本地文件目录"></li>
+<li>本次为初次生成，因此不需输入<code>hexo clean</code></li>
+<li>输入<code>hexo g</code>生成页面</li>
+<li>输入<code>hexo d</code>上传文件至github</li>
+<li>在首先弹出的GITHUB登陆界面中输入用户名和密码，登陆</li>
+<li>在接下来弹出的SSH界面中输入用户名和令牌（此处不是密码）</li>
+<li>在github-Settings-Developer settings-Personal access tokens中新建令牌，命名、设置有效期、赋予权限（可以全部选上）</li>
+<li>新建令牌完成后会生成一段序列号（用以取代前面需要输入的密码），<mark class="hl-label blue">强烈建议妥善保存</mark> （关闭页面后该序列号会被隐藏）<br>若报错Error: Spawn failed，依次执行以下命令（可重复执行）<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+<li>上述命令在之后的博客生涯中将不断使用，人称“hexo三板斧”<ul>
+<li>当出现INFO  Deploy done: git时代表本地网页上传成功</li>
+<li>此时可以通过网址打开已经上传至互联网的网页（网址路径：特殊仓库-settings-Pages）</li>
+</ul>
+</li>
+</ul>
+<div class="note red icon-padding flat"><i class="note-icon fa-solid fa-sun"></i><p>自此，我们已经成功完成了博客的搭建</p>
+</div>
+<h2 id="博客主题配置"><a href="#博客主题配置" class="headerlink" title="博客主题配置"></a>博客主题配置</h2><p>美观的主题对于博客来说当然是重中之重（谁不希望常常光顾漂亮的小站呢），<a href="https://butterfly.js.org/">Butterfly</a>是一个十分推荐的漂亮主题，但最为重要的是：他的开发者提供了十分详细的操作文档，并保持了高频率的版本更新。（有些很漂亮的主题操作文档并不完善，资料零散，甚至更不上hexo版本，因此十分推荐新手使用Butterfly主题）<br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Hexo-Butterfly/butterfly.png" alt="" title="butterfly主题"><br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Hexo-Butterfly/butterfly2.png" alt="" title="butterfly主题"><br>点击此处跳转至<a href="https://butterfly.js.org/posts/21cfbf15/">Butterfly官方安装文档</a>，按照教程即可完成所有基本配置</p>
+<h2 id="图床配置"><a href="#图床配置" class="headerlink" title="图床配置"></a>图床配置</h2><p>什么是图床？图床就是一个便于在博文中插入在线图片链接的个人图片仓库，它必须位于网上并可通过链接随时访问。设置图床之后，在自己博客中插入的图片链接就可以随时随地在线预览了，并且不会因为任何意外原因无法查看，除非自己亲自删除。</p>
+<p>关于图床可以查看这篇文章：<a href="https://lovelijunyi.gitee.io/posts/a833.html">图床对比与Github图床的优化</a></p>
+<p>我的博客使用PicGo将图片上传至github图床，选择这个方案的主要原因是稳定且完全免费，但国内访问有时需要科学上网（但个人觉得稳定性最为重要）。</p>
+<p>PicGo的使用以及jsDelivr优化加速可以参考这篇文章：<a href="https://blog.csdn.net/Wonz5130/article/details/104119008">使用GitHub+PicGo+jsDelivr搭建自己的私人图床</a></p>
+<p>此外需要提醒的是，github图床中的图片删除，需要到仓库中手动进行，而不能仅在PicGo相册中删除（相比于github，Gitee的图片删除是同步的，但Gitee仓库作为图床有风险！参见此文章<a href="https://blog.csdn.net/weixin_44062380/article/details/123761358">gitee图床因外链访问过多被封，我们该怎么办</a>），也希望读到此篇文章的大家对图库进行良好的分层管理，以方便维护。</p>
+<h2 id="结尾祝福"><a href="#结尾祝福" class="headerlink" title="结尾祝福"></a>结尾祝福</h2><p>最后希望读到此篇文章的大家都能建立起自己的小站，关于此文章教材的疑问都可邮件联系博主（主页有邮件联系按键），也期待大家建站后分享友链！</p>
+]]></content>
+      <categories>
+        <category>NLCC</category>
+        <category>微光工程</category>
+        <category>博客运维</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>锁相环课设</title>
+    <url>/2022/10/10/PLL/</url>
+    <content><![CDATA[<p>本文分享了我参与通信电子线路课程设计——锁相环的测量与应用中，一些较为关键且特别的经验。文章定位为关键心得分享，因此对较为基础的知识不再重复赘述。</p>
+<h2 id="任务描述"><a href="#任务描述" class="headerlink" title="任务描述"></a>任务描述</h2><p>本次课设是数字电路调试难度+模拟电路连线工作量，因此课程任务本身较为容易，按部就班连线并逐级调试即可。课设成绩的关键在于调参提高频率锁定的范围后，对稳定度和精确度进行追求，并对电路进行可能的创新性改进——这也是本文的中心。</p>
+<h2 id="核心原理"><a href="#核心原理" class="headerlink" title="核心原理"></a>核心原理</h2><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/PLL/Core_principles.png" alt="" title="锁相环路"><br>锁相环路通过对比输入输出信号相位差来完成<mark class="hl-label blue">频率的锁定</mark> 。</p>
+<h2 id="优化思路"><a href="#优化思路" class="headerlink" title="优化思路"></a>优化思路</h2><h3 id="电源滤波"><a href="#电源滤波" class="headerlink" title="电源滤波"></a>电源滤波</h3><p>本电路信号频率在百千赫兹至兆赫兹数量级，因此可以使用100nF电容对模拟/数字芯片作电源滤波，以提高系统稳定性</p>
+<h3 id="器件选型"><a href="#器件选型" class="headerlink" title="器件选型"></a>器件选型</h3><p>本电路中外部环路滤波器的阻容及CD4046充放电电容对信号系统稳定性影响较大，可以在这些关键区域选择<a href="https://baike.baidu.com/item/%E9%87%91%E5%B1%9E%E8%86%9C%E7%94%B5%E9%98%BB">金属膜电阻</a>和<a href="https://baike.baidu.com/item/%E7%8B%AC%E7%9F%B3%E7%94%B5%E5%AE%B9">独石电容</a>这一类性能较好的直插器件来替换掉性能稍逊的<a href="https://baike.baidu.com/item/%E7%A2%B3%E8%86%9C%E7%94%B5%E9%98%BB">碳膜电阻</a>和<a href="https://baike.baidu.com/item/%E9%99%B6%E7%93%B7%E7%94%B5%E5%AE%B9">陶瓷电容</a>，提高系统稳定性。</p>
+<h3 id="巧妙的“锁定”观测方案"><a href="#巧妙的“锁定”观测方案" class="headerlink" title="巧妙的“锁定”观测方案"></a>巧妙的“锁定”观测方案</h3><p><a href="https://www.ti.com.cn/product/cn/CD4046B#tech-docs">CD4046</a>提供了锁定提示脚——在锁定下输出高电平,反之输出低电平。就本题需求而言，可以将该脚的输出视为<a href="https://blog.csdn.net/xuewei_Li/article/details/87907052">PWM(脉冲宽度调制)波</a>。</p>
+<p>而在一个<mark class="hl-label blue">惯性系统</mark> 中，PWM的占空比变化将影响平均功率，生活中常用此原理来实现灯的亮度和电机转速等控制。</p>
+<p>显然，我们可以通过灯来巧妙直观的观测这一锁定提示信号，但单纯通过亮度上的变化来反映PWM波的占空比仍然不太直观，因此我们可以采用如下方案：</p>
+<p>使用一颗共阴极/共阳极三引脚双色LED灯(推荐使用颜色色差较大的)。我使用的是红蓝双色灯，其可在“锁定”时显暖红色、“失锁”时显冷蓝色，并能利用灯自身的显色惯性，在芯片介于完全锁定和失锁之间时，对芯片输出的类PWM波形进行十分方便的观测：其颜色变化自大红色到粉色、到紫色、再到蓝紫色，最后变为亮蓝色。<mark class="hl-label blue">双色灯颜色的变化直观反映了系统的锁定状态，是一种十分推荐的巧妙检测方法！</mark> 。值得一提的是，正是这种巧妙的检测方法，使得我发现了频率计探针的接入能对锁相环路稳定性进行较大的影响(后文将提到)，并给出了针对性的有效改进。</p>
+<h3 id="自锁开关"><a href="#自锁开关" class="headerlink" title="自锁开关"></a>自锁开关</h3><p>由于题目需要对分频数N进行频繁的调整，来对系统进行宽频范围的测试。采用跳线的方案显然不太便利和可靠，而按键开关要求持续的按下来改变电平，同样不适合任务需求。</p>
+<p>推荐使用<a href="https://baike.baidu.com/item/%E8%87%AA%E9%94%81%E5%BC%80%E5%85%B3">自锁开关</a>，其特点为点按一次后按下，再点按一次后弹起。配置12颗自锁开关，并同时配置12颗LED灯来表征开关状态(因为在俯视调试过程中，按键按下/弹起的视觉差异不明显，我们需要的是高效的交互，而灯与自锁开关的搭配可以十分完美的实现这个要求！)。</p>
+<h3 id="避免测量对系统的影响"><a href="#避免测量对系统的影响" class="headerlink" title="避免测量对系统的影响"></a>避免测量对系统的影响</h3><p>在调试中发现，当频率计的探针接入CD4046的4脚时，原本显示为红色(表示锁定)的双色灯会变为粉色(轻微失锁)，疑似频率计中的高频ADC采样对系统造成影响所致。</p>
+<p>为了在获取频率的同时维持系统的极高稳定性，可采用电压跟随器对系统进行隔离。</p>
+<p>然而，要满足本课设单电源、宽带、轨至轨的要求，采用运放来实现要求过于严苛。但考虑到信号本身类数字时钟型号(对信号波形要求较低)，因此可以使用电压比较器来代替运放构成的电压跟随器电路。</p>
+<p>本系统采用<a href="https://www.ti.com.cn/product/cn/TLV3501">德州仪器TLV3501</a>比较器来采集4脚，完成了数字频率计ADC和锁相环路的隔离，因此极大的提高了系统稳定性。</p>
+<h2 id="系统实物图"><a href="#系统实物图" class="headerlink" title="系统实物图"></a>系统实物图</h2><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/PLL/cover.jpg" alt="" title="锁相环路"></p>
+<h2 id="详细资料"><a href="#详细资料" class="headerlink" title="详细资料"></a>详细资料</h2><p>以上仅为对课设中关键心得的分享，更为详细的课设资料均已开源，<a href="https://nuaaeducn-my.sharepoint.com/:f:/g/personal/zhengzk_nuaa_edu_cn/EqOjGeSHlJ9Hi1hydlygMegB50c2rHH2yKl1f7Ex4BW5IQ?e=MgxTaI">点此获取</a>。</p>
+]]></content>
+      <categories>
+        <category>NLFL</category>
+        <category>基础科学</category>
+        <category>实践</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>NL-ink</title>
+    <url>/2022/10/10/NL-ink/</url>
+    <content><![CDATA[<p>一个全栈式的无源NFC项目</p>
+]]></content>
+      <categories>
+        <category>NLFL</category>
+        <category>开源工程</category>
+        <category>全栈总结</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Gallery</title>
+    <url>/2024/02/10/Gallery/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
-  <script id="hbeData" type="hbeData" data-hmacdigest="e5e546fa7f3df53be22ab53919fccfcab1418d5f2945eed237f7d5a3ddbaec2c">d7fd17daed32457d32e259a1dc7414711dab6a0bbe2823354f45383d904678e0d66c78a84e96010647f8a649ffe9712e714edfb15504e131a7e36e23c741d367f69d11e76f8fa751ae9ba7fb24da8b21269d61881af379579504271e0f757e5ef7f00b57b958578f14e10dc3e39848011fc58cff856efa8934a786bc316481eabc98f580c6966ff60027465dac6800586cab92ece0aef5803f68f0b164f3c87873c506449391d824ab4df0c2dffa9e99fcebde8bd4ad190dd1417b7f87003c02d6a7558a58630af34d86f893e401d04e3f8dfaa5665b4722df9002b85f1e7af57e4a32966a6714480e7bd05f108185de2a30b1de14dc25f3ace43d85a69a53cd76fb490141efb22bae04adfa7f17baa8ec329f0be8429dbe4ef5e51b08dc4062d54c3f0ca85ca457e420b9cd1f9f94c0f351959fdfd67901a31c25d37986b15d24d7925b665c0dfb4ec21c62bdef7471aa8e0ae75c767bb12e0729917252af84fbea30f3898727a8f8e45bd08ac986dd16f1022280fe9ac1afea445de9f31a3e2a46a041de86ebe265375d593344beed3b275071bb907a9a07c0814493f34d75c55679680a50bfa3f44e8e13d0b3c0deb2d37d2f9cf58988d3be7e6a6951971c02fb0f0b723b979b091f9468d2b4064989d020ccdc414fec506f99781fdd4b6bf19ff81d2866e09c1de4a7075e9036a4b13bab82c76f41db55aa38a48b67a513fc8df37bbaf59f6bab72b38cbe22284ee05b3837e822e049ab96fb975e1a7a57e1f47ec70b4fb85c29aa9ba20589211c3230a918a81d60b3e4ce54446498eab64828be6d7b50175afed598fba25b20dac744ccdbdf97d1912a5c95388de0f2be809debdf77f24b3820ae6505aac1b653f627fd5add3170636bdb03781599303a7f9177df6311cf22816d9f6d863edd4b16ead477aad1e5feb87b0fa721c71ed253e76d4154f66a1f401c740ea92c1078233cb2a31aa49d981af96ddb2616e9e0dc5997a0f9206e13866a1602fd664b1102457466d50cfa187c2c0fbedf543d120d7134e363c11b50707ba9300ddd81deb9ec1fd89e41925b6dca4a0ace0e6f28fb39b1ca89984b928f4d4ad25ce3dd7680fa30d79fd9d832c124fd5b2b647071160143f06544e7d9acfd1aa232ac01333554dee17a2246fdcedd3ff1ca4d03b31f4de29abf1b5fe0d96e56d3ad4ef311a47e3d3a2e403787599192da52f6ffd26fbc6f8659bfab89aba2729aa897be7002d5a0fb21efffde7458b2ece71f5dbf98ee7f8306c8d12bec61de347b7d6c606b60263baab3f651b628a93e5ba100ac4e3a989dc27deaf8baa571be40dfe430144444aedbc241d1cd123eb2102292ad89a81ffa23c786cd56468f91f3e86b729c1d101e15e2236ccbc683c7b5c88607c1550b6f851b75e0db3aa698f605319a302340d072af2d4f7016a7bcec73a3ae5b5160028d52a8a1961f1d23be241f0b9010920e63bb5000eb74d6dc31b23a95526c34d7a7e61a731477abe68b93147e857cd21514c0277e01177351dbeca3768935eeda6da51a911ef8be41cbfad447bcc3912f847ecbf0e5c303026f3fd9eab2af61278bb670f13aa054f79ced8429eef9a29cab0f8b1f8ebe52e178f265dd4b390a2ca0ac203bc1d2c6f65905ca8caadfd9624a0e3f9641cf29e97d84049d6609d7dfec16472d2002425db02ab2d6fe890a975df0c00acc9f347c1407a229fcf94f522a9a9c177064d23c33a835d48aa013fcabcb27361b00e109f775710a73c135247c60b3c6aaa138a3b212bdea2a480c8891d7f0992c82793357482e3207e742ef43b7c6e911bab376aa1c062be892ee46153f93bee2b2e5845525680997bc40201becca6c299d87371f8f30f9c4a912927e30e2fcf0e0d9ec16e3a0bca7ce519c3d67c6f974bdecf0f9fa14d2a535aa87e88a2e7a9ec72a91d952bfc5703c6b32ba6b774d54eb38e584ba97ae213925af512ffbfbd4c6989b03269f0feefac753d31395b940e8328337d63072d56bbb9397647e0d9f9a08c1344e7ad2c78292e8ae316fb520730189c32e0e47bfc8da21adc693d955de9b45803d310f55e952e4feb91e138f750c8f64871f05e3a57a28ad6eaa772cd8a43ffc8c42ac12c4d5af73a16ba87e2c8249086fec70820c27408d9d016430b85c142d56cadd9ef2a51ff0936a0b3f3d487dc3e56201806f1458f2d40c2ac11f6ff2737f2b65b04586c5051fe59e50759cb8c49d8be46aca2b0ceaf39de751dba0fb4dd1f20d87bbbadc4a4347a97f0e4c8a694b363ffe17b37fb46b336787706f3255c1a1ea882168b093d28ef4e0c29174a926dce120d898190447bd1e28beff6d365f1c0f06004154d30f6ddbaae2ae6e5d5c6358522794c5e7f00eaf61090c591a0dd98a21d79357a3568618859fcead4515957c5dc747037a7c4df0e316fa7588efe029a58bb38cdb0ec77eccb979b140524e472341250bc36ca51ee3a6dda02ff603e2</script>
+  <script id="hbeData" type="hbeData" data-hmacdigest="67fa34e63207e1ffe783dfa66c3becca74ac54d7afc5f2750a333c113ccdce4d">d7fd17daed32457d32e259a1dc7414711dab6a0bbe2823354f45383d904678e018a5d36e7f637bc7d038878daa0cd164a021f8cf77216d4391452701a9780443a77355f70e6ca05a68556802722355a782f792ddf9f91b1c1bb2c5d34bbfd316acb79307d2a5b6b61eafaf28a7863059823ac13186f2b439c0441066772308a22c83c3966682ce17f2f90768a437a20750b5a13a76fcee49d3ab30a0350c2a9984d2a1b0335f8f1fce2e9994dfbc8f93c54ca714ecfbcb8c99e46e823e569758cdadaa62e6c8fc38556cadd770f1a8af16f0eaeb882e01f2aae57af28224b2a982733b61c0b0b5786d8b0d76ac8af6cc141a998adb7343ba4dd39f5958912d7221ea1e854e9b70a00eee1e64236fc653609d27b770f5b170af70d29f4a3b442dcaad8c7bee212ee42f597f2e5b378d5ce7b8be5ec5ffd5a50a18c7a2d3c372f30af9d627bc47f0a0bb30fd3f254d9274f5c48a479a5594ba1f745e7c07c0a496cd1f8b765fcdd35c2dccfc40e83b2973ed4c506df8f4af7ebcb2d3379193f29ca054f048c9d215ffbf8106204d174a7567af62ac7c17906ad0cb99348bb21fbfd0640f9b6905f55304b04b993e75c36d878c46dd123a7479084625585ef09170e96b0b6098fe616e38a7fec1ccf65d46a44b7300252bb9acadba3d001c1030a5a2349efb132d82caa2dafde37ccc952639a05b2a8361969a8733e6a8acb942ce859e2fe1e128177ce063b3101412ff70bee5bfa348b68943e1630e45a9e1613a63094ce603296736ae30d009cb9a05cae509c12213307c61ab797e8445df979fae939e54843e4c8fbd518ce575fd80f49027fad2185d45c1d5c3be6a54c035213b6869a340662abd5b52a2b22cb66d917251ae4259a5f19b7ee4f43822ff632a0feb647578d4dc7c8eed1776ae29018c6ff347885c901def2f4002b1c0801a70ef175bbdd4fc7c8561354d238f45c7658063082eefcadaee231d68bb266480fe079ed04c2ba63127f126a96d0928a1208c0b4842e185db93cbe840224a4288d0ca6b26f5728021b29880a75e0e1a8f7006aee2afe97dc2254253568cdf46b475fe0032df408040f8020784136f1a5d460dc1993f1541587c55feeae62207ca8453b4a18bfa357b445c53580e77d6e83be719e40e2b02b683d2d560b7f9f3c82194f4653f120bce03dcca26036b4cbfd4</script>
   <div class="hbe hbe-content">
     <div class="hbe hbe-input hbe-input-default">
       <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
@@ -883,6 +842,25 @@
       <tags>
         <tag>作为相册加密</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>光谱响应测量技术提升灵敏度或提升里德堡频谱感知性能的调研</title>
+    <url>/2022/10/20/Rydberg_spectral_response/</url>
+    <content><![CDATA[<h1 id="光谱响应测量技术提升灵敏度或提升里德堡频谱感知性能的调研"><a href="#光谱响应测量技术提升灵敏度或提升里德堡频谱感知性能的调研" class="headerlink" title="光谱响应测量技术提升灵敏度或提升里德堡频谱感知性能的调研"></a>光谱响应测量技术提升灵敏度或提升里德堡频谱感知性能的调研</h1><h2 id="使用MZI来消除原子射频电场传感探头激光器的读出噪声"><a href="#使用MZI来消除原子射频电场传感探头激光器的读出噪声" class="headerlink" title="使用MZI来消除原子射频电场传感探头激光器的读出噪声"></a>使用MZI来消除原子射频电场传感探头激光器的读出噪声</h2><h3 id="原理及测试方法"><a href="#原理及测试方法" class="headerlink" title="原理及测试方法"></a>原理及测试方法</h3><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/1.png" alt=""><br>MZI检测非线性相移，而不是直接测量传输的探头功率。探测激光的噪声通过零差检测中的减法降低，EIT信号通过强本振（LO）增强<br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/2.png" alt=""><br>显示带有和不带MZI的Rydberg EIT探头传输信号的单轨迹。</p>
+<h3 id="提升的性能及幅度"><a href="#提升的性能及幅度" class="headerlink" title="提升的性能及幅度"></a>提升的性能及幅度</h3><p>使用MZI来消除原子射频电场传感探头激光器的读出噪声。实现了射频电场绝对测量的新灵敏度极限 5μV∙cm^(-1)∙HZ^(-1)</p>
+<h2 id="三光子读取射频电场的方法"><a href="#三光子读取射频电场的方法" class="headerlink" title="三光子读取射频电场的方法"></a>三光子读取射频电场的方法</h2><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/3.png" alt=""><br>通过扩展AT范围来提高方法的灵敏度和精度。为了减少光子散粒噪声，探针的Rabi频率可以很大，但仍有一个有效的窄传输窗口。三光子读数可以将灵敏度提高约一个数量级。</p>
+<h2 id="调频光谱法"><a href="#调频光谱法" class="headerlink" title="调频光谱法"></a>调频光谱法</h2><h3 id="原理及测试方法-1"><a href="#原理及测试方法-1" class="headerlink" title="原理及测试方法"></a>原理及测试方法</h3><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/4.png" alt=""><br>通过RAM主动控制的 FM 光谱提高了基于里德堡原子的射频 E场传感的读出信噪比。<br><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/5.png" alt=""><br>图中显示了两种不同情况下RAM锁定和解锁性能的典型比较。RAM锁定打开（红色）和关闭（黑色）时RAM信号与采样时间的Allan偏差示例。</p>
+<h3 id="提升的性能及幅度-1"><a href="#提升的性能及幅度-1" class="headerlink" title="提升的性能及幅度"></a>提升的性能及幅度</h3><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/6.png" alt=""><br>主动控制RAM的FM光谱学提高了基于里德堡原子的射频电场传感的读出信噪比，采用匹配滤波方法可以检测到1.8μV∙cm^(-1)的微弱射频电场，灵敏度达到3μV∙cm^(-1)∙HZ^(-1)。</p>
+<h2 id="微波场的振幅调制提高里德堡原子微波电测法的灵敏度"><a href="#微波场的振幅调制提高里德堡原子微波电测法的灵敏度" class="headerlink" title="微波场的振幅调制提高里德堡原子微波电测法的灵敏度"></a>微波场的振幅调制提高里德堡原子微波电测法的灵敏度</h2><h3 id="原理及测试方法-2"><a href="#原理及测试方法-2" class="headerlink" title="原理及测试方法"></a>原理及测试方法</h3><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/7.png" alt=""><br>MW调幅方案的基本原理。（a）能级图。（b）利用里德堡EIT光谱的MW振幅调制方案计算MW传感示意图。黑色实线和红色虚线分别表示ΩMW=0和Ω的里德堡EIT光谱。蓝色虚线对应色散误差信号。黑色虚线表示纵坐标为零的直线。（c）实验装置。PD表示光电探测器，DM表示二向色镜。</p>
+<h3 id="提升的性能及幅度-2"><a href="#提升的性能及幅度-2" class="headerlink" title="提升的性能及幅度"></a>提升的性能及幅度</h3><p>采用微波场的振幅调制来解决弱微波电场中的EIT-AT分裂。色散误差信号的EIT共振附近的两个过零点之间的光谱间隔用于测量MW电场的强度。在室温蒸汽电池中，最小可检测MW强度可小至430±37μV/cm，比传统的EIT-AT分裂方法提高了六倍。</p>
+<h2 id="光学腔增强的里德堡原子微波电场测量"><a href="#光学腔增强的里德堡原子微波电场测量" class="headerlink" title="光学腔增强的里德堡原子微波电场测量"></a>光学腔增强的里德堡原子微波电场测量</h2><p><img src="https://cdn.jsdelivr.net/gh/NL-REMOTE/source/image/post/Rydberg_spectral_response/8.png" alt=""><br>腔透射谱较介质透射谱有着更小的分辨率，腔增强的测量方案将可探测最小微波场强度降低约８倍。</p>
+<h2 id="其他方法"><a href="#其他方法" class="headerlink" title="其他方法"></a>其他方法</h2><p>在相同MW电场强度下，将MW频率从共振变为失谐，以延长Δfm<br>利用辅助微波处理的Rydberg EIT-AT系统来扩展直接SI可追踪微波电场强度测量的下限<br>通过激光冷却原子，显著降低了残余多普勒效应，从而使可检测的微波场强度低至100μV/cm。</p>
+]]></content>
+      <categories>
+        <category>NLFL</category>
+        <category>前沿科学</category>
+        <category>原理</category>
+      </categories>
   </entry>
   <entry>
     <title>里德堡原子主题调研</title>
@@ -1108,6 +1086,28 @@
         <category>微光工程</category>
         <category>科幻小说</category>
       </categories>
+  </entry>
+  <entry>
+    <title>苏州</title>
+    <url>/2024/02/16/Suzhou/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="e5e546fa7f3df53be22ab53919fccfcab1418d5f2945eed237f7d5a3ddbaec2c">d7fd17daed32457d32e259a1dc7414711dab6a0bbe2823354f45383d904678e0d66c78a84e96010647f8a649ffe9712e714edfb15504e131a7e36e23c741d367f69d11e76f8fa751ae9ba7fb24da8b21269d61881af379579504271e0f757e5ef7f00b57b958578f14e10dc3e39848011fc58cff856efa8934a786bc316481eabc98f580c6966ff60027465dac6800586cab92ece0aef5803f68f0b164f3c87873c506449391d824ab4df0c2dffa9e99fcebde8bd4ad190dd1417b7f87003c02d6a7558a58630af34d86f893e401d04e3f8dfaa5665b4722df9002b85f1e7af57e4a32966a6714480e7bd05f108185de2a30b1de14dc25f3ace43d85a69a53cd76fb490141efb22bae04adfa7f17baa8ec329f0be8429dbe4ef5e51b08dc4062d54c3f0ca85ca457e420b9cd1f9f94c0f351959fdfd67901a31c25d37986b15d24d7925b665c0dfb4ec21c62bdef7471aa8e0ae75c767bb12e0729917252af84fbea30f3898727a8f8e45bd08ac986dd16f1022280fe9ac1afea445de9f31a3e2a46a041de86ebe265375d593344beed3b275071bb907a9a07c0814493f34d75c55679680a50bfa3f44e8e13d0b3c0deb2d37d2f9cf58988d3be7e6a6951971c02fb0f0b723b979b091f9468d2b4064989d020ccdc414fec506f99781fdd4b6bf19ff81d2866e09c1de4a7075e9036a4b13bab82c76f41db55aa38a48b67a513fc8df37bbaf59f6bab72b38cbe22284ee05b3837e822e049ab96fb975e1a7a57e1f47ec70b4fb85c29aa9ba20589211c3230a918a81d60b3e4ce54446498eab64828be6d7b50175afed598fba25b20dac744ccdbdf97d1912a5c95388de0f2be809debdf77f24b3820ae6505aac1b653f627fd5add3170636bdb03781599303a7f9177df6311cf22816d9f6d863edd4b16ead477aad1e5feb87b0fa721c71ed253e76d4154f66a1f401c740ea92c1078233cb2a31aa49d981af96ddb2616e9e0dc5997a0f9206e13866a1602fd664b1102457466d50cfa187c2c0fbedf543d120d7134e363c11b50707ba9300ddd81deb9ec1fd89e41925b6dca4a0ace0e6f28fb39b1ca89984b928f4d4ad25ce3dd7680fa30d79fd9d832c124fd5b2b647071160143f06544e7d9acfd1aa232ac01333554dee17a2246fdcedd3ff1ca4d03b31f4de29abf1b5fe0d96e56d3ad4ef311a47e3d3a2e403787599192da52f6ffd26fbc6f8659bfab89aba2729aa897be7002d5a0fb21efffde7458b2ece71f5dbf98ee7f8306c8d12bec61de347b7d6c606b60263baab3f651b628a93e5ba100ac4e3a989dc27deaf8baa571be40dfe430144444aedbc241d1cd123eb2102292ad89a81ffa23c786cd56468f91f3e86b729c1d101e15e2236ccbc683c7b5c88607c1550b6f851b75e0db3aa698f605319a302340d072af2d4f7016a7bcec73a3ae5b5160028d52a8a1961f1d23be241f0b9010920e63bb5000eb74d6dc31b23a95526c34d7a7e61a731477abe68b93147e857cd21514c0277e01177351dbeca3768935eeda6da51a911ef8be41cbfad447bcc3912f847ecbf0e5c303026f3fd9eab2af61278bb670f13aa054f79ced8429eef9a29cab0f8b1f8ebe52e178f265dd4b390a2ca0ac203bc1d2c6f65905ca8caadfd9624a0e3f9641cf29e97d84049d6609d7dfec16472d2002425db02ab2d6fe890a975df0c00acc9f347c1407a229fcf94f522a9a9c177064d23c33a835d48aa013fcabcb27361b00e109f775710a73c135247c60b3c6aaa138a3b212bdea2a480c8891d7f0992c82793357482e3207e742ef43b7c6e911bab376aa1c062be892ee46153f93bee2b2e5845525680997bc40201becca6c299d87371f8f30f9c4a912927e30e2fcf0e0d9ec16e3a0bca7ce519c3d67c6f974bdecf0f9fa14d2a535aa87e88a2e7a9ec72a91d952bfc5703c6b32ba6b774d54eb38e584ba97ae213925af512ffbfbd4c6989b03269f0feefac753d31395b940e8328337d63072d56bbb9397647e0d9f9a08c1344e7ad2c78292e8ae316fb520730189c32e0e47bfc8da21adc693d955de9b45803d310f55e952e4feb91e138f750c8f64871f05e3a57a28ad6eaa772cd8a43ffc8c42ac12c4d5af73a16ba87e2c8249086fec70820c27408d9d016430b85c142d56cadd9ef2a51ff0936a0b3f3d487dc3e56201806f1458f2d40c2ac11f6ff2737f2b65b04586c5051fe59e50759cb8c49d8be46aca2b0ceaf39de751dba0fb4dd1f20d87bbbadc4a4347a97f0e4c8a694b363ffe17b37fb46b336787706f3255c1a1ea882168b093d28ef4e0c29174a926dce120d898190447bd1e28beff6d365f1c0f06004154d30f6ddbaae2ae6e5d5c6358522794c5e7f00eaf61090c591a0dd98a21d79357a3568618859fcead4515957c5dc747037a7c4df0e316fa7588efe029a58bb38cdb0ec77eccb979b140524e472341250bc36ca51ee3a6dda02ff603e2</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">这里需要密码才能访问.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>NL</category>
+      </categories>
+      <tags>
+        <tag>作为相册加密</tag>
+      </tags>
   </entry>
   <entry>
     <title>厦门</title>
